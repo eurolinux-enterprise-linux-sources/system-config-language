@@ -1,0 +1,270 @@
+# translation of ja.po to
+# translation of ja.po to Japanese
+# Copyright (C) RedHat Inc.,2002
+#
+# James Hashida <khashida@redhat.com>, 2002.
+# Tadashi Jokagi <fedora@elf.no-ip.org>, 2004.
+# kiyoto james hashida <khashida@brisbane.redhat.com>, 2006.
+# Noriko Mizumoto <noriko@redhat.com>, 2006.
+# Kiyoto Hashida <khashida@redhat.com>, 2009.
+# Hyu_gabaru Ryu_ichi <hyu_gabaru@yahoo.co.jp>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: ja\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2010-03-01 16:45+0900\n"
+"Last-Translator: Hajime Taira <htaira@redhat.com>\n"
+"Language-Team: Japanese <jp@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: Plural-Forms: nplurals=1; plural=0;\n"
+
+#: ../src/gui_detailsDialog.py:138
+#: ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>%d 秒以内に継続します...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "注記:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Yum データベースに接続しています、少しお待ち下さい..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "更新の依存関係を解決しています"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "ヘッダーのダウンロードでエラー"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "パッケージヘッダーのダウンロード中にエラーに遭遇しました。"
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "依存関係の解決中にエラー"
+
+#: ../src/gui_install.py:157
+msgid "Unable to resolve dependencies for some packages selected for installation."
+msgstr "インストール用に選択されたパッケージの一部で依存関係を解決できません。"
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "続ける"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "依存関係を追加しました"
+
+#: ../src/gui_install.py:173
+msgid "Updating these packages requires additional package changes for proper operation."
+msgstr "これらのパッケージの更新では、正常な操作のために追加のパッケージ変更が 必要です。"
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "依存関係の為の追加:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "依存関係の為の削除:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "依存関係の為の更新:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "%s を ダウンロード中"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "パッケージのダウンロードでエラー"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "パッケージのダウンロード中"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "適切なミラーサーバーを探すことができません。"
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "パッケージのダウンロード中にエラーが発生しました。"
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "キーをインポートしますか？"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid "The package %s is signed with a key %s (0x%s) from %s.  Would you like to import this key?"
+msgstr "パッケージ %s は %s からのキー %s (0x%s) で署名されています。このキーをインポートしますか？"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "キーをインポート（_I）"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "パッケージの確証"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "%s を確証できません"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "閉じる（_C）"
+
+#: ../src/gui_install.py:333
+msgid "Malicious software can damage your computer or cause other harm.  Are you sure you wish to install this package?"
+msgstr "悪意のあるソフトウェアはご使用のコンピューターを破損したり、または他の障害の原因になります。 本当にこのパッケージをインストールしますか？"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "取り消し(_C)"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "とにかくインストール（_I）"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "ソフトウェアの更新でエラー"
+
+#: ../src/gui_install.py:354
+msgid "There were errors encountered in trying to update the software you selected"
+msgstr "選択されたパッケージの更新を試みた時にエラーが発生しました。"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "ソフトウェアを更新中"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "トランザクションの準備中"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "%s の更新中"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "%s をクリーンアップ"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "ロケールリストが見つかりません"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "言語"
+
+#: ../src/language_gui.py:54
+#: ../src/language_gui.py:68
+#: ../src/language_gui.py:357
+#: ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "言語の選択"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "デフォルトのシステム言語を変更"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "このシステムのデフォルトの言語を選択して下さい。"
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"既にデフォルトの言語になっています。\n"
+"何も変更されません。"
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "本当にシステムの言語を初期値 [en_US] に変更しますか？"
+
+#: ../src/language_gui.py:201
+#: ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "いいえ"
+
+#: ../src/language_gui.py:202
+#: ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "はい"
+
+#: ../src/language_gui.py:217
+msgid "system-config-language is a graphical user interface that allows the user to change the default language of the system."
+msgstr "system-config-language は、ユーザーがシステムのデフォルトの言語を変更できるグラフィカルユーザーインターフェイスです。"
+
+#: ../src/language_gui.py:247
+#: ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"ネットワークか、Yum のリポジトリーに問題があります。継続しますか？\n"
+"「Yes」の選択は言語を変更しますが、それをインストールしません。\n"
+"「No」の選択は言語を変更せずに終了します。"
+
+#: ../src/language_gui.py:266
+#: ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr "指定した言語サポートがインストールされていません。インストールしますか？"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "今回の変更は次回ログインの時に反映されます。"
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "システムの初期値(_D)"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "このシステム用の言語を選択して下さい。"
+
+#: ../src/language_tui.py:74
+#: ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "インストールの確認"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "使い方: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "グラフィカルモードの起動に失敗しました。 代わりにテキストモードで起動します。"
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "ヘッダーがありません"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "削除済み: %s"
+

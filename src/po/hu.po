@@ -1,0 +1,269 @@
+# Translation of system-config-language to Hungarian.
+# Copyright © 2009 Fedora Project
+#
+# Tamas Szanto <tszanto@mol.hu>, 2003.
+# Nagy István Zoltán <nagyesta@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2010-02-16 14:15+0100\n"
+"Last-Translator: Nikolas Slivka <snicore@gmail.com>\n"
+"Language-Team: Hungarian <fedora-trans-hu@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+
+#: ../src/gui_detailsDialog.py:138
+#: ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>Folytatás %d másodpercen belül...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "Megyjegyzés:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Csatlakozás a Yum adatbázishoz, kérem várjon ..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "Függőségek feloldása frissítéshez"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "Hiba a fejlécek letöltésekor"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "Hiba lépett fel a csomag-fejlécek letöltésekor"
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "Hiba a függőségek feloldásakor"
+
+#: ../src/gui_install.py:157
+msgid "Unable to resolve dependencies for some packages selected for installation."
+msgstr "Nem lehet feloldani a függőségeket néhány telepítésre kiválasztott csomaghoz."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "Folytatás"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "Függőségek hozzáadva"
+
+#: ../src/gui_install.py:173
+msgid "Updating these packages requires additional package changes for proper operation."
+msgstr "Ezen scomagok frissítése további csomagok változását igényli a megfelelő működéshez."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "Hozzáadás függőségek miatt:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "Eltávolítás függőségek miatt:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "Frissítés függőségek miatt:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "%s letöltése"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "Hiba a csomagok letöltésekor"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "Csomagok letöltése"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "Nem található megfelelő tükör."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "Hiba lépett fel a csomagok letöltésekor."
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "Importálja a kulcsot?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid "The package %s is signed with a key %s (0x%s) from %s.  Would you like to import this key?"
+msgstr "A(z) %s csomag a(z) %s (0x%s) kulccsal van aláírva innen: %s.  Szeretné importálni ezt a kulcsot?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "Kulcs _importálása"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "Csomagok hitelesítése"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "%s nem hitelesíthető"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "_Bezárás"
+
+#: ../src/gui_install.py:333
+msgid "Malicious software can damage your computer or cause other harm.  Are you sure you wish to install this package?"
+msgstr "A rosszindulatú szoftverek kárt tehetnek a számítógépében vagy egyéb gondot okozhatnak. Biztosan szeretné telepíteni ezt a csomagot?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "_Mégsem"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "_Telepítés mindenképpen"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "Hiba a szoftver frissítésekor"
+
+#: ../src/gui_install.py:354
+msgid "There were errors encountered in trying to update the software you selected"
+msgstr "Hibák léptek fel miközben frissíteni próbálta az Ön által kiválsztott szoftvereket"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "Szoftver frissítése"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "Tranzakció előkészítése"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "%s frissítése"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "Takarítás %s után"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "A locale-list fájl nem található"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "Nyelv"
+
+#: ../src/language_gui.py:54
+#: ../src/language_gui.py:68
+#: ../src/language_gui.py:357
+#: ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "Nyelvválasztás"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "A rendszer alapértelmezett nyelvének megváltoztatása"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "Válassza ki a rendszer alapértelmezett nyelvét."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"A rendszer már az alapértelmezett nyelvű,\n"
+"Nincs mit tenni."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "Biztosan alapértelmezettre szeretné állítani a rendszer nyelvét [en_US]?"
+
+#: ../src/language_gui.py:201
+#: ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "Nem"
+
+#: ../src/language_gui.py:202
+#: ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "Igen"
+
+#: ../src/language_gui.py:217
+msgid "system-config-language is a graphical user interface that allows the user to change the default language of the system."
+msgstr "A system-config-language egy grafikus felhasználói felület, ami lehetővé teszi a felhasználóknak a rendszer alapértelmezett nyelvének megváltoztatását."
+
+#: ../src/language_gui.py:247
+#: ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"A hálózattal vagy a Yum gyűjteményekkel gondok vannak, folytatja?\n"
+"Az 'Igen' megváltoztatja a nyelvet, de nem telepíti.\n"
+"A 'Nem' kilép a nyelv megváltoztatása nélkül."
+
+#: ../src/language_gui.py:266
+#: ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr "nyelvi támogatás nincs telepítve, szeretné telepíteni?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "A módosítások csak a következő bejelentkezésnél lépnek életbe."
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "Rendszer _alapértelmezések"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "Válassza ki a rendszer nyelvét."
+
+#: ../src/language_tui.py:74
+#: ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "Telepítési megerősítés"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Használat: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "A grafikus mód indítása sikertelen. Szöveges mód indítása."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "Nincs fejléc - huh?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "Eltávolítva: %s"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "system-config-language requires a currently running X server."
+#~ msgstr "A system-config-language program futtatása csak X-ből lehetséges."

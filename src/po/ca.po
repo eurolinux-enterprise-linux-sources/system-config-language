@@ -1,0 +1,279 @@
+# Catalan translations for system-config-language package.
+# Copyright (C) 2003 THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the system-config-language package.
+# Xavier Conde Rueda <xavi.conde@gmail.com>, 2003.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2009-10-04 00:26+0100\n"
+"Last-Translator: Xavier Conde Rueda <xavi.conde@gmail.com>\n"
+"Language-Team: Catalan <fedora@softcatala.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>Es continuarà en %d segons...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "Nota:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "S'està connectant a la base de dades del yum, espereu un moment..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "S'està resolent les dependències per a l'actualització"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "S'ha produït un error en baixar les capçaleres"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "S'han produït errors en baixar les capçaleres dels paquets."
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "S'han produït errors en resoldre les dependències"
+
+#: ../src/gui_install.py:157
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"No s'han pogut resoldre les dependències d'alguns dels paquets seleccionats "
+"per a instal·lar."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "Continua"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "S'han afegit dependències"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"Per actualitzar aquests paquets calen canvis de paquets addicionals per al "
+"correcte funcionament."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "S'està afegint degut a les dependències:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "S'està suprimint degut a les dependències:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "S'està actualitzant degut a les dependències:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "S'està baixant %s"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "S'ha produït un error en baixar els paquets"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "S'està baixant els paquets"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "No s'ha pogut trobar un servidor rèplica."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "S'han trobat errors en baixar els paquets."
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "Voleu importar la clau?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"El paquet %s s'ha signat amb una clau %s (0x%s) de %s. Voleu importar-la?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "_Importa la clau"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "S'està verificant els paquets"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "No s'ha pogut verificar %s"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "_Tanca"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"El programari malintencionat pot fer malbé el vostre ordinador o el "
+"d'altres. Esteu segurs que voleu instal·lar aquest paquet?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "_Cancel·la"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "_Instal·la-ho"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "S'ha produït un error en actualitzar"
+
+#: ../src/gui_install.py:354
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr ""
+"S'han produït errors en intentar actualitzar el programari que heu "
+"seleccionat"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "S'ha actualitzat el programari"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "S'està preparant la transacció"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "S'està actualitzant %s"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "S'està netejant %s"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "No es pot trobar locale-list"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "Idioma"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "Selecció d'idioma"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "Canvieu l'idioma per defecte del sistema"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "Seleccioneu l'idioma per defecte del sistema."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"Ja s'està fent servir l'idioma per defecte,\n"
+"No s'ha de fer res."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr ""
+"Esteu segur que voleu canviar l'idioma del sistema predeterminat [en_US]?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "No"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "Sí"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"El system-config-language és una interfície d'usuari gràfica que permet a "
+"l'usuari canviar l'idioma predeterminat del sistema."
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"La xarxa de repositoris del Yum té alguns problemes, voleu continuar?\n"
+"'Sí' canviarà l'idioma però no l'instal·larà.\n"
+"'No' sortirà sense canviar l'idioma."
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr ""
+" no s'ha instal·lat la disponibilitat de l'idioma, ho voleu instal·lar?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "Heu d'entrar una altra vegada perquè s'apliquin els canvis."
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "Pre_determinat del sistema"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "Seleccioneu l'idioma del sistema."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "Confirmació de la instal·lació"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Ús: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "No s'ha pogut iniciar el mode gràfic. S'iniciarà el mode text."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "Sense capçalera?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "Suprimit: %s"
+
+#~ msgid "OK"
+#~ msgstr "D'acord"

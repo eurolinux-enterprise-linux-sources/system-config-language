@@ -1,0 +1,273 @@
+# Serbian translations for system-config-language
+# Copyright (C) 2005 Red Hat, Inc.
+# This file is distributed under the same license as the system-config-language package.
+# Filip Maličević <filip@lakinetwork.com>, 2005.
+# Miloš Komarčević <kmilos@gmail.com>, 2005.
+# Igor Miletic (Игор Милетић) <grejigl-gnomeprevod@yahoo.ca>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2009-09-23 17:28-0400\n"
+"Last-Translator: Igor Miletic (Игор Милетић) <grejigl-gnomeprevod@yahoo.ca>\n"
+"Language-Team: Serbian <fedora-trans-sr@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: UTF-8\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>Наставићу за %d секунде...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "Напомена:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Повезивање са Yum базом података, сачекајте мало..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "Разрешавање зависности за ажурирања"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "Грешка при преузимању заглавља"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "Дошло је до грешака при преузимању заглавља пакета."
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "Грешка при разрешавању зависности"
+
+#: ../src/gui_install.py:157
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr "Не могу да разрешим зависности за неке пакете изабране за инсталацију."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "Настави"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "Зависности су додате"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr "Ажурирање ових пакета захтева додатне измене пакета за исправан рад."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "Додавање за зависности:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "Уклањање за зависности:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "Ажурирање за зависности:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "Преузимање %s"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "Грешка при преузимању пакета"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "Преузимање пакета"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "Не могу да пронађем одговарајући одраз."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "Дошло је до грешака при преузимању пакета."
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "Увести кључ?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"Пакет %s је потписан кључем %s (0x%s) од %s.  Желите ли да увезете овај кључ?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "Увез_и кључ"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "Провера пакета"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "Не могу да проверим %s"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "За_твори"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"Злонамерни софтвер може оштетити рачунар или изазвати неки други квар.  "
+"Сигурно желите да инсталирате овај пакет?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "От_кажи"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "Свеједно _инсталирај"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "Грешка при ажурирању софтвера"
+
+#: ../src/gui_install.py:354
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr "Дошло је до грешака при покушају ажурирања изабраног софтвера"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "Ажурирање софтвер"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "Припрема трансакције"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "Ажурирање %s"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "Чишћење %s"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "Не могу да пронађем locale-list"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "Језик"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "Избор језика"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "Мења подразумевани језик система"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "Изаберите подразумевани језик система."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"Систем је већ на подразумеваном језику.\n"
+"Нема шта да се ради."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr ""
+"Да ли стварно желите да промените језик система на подразумевани [en_US]?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "Не"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "Да"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language је графичко корисничко сучеље које дозвољава "
+"кориснику да промени подразумевани језик система."
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"Постоје проблеми са мрежом или Yum ризницом, желите ли да наставите?\n"
+"„Да“ ће променити језик али га неће инсталирати.\n"
+"„Не“ ће изаћи без промене језика."
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr " подршка није инсталирана, желите ли да је инсталирате?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "Измене ће прећи у дејство када се следећи пут пријавите на систем."
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "_Подразумевано системски"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "Изаберите језик система."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "Потврда инсталације"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Употреба: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr ""
+"Покретање у графичком режиму није успело.  Покрећем текстуални режим уместо."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "Нема заглавља - хм?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "Обрисан: %s"

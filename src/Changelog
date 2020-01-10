@@ -1,0 +1,28 @@
+2010-03-09 Pravin Satpute <psatpute@redhat.com>
+	* updates on translation
+	* remove firstboot support, bug 530698
+	* fixed rh bugzilla 525040, 568285, 568653 
+
+2009-09-16 Pravin Satpute <psatpute@redhat.com>
+	* updated .pot files
+
+2009-09-11 Pravin Satpute <psatpute@redhat.com>
+	* fixes for rh bugzill bugs 493858, 507796 and 493888
+
+2008-09-22 Pravin Satpute <psatpute@redhat.com>
+	* po/ca.po: Updated by Xavier Conde <xavi.conde@gmail.com>
+
+2008-09-16 Pravin Satpute <psatpute@redhat.com>
+	[BZ #444568]
+	* src/gui_install.py: Add import string
+
+	[BZ #462439]
+	* src/lang_dict: Add maithili, Sindhi and Kashmiri language
+
+	* src/locale-list: Add maithili language in s-c-l menu list
+
+	* po/mai: Adds Maithili translation in s-c-l.
+		file by Rajesh Ranjan <rranjan@redhat.com>
+
+	* po/ks@devanagari: Adds Kashmiri translation in s-c-l
+		file by Rakesh Pandit <rakesh.pandit@gmail.com>

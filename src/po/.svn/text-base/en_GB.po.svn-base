@@ -1,0 +1,282 @@
+# English translations for system-config-language package.
+# Copyright (C) 2005 Red Hat
+# This file is distributed under the same license as the system-config-language
+# package.
+# Bruce Cowan <bcowan@fastmail.co.uk>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2010-02-28 19:19+0100\n"
+"Last-Translator: Bruce Cowan <bcowan@fastmail.co.uk>\n"
+"Language-Team: British English <en@li.org>\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>Will continue in %d seconds...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "Note:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Connecting Yum database, please wait for a bit ..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "Resolving dependencies for updates"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "Error downloading headers"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "Errors were encountered while downloading package headers."
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "Error resolving dependencies"
+
+#: ../src/gui_install.py:157
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"Unable to resolve dependencies for some packages selected for installation."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "Continue"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "Dependencies added"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "Adding for dependencies:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "Removing for dependencies:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "Updating for dependencies:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "Downloading %s"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "Error downloading packages"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "Downloading packages"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "Unable to find a suitable mirror."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "Errors were encountered while downloading packages."
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "Import key?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "_Import key"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "Verifying packages"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "Unable to verify %s"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "_Close"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "_Cancel"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "_Install anyway"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "Error updating software"
+
+#: ../src/gui_install.py:354
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr ""
+"There were errors encountered in trying to update the software you selected"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "Updating software"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "Preparing transaction"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "Updating %s"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "Cleanup %s"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "Cannot find locale-list"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "Language"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "Language Selection"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "Change the default system language"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "Please select the default language for the system."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"Already system in default language,\n"
+"Nothing to do."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "Do you really want to change system language to default [en_US]?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "No"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "Yes"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr " language support is not installed, do you want to install it?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "The changes will take effect the next time you log in."
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "System _Defaults"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "Select the language for the system."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "Installing Confirm"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Usage: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "Starting graphical mode failed.  Starting text mode instead."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "No header - huh?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr ""
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "system-config-language requires a currently running X server."
+#~ msgstr "system-config-language requires a currently running X server."

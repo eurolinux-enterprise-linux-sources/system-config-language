@@ -1,0 +1,277 @@
+# translation of system-config-language.trunk.ta.po to Tamil
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Jayaradha N <njaya@redhat.com>, 2004.
+# Felix <ifelix@redhat.com>, 2006.
+# I. Felix <ifelix@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language.trunk.ta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2009-09-23 22:39+0530\n"
+"Last-Translator: I. Felix <ifelix@redhat.com>\n"
+"Language-Team: Tamil <fedora-trans-ta@redhat.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
+"\n"
+"\n"
+"\n"
+"\n"
+"\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>%d விநாடிகளில் தொடரும்...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "குறிப்பு:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Yum தரவுத்தளத்தை இணைக்கிறது, கொஞ்ச நேரம் காத்திருக்கவும் ..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "மேம்படுத்தல்களுக்ககு சார்புகளை தீர்க்கிறது"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "தலைப்புகளை பதிவிறக்குவதில் பிழை"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "தொகுப்பு தலைப்புகளை பதிவிறக்குகையில் பிழைகள் வருகின்றன."
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "சார்புகளை தீர்க்கும் போது பிழை"
+
+#: ../src/gui_install.py:157
+msgid "Unable to resolve dependencies for some packages selected for installation."
+msgstr "நிறுவலுக்கு தேர்ந்தெடுக்கப்பட்ட சில தொகுப்புகளின் சார்புகளை தீர்க்க முடியவில்லை."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "தொடர்க"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "சார்புகள் சேர்க்கப்பட்டன"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"சரியான செயல்பாட்டிற்கு இந்த தொகுப்புகள் மேம்படுத்த கூடுதல் தொகுப்பு மாற்றங்கள் "
+"தேவைப்படுகிறது."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "சார்புகள்க்கு சேர்க்கிறது:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "சார்புகளுக்கு நீக்குகிறது:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "சார்புகளுக்கு மேம்படுத்துகிறது:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "%sஐ பதிவிறக்குகிறது"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "தொகுப்புகள் பதிவிறக்க பிழை"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "தொகுப்புகளை பதிவிறக்குகிறது"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "ஒரு சரியான பிரதிபலிப்பை காண முடியவில்லை."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "தொகுப்புகள் பதிவிறக்கும் போது பிழைகள்"
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "விசையை இறக்கவா?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"இந்த தொகுப்பு %s ஒரு விசை %s (0x%s)ஐ %sஇலிருந்து கையொப்பமிடுகிறது.  இந்த விசையை "
+"இறக்க வேண்டுமா?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "விசையை இறக்கு (_I)"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "தொகுப்புகள் சரிபார்க்கிறது"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "%sஐ சரி பார்க்க முடியவில்லை"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr "முறையற்ற மென்பொருள் உங்கள் கணினிக்கு சேதம் விளைவிக்கும். இந்த தொகுப்பை நிறுவ வேண்டுமா?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "ரத்து (_C)"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "எப்படியேனும் நிறுவவும் (_I)"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "மென்பொருளை மேம்படுத்தும் போது பிழை"
+
+#: ../src/gui_install.py:354
+msgid "There were errors encountered in trying to update the software you selected"
+msgstr "நீங்கள் தேர்ந்தெடுத்த மென்பொருளை மேம்படுத்த முயற்சிக்கும்போது பிழைகள் ஏற்பட்டுள்ளன"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "மென்பொருளை மேம்படுத்துகிறது"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "பரிமாற்றத்திற்கு தயாராகிறது"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "%sஐ மேம்படுத்துகிறது"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "%sஐ துடை"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "மொழிக்குறியீடு-பட்டியலை காணவில்லை"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "மொழி"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "மொழித் தேர்வு"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "கணினியின் முன்னிருப்பு மொழியை மாற்றவும்"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "இந்த கணினிக்கான மொழியைத் தேர்வு செய்யவும்."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"ஏற்கனவே கணினி முன்னிருப்பு மொழியில் உள்ளது,\n"
+"ஒன்றும் செய்ய வேண்டாம்."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "கணினி மொழியை முன்னிருப்பு [en_US]க்கு மாற்ற வேண்டுமா?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "இல்லை"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "ஆம்"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language என்பது கணினியின் முன்னிருப்பு மொழியை மாற்ற உதவும் வரைகலை "
+"முகப்பாகும்."
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"இந்த பிணையம் அல்லது Repoகள் Yumஇல் சில சிக்கல்களை கொண்டுள்ளது, தொடர வேண்டுமா?\n"
+"'ஆம்' எனில் மொழியை மாற்றும் ஆனால் நிறுவாது.\n"
+"'இல்லை' எனில் மொழியை மாற்றாமல் வெளியேறும்."
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr "மொழி சேவைகள் நிறுவப்படவில்லை, அதனை நிறுவ வேண்டுமா?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "அடுத்த முறை கணினிக்குள் புகுபதிவு செய்யும் போது மாற்றத்தை காணலாம்."
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "கணினி முன்னிருப்புகள் (_D)"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "கணினியின் மொழியை தேர்வு செய்யவும்."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "நிறுவுதல் உறுதிப்படுத்து"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "பயன்பாடு: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "வரைகலை முறையை துவக்க முடியவில்லை. அதற்குப் பதிலாக உரை முறையில் துவக்கவும்."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "தலைப்பு இல்லையா?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "அழிக்கப்பட்டது: %s"
+

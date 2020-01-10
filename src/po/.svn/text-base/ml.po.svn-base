@@ -1,0 +1,276 @@
+# translation of system-config-language.trunk.ml.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+# Ani Peter <apeter@redhat.com>, 2006, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language.trunk.ml\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2009-09-25 13:37+0530\n"
+"Last-Translator: \n"
+"Language-Team:  <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+"\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>%d സെക്കന്‍ഡുകളില്‍ തുടരുന്നു...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "കുറിപ്പു്:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "യം ഡേറ്റാബെയിസുമായി കണക്ട് ചെയ്യുന്നു, ദയവായി അല്‍പ നേരം കാത്തിരിക്കുക ..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "പരിഷ്കരണങ്ങള്‍ക്കായി ഡിപന്‍ഡന്‍സികള്‍ പരിഹരിക്കുന്നു"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "ഹെഡറുകള്‍ ഡൌണ്‍ലോട് ചെയ്യുന്നതില്‍ പിശക്"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "പാക്കേജ് ഹെഡറുകള്‍ ഡൌണ്‍ലോട് ചെയ്യുമ്പോള്‍ പിശകകുള്‍ നേരിട്ടിരിക്കുന്നു."
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "ഡിപന്‍ഡന്‍സികള്‍ പരിഹരിക്കുന്നതില്‍ പിശക്"
+
+#: ../src/gui_install.py:157
+msgid "Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"ഇന്‍സ്റ്റലേഷനു വേണ്ടി തെരഞ്ഞെടുത്തിരിക്കുന്ന ചില പാക്കേജുകള്‍ക്കുള്ള ഡിപന്‍ഡന്‍സികള്‍ പരിഹരിക്കുവാന്‍ "
+"സാധ്യമല്ല."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "തുടരുക"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "ഡിപന്‍ഡന്‍സികള്‍ ചേര്‍ത്തിരിക്കുന്നു"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"ഈ പാക്കേജുകള്‍ പരിഷ്കരിക്കുന്നതിനായി ശരിയായ പ്രക്രിയ നടക്കുന്നതിനു് അധികമായ പാക്കേജുകളില്‍ "
+"മാറ്റങ്ങള്‍ ആവശ്യമുണ്ടു്."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "ഡിപന്‍ഡന്‍സികള്‍ക്കായി ചേര്‍ക്കുന്നു:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "ഡിപന്‍ഡന്‍സികള്‍ക്കായി നീക്കം ചെയ്യുന്നു:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "ഡിപന്‍ഡന്‍സികള്‍ക്കായി പരിഷ്കരിക്കുന്നു:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "%s ഡൌണ്‍ലോട് ചെയ്യുന്നു"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "പാക്കേജുകള്‍ ഡൌണ്‍ലോട് ചെയ്യുന്നതില്‍ പിശക്"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "പാക്കേജുകള്‍ ഡൌണ്‍ലോട് ചെയ്യുന്നു"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "അനുയോജ്യമായ ഒരു മിറര്‍ കണ്ടുപിടിക്കുവാന്‍ സാധ്യമായില്ല."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "പാക്കേജുകള്‍ ഡൌണ്‍ലോട് ചെയ്യുമ്പോള്‍ പിശകുകള്‍ നേരിട്ടിരിക്കുന്നു."
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "കീ ഇംപോര്‍ട്ട് ചെയ്യണമോ?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"പാക്കേജ് %s %s (0x%s) കീ ഉപയോഗിച്ചു് ഒപ്പിട്ടിരിക്കുന്നു. %s-ല്‍ നിന്നും ലഭിച്ച ഈ കീ നിങ്ങള്‍ക്കു് "
+"ഇംപോര്‍ട്ട് ചെയ്യണമോ?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "കീ _ഇംപോര്‍ട്ട് ചെയ്യുക"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "പാക്കേജുകള്‍ ഉറപ്പാക്കുന്നു"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "%s ഉറപ്പാക്കുവാന്‍ സാധ്യമായില്ല"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "_അടയ്ക്കുക"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"തകരാറുള്ള സോഫ്റ്റ്‌വെയര്‍ നിങ്ങളുടെ കംപ്യൂട്ടറിനു് തകരാറുണ്ടാക്കുന്നു. നിങ്ങള്‍ക്കീ പാക്കേജ് ഇന്‍സ്റ്റോള്‍ "
+"ചെയ്യണമെന്നുറപ്പാണോ?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "_റദ്ധാക്കുക"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "എങ്ങനെയെങ്കിലും _ഇന്‍സ്റ്റോള്‍ ചെയ്യുക"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "സോഫ്റ്റ്‌വെയര്‍ പരിഷ്കരിക്കുന്നതില്‍ പിശക്"
+
+#: ../src/gui_install.py:354
+msgid "There were errors encountered in trying to update the software you selected"
+msgstr "നിങ്ങള്‍ തെരഞ്ഞെടുത്ത സോഫ്റ്റ്‌വെയര്‍ പരിഷ്കരിക്കുവാന്‍ ശ്രമിക്കുന്നതില്‍ പിശകുകള്‍ നേരിട്ടിരിക്കുന്നു"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "സോഫ്റ്റ്‌വെയര്‍ പരിഷ്കരിക്കുന്നു"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "ഇടപാടിനായി തയ്യാറാകുന്നൂ"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "%s പരിഷ്കരിക്കുന്നു"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "%s വെടിപ്പാക്കുക"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "ലൊക്കേല്‍-ലിസ്റ്റ് ലഭ്യമാകുന്നില്ല"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "ഭാഷ"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "ഭാഷ തെരഞ്ഞെടുപ്പ്"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "കംപ്യൂട്ടര്‍ നിശ്ചയിച്ചിട്ടുളള ഭാഷ മാറ്റുക"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "കംപ്യൂട്ടര്‍ നിശ്ചയിച്ചിട്ടുളള ഭാഷ തെര‍ഞ്ഞെടുക്കുക."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"നിലവില്‍ കംപ്യൂട്ടര്‍ നിശ്ചയിച്ചിട്ടുളള ഭാഷയിലാണു്,\n"
+"ഇനി ഒന്നും ചെയ്യുവാനില്ല."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "നിങ്ങള്‍ക്കു് സിസ്റ്റം നിശ്ചയിച്ചിട്ടുള്ള ഭാഷ മാറ്റി സ്വതവേയുള്ള [en_US] ആക്കണമോ?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "വേണ്ട"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "ഉവ്വു്"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"സിസ്റ്റം നിശ്ചയിച്ചിട്ടുള്ള ഭാഷ മാറ്റുന്നതിനായി ഉപയോക്താവിനെ അനുവദിക്കുന്ന ഒരു ഗ്രാഫിക്കല്‍ യൂസര്‍ "
+"ഇന്റര്‍ഫെയിസാണു് system-config-language."
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"നെറ്റ്‌വര്‍ക്ക് അല്ലെങ്കില്‍ യംമിന്റെ റിപ്പോകളില്‍ ചില പ്രശ്നങ്ങളുണ്ടു്, നിങ്ങള്‍ക്കു് തുടരണമോ?\n"
+"'ഉവ്വു്' ഭാഷ മാറ്റുന്നു, പക്ഷേ അതു് ഇന്‍സ്റ്റോള്‍ ചെയ്യുകയില്ല.\n"
+"'വേണ്ട' ഭാഷ മാറ്റാതെ പുറത്തു് കടക്കുന്നു."
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr " ഭാഷയ്ക്കുള്ള പിന്തുണ ഇന്‍സ്റ്റോള്‍ ചെയ്തിട്ടില്ല, നിങ്ങള്‍ക്കതു് ഇന്‍സ്റ്റോള്‍ ചെയ്യണമോ?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "വരുത്തിയ മാറ്റങ്ങള്‍ അടുത്ത തവണ പ്രവേശിക്കുമ്പോള്‍ ലഭ്യമാകുന്നു."
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "സിസ്റ്റത്തില്‍ _സഹജമായവ"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "കംപ്യൂട്ടറിന് വേണ്ടി ഭാഷ തെരഞ്ഞെടുക്കുക."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "ഇന്‍സ്റ്റോള്‍ ചെയ്യുന്നതു് ഉറപ്പാക്കിയിരിക്കുന്നു"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "ഉപയോഗിക്കേണ്ട വിധം: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "ഗ്രാഫിക്കല്‍ മോഡിലുളള തുടക്കം പരാജയപ്പെട്ടു.  പകരം ടെക്സ്റ്റ് മോഡില്‍ ആരംഭിക്കുന്നു."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "ഹെഡര്‍ ലഭ്യമല്ലേ?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "മായിച്ചവ: %s"
+

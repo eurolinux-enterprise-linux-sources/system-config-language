@@ -1,0 +1,276 @@
+# translation of system-config-language.trunk.mai.po to Hindi
+# Automatically generated, 2004.
+# Rajesh Ranjan <rranjan@redhat.com>, 2008.
+# Sangeeta Kumari <sangeeta09@gmail.com>, 2009.
+# Rajesh Ranjan <rajesh672@gmail.com>, 2009.
+# Maithili translations for system-config-language package.
+# Copyright (C) 2008 Free Software Foundation
+# This file is distributed under the same license as the system-config-language package.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language.trunk.mai\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2009-09-23 22:27+0530\n"
+"Last-Translator: Rajesh Ranjan <rajesh672@gmail.com>\n"
+"Language-Team: Hindi <hindi.sf.net>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n\n"
+"\n"
+"\n"
+"\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>%d सेकेंड मे जारी हाएत...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "टिप्पणीः"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Yum डेटाबेस सँ जुड़ि रहल अछि, कृपया थोड़ देर प्रतीक्षा करू ..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "अद्यतनक लेल निर्भरता हल कए रहल अछि"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "शीर्षिका डाउनलोडमे त्रुटि"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "संकुल शीर्षिकाक डाउनलोडक काले त्रुटि आएल छल."
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "निर्भरता हल करबामे त्रुटि"
+
+#: ../src/gui_install.py:157
+msgid "Unable to resolve dependencies for some packages selected for installation."
+msgstr "संस्थापनक लेल चयनित कुछ संकुलक निर्भरताक हलमे असमर्थ."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "जारी राखू"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "निर्भरता जोड़ल गेल"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr "विधिवत आपरेशनक लेल बाइली संकुल बदलाव ई संकुलक अद्यतनक लेल जरूरी अछि."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "निर्भरताक लेल जोड़ल जाए रहल अछि:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "निर्भरता क लेल हटाए रहल अछि:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "निर्भरता क लेल अद्यतन कए रहल अछि:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "%s डाउनलोड कए रहल अछि"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "संकुल डाउनलोड करबामे त्रुटि"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "संकुल डाउनलोड कए रहल अछि"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "उपयुक्त मिरर ढूँढ़बामे असमर्थ."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "त्रुटिक सामना भेल जखन संकुल डाउनलोड कएल जाए रहल छल."
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "कुंजी आयात करब?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "आयात कुंजी (_I)"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "संकुल जांचि रहल अछि"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "%s जांचबामे असमर्थ"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "बन्न करू (_C)"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "रद करू (_C)"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "कोनो तरह संस्थापित करू (_I)"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "साफ्टवेयर अद्यतनमे त्रुटि"
+
+#: ../src/gui_install.py:354
+msgid "There were errors encountered in trying to update the software you selected"
+msgstr "अहाँक द्वारा चयनित साफ्टवेयरक अद्यतनक कोशिश मे समस्या भेल."
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "साफ्टवेयर अद्यतन कए रहल अछि"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "विनिमयक लेल तैआर कए रहल अछि"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "%s अद्यतन कए रहल अछि"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "क्लीनअप %s"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "लोकेल सूची नहि पाबि सकल"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "भाषा"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "भाषाक चयन"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "सिस्टमक मूलभूत भाषा बदलू"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "कृप्या सिस्टमक लेल मूलभूत भाषा चुनू."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"कृपया सिस्टमक लेल पूर्वनिर्धारित भाषा चुनू.\n"
+"करबाक किछु नहि."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "की अहाँ सच्चे अपन तंत्र भाषा [en_US] मे पूर्वनिर्धारित सेट कएनाइ चाहैत छी?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "नहि"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "हाँ"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language एकटा आलेखी प्रयोक्ता अंतरफलक अछि जे उपयोक्ता केँ तंत्रक "
+"पूर्वनिर्धारित भाषामे बदलबाक छूट दैछ."
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"Yum संजाल अथवा रेपोज मे किछु समस्या अछि, की अहाँ जारी राखब चाहैत छी?\n"
+"'हँ' भाषा बदलि देत मुदा एकरा संस्थापित नहि करताह.\n"
+"'नहि' निकल जाएत बिनु भाषा बदलने."
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr " भाषा समर्थन संस्थापित नहि अछि, की अहाँ एकरा संस्थापित करबा चाहैत छी?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "परिवर्तनसभ लागू हाएत जखन अहाँ अगिला बेर लौगिन करैत छी"
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "सिस्टम पूर्वनिर्धारित (_D)"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "सिस्टमक लेल भाषा चुनू."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "संस्थापन संपुष्टि"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "प्रयोग: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "आलेखी मोडकेँ आरंभ कएनाइ विफल भेल.  बदलामे पाठ मोड चालू कए रहल अछि."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "कोनो शीर्षिका नहि - huh?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "मेटाएल गेल: %s"
+

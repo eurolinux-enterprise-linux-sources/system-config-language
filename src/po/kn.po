@@ -1,0 +1,274 @@
+# translation of system-config-language.trunk.kn.po to Kannada
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+#
+# shankar Prasad <svenkate@redhat.com>, 2006.
+# Shankar Prasad <svenkate@redhat.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language.trunk.kn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2009-09-24 23:36+0530\n"
+"Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
+"Language-Team: Kannada <en@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>%d ಸೆಕೆಂಡುಗಳಲ್ಲಿ ಮುಂದುವರೆಯುತ್ತದೆ...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "ಟಿಪ್ಪಣಿ:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Yum ದತ್ತಸಂಚಯಕ್ಕೆ ಸಂಪರ್ಕಸಾಧಿಸಲಾಗುತ್ತಿದೆ, ದಯವಿಟ್ಟು ಒಂದಿಷ್ಟು ಹೊತ್ತು ಕಾಯಿರಿ ..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "ಅಪ್‌ಡೇಟ್‌ಗಳಿಗಾಗಿ ಅವಲಂಬನೆಗಳನ್ನು ಪರಿಹರಿಸಲಾಗುತ್ತಿದೆ"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "ಹೆಡರುಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಕೊಳ್ಳುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "ಪ್ಯಾಕೇಜ್ ಹೆಡರುಗಳನ್ನು ಡೌನ್‌ಲೋಡ್‌ ಮಾಡಿಕೊಳ್ಳುವಾಗ ದೋಷಗಳು ಎದುರಾಗಿವೆ."
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "ಅವಲಂಬನೆಗಳನ್ನು ಪರಿಹರಿಸುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ"
+
+#: ../src/gui_install.py:157
+msgid "Unable to resolve dependencies for some packages selected for installation."
+msgstr "ಅನುಸ್ಥಾಪನೆಗಾಗಿ ಆರಿಸಲಾದ ಕೆಲವು ಪ್ಯಾಕೇಜುಗಳಲ್ಲಿ ಅವಲಂಬನೆಗಳನ್ನು ಪರಿಹರಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "ಮುಂದುವರೆ"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "ಅವಲಂಬನೆಗಳನ್ನು ಸೇರಿಸಲಾಗಿದೆ"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"ಈ ಪ್ಯಾಕೇಜುಗಳನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಿದಾಗ ಸರಿಯಾಗಿ ಕೆಲಸ ಮಾಡಲು ಹೆಚ್ಚುವರಿ ಪ್ಯಾಕೇಜ್ ಬದಲಾವಣೆಗಳ "
+"ಅಗತ್ಯವಿರುತ್ತದೆ."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "ಅವಲಂಬನೆಗಳಿಗಾಗಿ ಸೇರಿಸಲಾಗುತ್ತಿದೆ:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "ಅವಲಂಬನೆಗಳಿಗಾಗಿ ತೆಗೆದುಹಾಕಲಾಗುತ್ತಿದೆ:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "ಅವಲಂಬನೆಗಳಿಗಾಗಿ ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "%s ಅನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "ಪ್ಯಾಕೇಜುಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡುವಲ್ಲಿ ದೋಷ"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "ಪ್ಯಾಕೇಜುಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "ಸೂಕ್ತವಾದ ಮಿರರ್ ಅನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "ಪ್ಯಾಕೇಜುಗಳನ್ನು ಡೌನ್‌ಲೋಡ್ ಮಾಡಿಕೊಳ್ಳುವಾಗ ದೋಷಗಳು ಉಂಟಾಗಿದೆ."
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "ಕೀಲಿಯನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಬೇಕೆ?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"ಪ್ಯಾಕೇಜ್ %s ಅನ್ನು ಒಂದು ಕೀಲಿ %s ಯನ್ನು (0x%s) ಬಳಸಿಕೊಂಡು ಸಹಿ ಮಾಡಲಾಗಿದೆ (%s ಇಂದ).  "
+"ನೀವು ಈ ಕೀಲಿಯನ್ನು ಆಮದು ಮಾಡಿಕೊಳ್ಳಲು ಬಯಸುತ್ತೀರೆ?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "ಕೀಲಿಯನ್ನು ಆಮದು ಮಾಡಿಕೊ(_I)"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "ಪ್ಯಾಕೇಜುಗಳನ್ನು ಪರಿಶೀಲಿಸಲಾಗುತ್ತಿದೆ"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "%s ಅನ್ನು ಪರಿಶೀಲಿಸಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "ಮುಚ್ಚು(_C)"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"ದುರುದ್ಧೇಶಪೂರ್ವಕವಾದ ತಂತ್ರಾಂಶವು ನಿಮ್ಮ ಗಣಕವನ್ನು ಹಾಳುಗೆಡವಬಹುದು ಅಥವ ಬೇರೆ ಏನಾದರೂ ತೊಂದರೆ "
+"ನೀಡಬಹುದು. ನೀವು ನಿಜವಾಗಿಯೂ ಈ ಪ್ಯಾಕೇಜನ್ನು ಅನುಸ್ಥಾಪಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "ರದ್ದುಮಾಡು(_C)"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "ಪರವಾಗಿಲ್ಲ ಅನುಸ್ಥಾಪಿಸು(_I)"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "ತಂತ್ರಾಂಶವನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡುವಲ್ಲಿ ದೋಷ "
+
+#: ../src/gui_install.py:354
+msgid "There were errors encountered in trying to update the software you selected"
+msgstr "ನೀವು ಆರಿಸಿದ ತಂತ್ರಾಂಶವನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿದಾಗ ದೋಷಗಳು ಎದುರಾಗಿವೆ"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "ತಂತ್ರಾಂಶವನ್ನು ಅಪ್‌ಡೇಟ್ ಮಾಡಲಾಗುತ್ತಿದೆ"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "ವ್ಯವಹಾರವನ್ನು ಸಿದ್ಧಗೊಳಿಸಲಾಗುತ್ತಿದೆ"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "%s ಅನ್ನು ಅಪ್‌ಡೇಟ್‌ ಮಾಡಲಾಗುತ್ತಿದೆ"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "%s ಅನ್ನು ಸ್ವಚ್ಛಗೊಳಿಸು"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "ಲೋಕೆಲ್-ಪಟ್ಟಿಯನ್ನು ಹುಡುಕಲಾಗಿಲ್ಲ"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "ಭಾಷೆ"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "ಭಾಷೆಯ ಆಯ್ಕೆ"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "ವ್ಯವಸ್ಥೆಯ ಪೂರ್ವನಿಯೋಜಿತ ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸು"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "ದಯವಿಟ್ಟು ವ್ಯವಸ್ಥೆಗೆ ಪೂರ್ವನಿಯೋಜಿತ ಭಾಷೆಯನ್ನು ಆರಿಸು."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"ಈಗಾಗಲೆ ವ್ಯವಸ್ಥೆಯು ಪೂರ್ವನಿಯೋಜಿತ ಭಾಷೆಯಲ್ಲಿ ಇದೆ,\n"
+"ಮಾಡಲು ಏನೂ ಇಲ್ಲ."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "ನೀವು ನಿಜವಾಗಲೂ ವ್ಯವಸ್ಥೆಯ ಪೂರ್ವನಿಯೋಜಿತ ಭಾಷೆಯನ್ನು [en_US] ಬದಲಾಯಿಸಲು ಇಚ್ಛಿಸುತ್ತೀರೆ?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "ಇಲ್ಲ"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "ಹೌದು"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language ಎನ್ನುವುದು ಒಂದು ಚಿತ್ರಾತ್ಮಕ ಬಳಕೆದಾರ ಸಂಪರ್ಕಸಾಧನವಾಗಿದ್ದು ಇದು "
+"ವ್ಯವಸ್ಥೆಯ ಪೂರ್ವನಿಯೋಜಿತ ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸಲು ಬಳಕೆದಾರರಿಗೆ ನೆರವಾಗುತ್ತದೆ."
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"Yum ನ ಜಾಲಬಂಧ ಅಥವ ರೆಪೊಗಳಲ್ಲಿ ಒಂದಿಷ್ಟು ತೊಂದರೆಗಳು ಕಂಡು ಬಂದಿದೆ, ನೀವು ಮುಂದುವರೆಯಲು "
+"ಬಯಸುತ್ತೀರೆ?\n"
+"'ಹೌದು' ಎಂದಾದಲ್ಲಿ ಭಾಷೆಯು ಬದಲಾಗುತ್ತದೆ ಆದರೆ ಅದನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗುವುದಿಲ್ಲ.\n"
+"'ಇಲ್ಲ' ಎಂದಾದರೆ ಭಾಷೆಯನ್ನು ಬದಲಾಯಿಸದೆ ನಿರ್ಗಮಿಸುತ್ತದೆ."
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr " ಭಾಷಾ ಬೆಂಬಲವನ್ನು ಇನ್ನೂ ಸಹ ಅನುಸ್ಥಾಪಿಸಲಾಗಿಲ್ಲ, ಅನುಸ್ಥಾಪಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "ಬದಲಾವಣೆಗಳು ನೀವು ಮುಂದಿನ ಬಾರಿ ಪ್ರವೇಶಿಸಿದಾಗ ಕಾರ್ಯಗತಗೊಳ್ಳತ್ತವೆ."
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "ವ್ಯವಸ್ಥೆಯ ಪೂರ್ವನಿಯೋಜಿತಗಳು(_D)"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "ವ್ಯವಸ್ಥೆಗೆ ಭಾಷೆಯನ್ನು ಆರಿಸು."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "ಖಚಿತಪಡಿಸಿದ್ದನ್ನು ಅನುಸ್ಥಾಪಿಸಲಾಗುತ್ತಿದೆ"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "ಉಪಯೋಗ: system-config-language [--ಪಠ್ಯ]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "ಚಿತ್ರಾತ್ಮಕ ಪ್ರಾರಂಭ ವಿಫಲವಾಗಿದೆ.  ಬದಲಿಗೆ ಪಠ್ಯಾತ್ಮಕವಾಗಿ ಪ್ರಾರಂಭವಾಗುತ್ತಿದೆ."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "ಹೆಡರ್ ಇಲ್ಲ - ಓಹ್?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "ಅಳಿಸಲಾಗಿದ್ದು: %s"
+

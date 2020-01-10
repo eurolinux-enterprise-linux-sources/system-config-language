@@ -1,0 +1,311 @@
+# translation of system-config-language.trunk.bn_IN.po to Bengali INDIA
+# Bangla translation for system-config-language.
+# Copyright (C) 2003 Red Hat Inc.
+# This file is distributed under the same license as the system-config-language package.
+#
+# Jamil Ahmed <jamil@bengalinux.org>, 2003.
+# Runa Bhattacharjee <runab@redhat.com>, 2005, 2006, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language.trunk.bn_IN\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2009-10-06 17:25+0530\n"
+"Last-Translator: Runa Bhattacharjee <runab@redhat.com>\n"
+"Language-Team: Bengali INDIA <anubad@lists.ankur.org.in>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>%d সেকেন্ড পরে এগিয়ে যাওয়া হবে...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "নোট:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Yum ডাটাবেসের সাথে সংযোগ স্থাপন করা হচ্ছে, অনুগ্রহ করে কিছু সময় অপেক্ষা করুন ..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "আপডেটের জন্য নির্ভরতা মীমাংসা করা হচ্ছে"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "হেডার ডাউনলোড করতে ত্রুটি"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "প্যাকেজের হেডার ডাউনলোড করার সময় ত্রুটি উৎপন্ন হয়েছে।"
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "নির্ভরতা মীমাংসা করতে ত্রুটি"
+
+#: ../src/gui_install.py:157
+msgid "Unable to resolve dependencies for some packages selected for installation."
+msgstr "ইনস্টলেশনের জন্য নির্বাচিত কয়েকটি প্যাকেজের জন্য নির্ভরতা মীমাংসা করতে ব্যর্থ।"
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "এগিয়ে চলুন"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "নির্ভরতা যোগ করা হয়েছে"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr "সঠিক কর্ম সঞ্চালনার জন্য, এই প্যাকেজগুলি আপডেট করা হলে অতিরিক্ত কিছু প্যাকেজে পরিবর্তন করা আবশ্যক।"
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "নির্ভরতার জন্য যোগ করা হচ্ছে:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "নির্ভরতার জন্য মীমাংসা করা হচ্ছে:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "নির্ভরতার জন্য আপডেট করা হচ্ছে:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "%s ডাউনলোড করা হচ্ছে"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "প্যাকেজ ডাউনলোড করতে ত্রুটি"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "প্যাকেজ ডাউনলোড করা হচ্ছে"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "উপযুক্ত মিরর সন্ধান করতে ব্যর্থ।"
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "প্যাকেজ ডাউনলোড করার সময় ত্রুটি উৎপন্ন হয়েছে।"
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "কি ইম্পোর্ট করা হবে কি?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr "%s প্যাকেজটি %s কি (0x%s) দ্বারা স্বাক্ষরিত হয়েছে। এই কি %s দ্বারা উপলব্ধ করা হয়।  আপনি কি এই কি ইম্পোর্ট করতে ইচ্ছুক?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "কি ইম্পোর্ট করুন (_I)"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "প্যাকেজ পরীক্ষা করা হচ্ছে"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "%s পরীক্ষা করতে ব্যর্থ"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "বন্ধ করুন (_C)"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr "অনিষ্টকারী সফ্টওয়্যারের উপস্থিতির ফলে কম্পিউটারের ক্ষতি অথবা অন্য বিপদ হওয়ার সম্ভাবনা রয়েছে।  আপনি কি নিশ্চিতরূপে এই প্যাকেজ ইনস্টল করতে ইচ্ছুক?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "বাতিল (_C)"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "তথাপি ইনস্টল করা হবে (_I)"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "সফ্টওয়্যার আপডেট করতে সমস্যা"
+
+#: ../src/gui_install.py:354
+msgid "There were errors encountered in trying to update the software you selected"
+msgstr "আপনার নির্বাচিত সফ্টওয়্যার আপডেট করার প্রচেষ্টাকালে কিছু সমস্যা দেখা দিয়েছে"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "সফ্টওয়্যার আপডেট করা হচ্ছে"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "ট্রানস্যাকশনের প্রস্তুতি নেওয়া হচ্ছে"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "%s আপডেট করা হচ্ছে"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "%s পরিশ্রুত করা হচ্ছে"
+
+#  !/usr/bin/python
+#  # languageBackend.py - Contains the backend code needed for system-config-language
+#  # Copyright (C) 2002, 2003 Red Hat, Inc.
+#  # Copyright (C) 2002, 2003 Brent Fox <bfox@redhat.com>
+#  # This program is free software; you can redistribute it and/or modify
+#  # it under the terms of the GNU General Public License as published by
+#  # the Free Software Foundation; either version 2 of the License, or
+#  # (at your option) any later version.
+#  # This program is distributed in the hope that it will be useful,
+#  # but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  # GNU General Public License for more details.
+#  # You should have received a copy of the GNU General Public License
+#  # along with this program; if not, write to the Free Software
+#  # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#  #
+#  # I18N
+#  #
+#  Chop off any encoding data.  We don't really need it
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "locale তালিকা খুঁজে পাওয়া যায়নি"
+
+#  XXX - horrible hack to make simplified chinese work
+#  XXX - horrible hack to make simplified chinese work
+#  XXX - horrible hack to make simplified chinese work
+#  !/usr/bin/python
+#  # language_gui.py - Contains the UI code needed for system-config-language
+#  # Copyright (C) 2002, 2003 Red Hat, Inc.
+#  # Copyright (C) 2002, 2003 Brent Fox <bfox@redhat.com>
+#  # This program is free software; you can redistribute it and/or modify
+#  # it under the terms of the GNU General Public License as published by
+#  # the Free Software Foundation; either version 2 of the License, or
+#  # (at your option) any later version.
+#  # This program is distributed in the hope that it will be useful,
+#  # but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  # GNU General Public License for more details.
+#  # You should have received a copy of the GNU General Public License
+#  # along with this program; if not, write to the Free Software
+#  # Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#  #
+#  # I18N
+#  #
+#  #
+#  # Icon for windows
+#  #
+#  You must specify a runPriority for the order in which you wish your module to run
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "ভাষা"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "ভাষা নির্বাচন"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "সিস্টেমে ব্যবহৃত ডিফল্ট ভাষা পরিবর্তন করুন"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "অনুগ্রহ করে সিস্টেমের ডিফল্ট ভাষা নির্বাচন করুন।"
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"সিস্টেম বর্তমানে ডিফল্ট ভাষায় ব্যবহৃত হচ্ছে,\n"
+"কিছু করা হবে না।"
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "আপনি কি নিশ্চিতরূপে সিস্টেমের ভাষা রূপে ডিফল্ট ভাষাটি [en_US] ধার্য করতে ইচ্ছুক?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "না"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "হ্যাঁ"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr "system-config-language একটি গ্রাফিক্যাল ইউজার ইন্টারফেস। এর সাহায্যে ব্যবহারকারী তাঁর সিস্টেমে ব্যবহৃত ডিফল্ট ভাষা পরিবর্তন করতে সক্ষম হবেন।"
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"নেটওয়ার্ক অথবা Yum সংগ্রহস্থলের (repo) কিছু সমস্যা উপস্থিত রয়েছে, আপনি কি এগিয়ে যেতে ইচ্ছুক?\n"
+"'হ্যাঁ (Yes)' নির্বাচন করা হলে ভাষা পরিবর্তন করা হবে কিন্তু সেটি ইনস্টল করা হবে না।\n"
+"'না (No)' নির্বাচিত হলে ভাষা পরিবর্তন না করে প্রস্থান করা হবে।"
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr " ভাষা সমর্থন ব্যবস্থা বর্তমানে ইনস্টল করা হয়নি, এটি কি ইনস্টল করতে আপনি ইচ্ছুক?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "পরবর্তি লগ-ইনের সময় পরিবর্তনগুলি প্রয়োগ করা হবে।"
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "সিস্টেমের ডিফল্ট মান (_D)"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "সিস্টেমের ডিফল্ট ভাষা নির্বাচন করুন"
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "ইনস্টলেশনপর নিশ্চিতি"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "ব্যবহারপ্রণালী: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "গ্রাফিকাল মোড আরম্ভ করতে ব্যর্থ।  পরিবর্তে টেক্সট মোড আরম্ভ করা হচ্ছে।"
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "কোনো হেডার নেই - সে কি?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "মুছে ফেলা হয়েছে: %s"
+

@@ -1,0 +1,278 @@
+# Finnish messages for system-config-language.
+# This file is distributed under the same license as the system-config-language
+# package.
+# Lauri Nurmi <lanurmi@iki.fi>, 2003, 2004.
+# Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2009-10-04 00:21+0300\n"
+"Last-Translator: Ville-Pekka Vainio <vpivaini@cs.helsinki.fi>\n"
+"Language-Team: Finnish <laatu@lokalisointi.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>Jatketaan %d sekunnin kuluttua...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "Huomaa:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Yhdistetään Yumin tietokantaan, odota hetki..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "Ratkaistaan päivitysten riippuvuuksia"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "Virhe otsakkeiden latauksessa"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "Pakettien otsakkeita ladattaessa tapahtui virheitä."
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "Virhe riippuvuuksien ratkaisussa"
+
+#: ../src/gui_install.py:157
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"Joidenkin asennettavaksi valittujen pakettien riippuvuuksia ei voida "
+"selvittää."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "Jatka"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "Riippuvuuksia lisätty"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr "Näiden pakettien päivittäminen vaatii lisäpäivityksiä."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "Lisätään riippuvuuksien vuoksi:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "Poistetaan riippuvuuksien vuoksi:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "Päivitetään riippuvuuksien vuoksi:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "Ladataan %s"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "Virhe pakettien latauksessa"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "Ladataan paketteja"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "Sopivaa peilipalvelinta ei löytynyt."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "Paketteja ladatessa tapahtui virheitä."
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "Tuodaanko avain?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"Paketti %s on allekirjoitettu avaimella %s (0x%s) lähteestä %s. Haluatko "
+"tuoda tämän avaimen?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "_Tuo avain"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "Varmennetaan paketteja"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "Ei voitu varmentaa pakettia %s"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "_Sulje"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"Haittaohjelma voi vahingoittaa tietokonetta tai aiheuttaa muita ongelmia. "
+"Haluatko varmasti asentaa tämän paketin?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "_Peru"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "_Asenna silti"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "Virhe ohjelmien päivityksessä"
+
+#: ../src/gui_install.py:354
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr "Yritettäessä päivittää valittuja ohjelmia tapahtui virheitä"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "Päivitetään ohjelmia"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "Valmistellaan transaktiota"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "Päivitetään pakettia %s"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "Siivotaan pakettia %s"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "Maa-asetustolistaa ei löydy"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "Kieli"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "Kielen valinta"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "Vaihda järjestelmän oletuskieltä"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "Valitse oletuskieli järjestelmälle."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"Järjestelmä käyttää jo oletuskieltä,\n"
+"ei mitään tehtävää."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "Haluatko vaihtaa järjestelmän kielen oletuskieleksi [en_US]?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "Ei"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "Kyllä"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"System-config-language on graafinen ohjelma, jolla käyttäjä voi vaihtaa "
+"järjestelmän oletuskieltä."
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"Verkkoyhteydessä tai Yumin asennuslähteissä on ongelmia, haluatko jatkaa?\n"
+"”Kyllä” vaihtaa kielen, mutta ei asenna siihen liittyviä paketteja.\n"
+"”Ei” lopettaa vaihtamatta kieltä."
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr " kielitukea ei ole asennettu, haluatko asentaa sen?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "Muutokset tulevat voimaan seuraavalla kirjautumiskerralla."
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "Järjestelmän _oletukset"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "Valitse kieli järjestelmälle."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "Vahvista asennus"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Käyttö: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "Graafisen tilan käynnistys epäonnistui. Käynnistetään tekstitilassa."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "Ei otsaketta – häh?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "Poistettiin: %s"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "system-config-language requires a currently running X server."
+#~ msgstr "system-config-language vaatii käynnissä olevan X-palvelimen."

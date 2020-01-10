@@ -1,0 +1,285 @@
+# Danish translation of system-config-language.
+# Copyright © 2002, Red Hat Software, Inc.
+# Kjartan Maraas <kmaraas@gnome.org>, 2002.
+# Keld Simonsen <keld@dkuug.dk>, 2002, 2003.
+# Kris Thomsen <lakristho@gmail.com>, 2009.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-09-23 20:01+0530\n"
+"PO-Revision-Date: 2009-09-23 21:34+0200\n"
+"Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.4\n"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>Vil fortsætte om %d sekunder...</i>"
+
+#: ../src/gui_install.py:70
+msgid "Note:"
+msgstr "Bemærk:"
+
+#: ../src/gui_install.py:72
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Forbinder Yum-database, vent venligst et øjeblik ..."
+
+#: ../src/gui_install.py:126
+msgid "Resolving dependencies for updates"
+msgstr "Løser afhængigheder for opdateringer"
+
+#: ../src/gui_install.py:142
+msgid "Error downloading headers"
+msgstr "Fejl opstod under nedhentning af headers"
+
+#: ../src/gui_install.py:143
+msgid "Errors were encountered while downloading package headers."
+msgstr "Fejl blev opdaget under nedhentning af pakkeheaders."
+
+#: ../src/gui_install.py:156
+msgid "Error resolving dependencies"
+msgstr "Fejl under løsning af afhængigheder"
+
+#: ../src/gui_install.py:157
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"Kunne ikke løse afhængigheder for nogen pakker, som var valgt til "
+"installation."
+
+#: ../src/gui_install.py:171
+msgid "Continue"
+msgstr "Fortsæt"
+
+#: ../src/gui_install.py:172
+msgid "Dependencies added"
+msgstr "Afhængigheder tilføjet"
+
+#: ../src/gui_install.py:173
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"Opdatering af disse pakker kræver yderligere pakkeændringer for at ordentlig "
+"handling fungerer korrekt."
+
+#: ../src/gui_install.py:182
+msgid "Adding for dependencies:\n"
+msgstr "Tilføjer til afhængigheder:\n"
+
+#: ../src/gui_install.py:183
+msgid "Removing for dependencies:\n"
+msgstr "Fjerner fra afhængigheder:\n"
+
+#: ../src/gui_install.py:184
+msgid "Updating for dependencies:\n"
+msgstr "Opdaterer for afhængigheder:\n"
+
+#: ../src/gui_install.py:215
+#, python-format
+msgid "Downloading %s"
+msgstr "Henter %s"
+
+#: ../src/gui_install.py:239
+msgid "Error downloading packages"
+msgstr "Fejl under nedhentning af pakker"
+
+#: ../src/gui_install.py:252
+msgid "Downloading packages"
+msgstr "Henter pakker"
+
+#: ../src/gui_install.py:262
+msgid "Unable to find a suitable mirror."
+msgstr "Kunne ikke finde et passende filspejl."
+
+#: ../src/gui_install.py:274
+msgid "Errors were encountered while downloading packages."
+msgstr "Fejl blev opdaget under nedhentning af pakker."
+
+#: ../src/gui_install.py:289
+msgid "Import key?"
+msgstr "Importér nøgle?"
+
+#: ../src/gui_install.py:290
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"Pakken %s er signeret med en nøgle %s (0x%s) fra %s. Vil du importere denne "
+"nøgle?"
+
+#: ../src/gui_install.py:295
+msgid "_Import key"
+msgstr "_Importér nøgle"
+
+#: ../src/gui_install.py:306
+msgid "Verifying packages"
+msgstr "Verificere pakker"
+
+#: ../src/gui_install.py:326
+#, python-format
+msgid "Unable to verify %s"
+msgstr "Kunne ikke verificere %s"
+
+#: ../src/gui_install.py:331
+msgid "_Close"
+msgstr "_Luk"
+
+#: ../src/gui_install.py:333
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"Ondt software kan ødelægge din computer eller gøre anden skade.  Er du "
+"sikker på at du vil installere denne pakke?"
+
+#: ../src/gui_install.py:337
+msgid "_Cancel"
+msgstr "_Annullér"
+
+#: ../src/gui_install.py:339
+msgid "_Install anyway"
+msgstr "_Installér alligevel"
+
+#: ../src/gui_install.py:353
+msgid "Error updating software"
+msgstr "Fejl under opdatering af software"
+
+#: ../src/gui_install.py:354
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr ""
+"Der blev opdaget fejl under forsøget på at opdatere den valgte software"
+
+#: ../src/gui_install.py:361
+msgid "Updating software"
+msgstr "Opdaterer software"
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "Forbereder overførsel"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "Opdaterer %s"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "Oprydder %s"
+
+#: ../src/language_backend.py:94
+msgid "Cannot find locale-list"
+msgstr "Kan ikke finde locale-liste"
+
+#: ../src/language_gui.py:52
+msgid "Language"
+msgstr "Sprog"
+
+#: ../src/language_gui.py:54 ../src/language_gui.py:68
+#: ../src/language_gui.py:357 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "Valg af sprog"
+
+#: ../src/language_gui.py:55
+msgid "Change the default system language"
+msgstr "Ændr det forvalgte systemsprog"
+
+#: ../src/language_gui.py:71
+msgid "Please select the default language for the system."
+msgstr "Vælg venligst det forvalgte sprog for systemet."
+
+#: ../src/language_gui.py:190
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"Systemet er allerede i standard sprog,\n"
+"Intet at gøre."
+
+#: ../src/language_gui.py:196
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "Vil du virkelig ændre systemsproget til standard [en_US]?"
+
+#: ../src/language_gui.py:201 ../src/language_gui.py:253
+#: ../src/language_gui.py:274
+msgid "No"
+msgstr "Nej"
+
+#: ../src/language_gui.py:202 ../src/language_gui.py:254
+#: ../src/language_gui.py:275
+msgid "Yes"
+msgstr "Ja"
+
+#: ../src/language_gui.py:217
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language er en grafisk brugergrænseflade som giver brugeren "
+"mulighed for at ændre systemets standardsprog."
+
+#: ../src/language_gui.py:247 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"Netværket eller Yum-pakkekilderne har nogen problemer, vil du fortsætte?\n"
+"\"Ja\" vil ændre sproget, men ikke installere det.\n"
+"\"Nej\" vil afslutte uden at ændre sproget."
+
+#: ../src/language_gui.py:266 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr " sprogunderstøttelse er ikke installeret, vil du installere det?"
+
+#: ../src/language_gui.py:300
+msgid "The changes will take effect the next time you log in."
+msgstr "Ændringerne vil træde i kraft, næste gang du logger ind."
+
+#: ../src/language_gui.py:366
+msgid "System _Defaults"
+msgstr "System_standarder"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "Vælg systemets sprog."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "Installerer bekræftelse"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Brug: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "Opstart af grafisk tilstand fejlede.  Starter teksttilstand istedet."
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "Ingen header - meget mystisk"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "Slettet: %s"
+
+#~ msgid "OK"
+#~ msgstr "O.k."
+
+#~ msgid "system-config-language requires a currently running X server."
+#~ msgstr "system-config-language kræver en aktuelt kørende X-server."
+
+#~ msgid "Language Configuration"
+#~ msgstr "Konfiguration af sprog"
