@@ -1,7 +1,7 @@
 Summary: A graphical interface for modifying the system language
 Name: system-config-language
 Version: 1.3.4
-Release: 5%{?dist}
+Release: 6%{?dist}
 URL: https://fedorahosted.org/system-config-language/
 Source0: https://fedorahosted.org/releases/s/y/system-config-language/%{name}-%{version}.tar.bz2
 License: GPLv2
@@ -23,6 +23,7 @@ Patch2: bug-607250.patch
 Patch3: bug-619267.patch
 Patch4: bug-619261.patch
 Patch5: bug-622412.patch
+Patch6: bug-819811.patch
 
 %description
 system-config-language is a graphical user interface that 
@@ -35,6 +36,7 @@ allows the user to change the default language of the system.
 %patch3 -p1 -b .1-corrected-locale-name-for-sr
 %patch4 -p1 -b .1-handlnig-comps-group
 %patch5 -p1 -b .1-handling-@scriptname
+%patch6 -p1 -b .6-po-patch
 
 %build
 make %{?_smp_mflags}
@@ -96,6 +98,9 @@ fi
 %config(noreplace) %{_sysconfdir}/security/console.apps/system-config-language
 
 %changelog
+* Tue Aug 14 2012 Pravin Satpute <psatpute@redhat.com>- 1.3.4-6
+- Resolves: bug 819811
+
 * Wed Aug 11 2010 Pravin Satpute <psatpute@redhat.com>- 1.3.4-5
 - Resolves: bug 622412
 
