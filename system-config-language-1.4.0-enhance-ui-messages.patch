@@ -1,0 +1,66 @@
+diff -urN system-config-language-1.4.0/src/gui_install.py system-config-language-1.4.0-new/src/gui_install.py
+--- system-config-language-1.4.0/src/gui_install.py	2016-04-20 09:26:22.068000000 +0530
++++ system-config-language-1.4.0-new/src/gui_install.py	2016-04-20 09:37:16.702000000 +0530
+@@ -88,7 +88,9 @@
+             groupexists = False
+ 
+         if groupexists == False:
+-            nostr = _("Due to comps cleanup %s group got removed and no longer exists. Therefore only setting the default system language" % grpid)
++            slangname = grpid.split('-', 1)
++            langname = slangname[0].capitalize()
++            nostr = _("Due to comps cleanup, {0} group no longer exists and its language packages will not be installed. \nTherefore only setting {1} as the default system language.".format(grpid, langname))
+             nogd= gtk.MessageDialog(mainwin, gtk.DIALOG_MODAL,
+                                       gtk.MESSAGE_INFO,
+                                       message_format = nostr)
+diff -urN system-config-language-1.4.0/src/language_gui.py system-config-language-1.4.0-new/src/language_gui.py
+--- system-config-language-1.4.0/src/language_gui.py	2016-04-20 09:26:22.065000000 +0530
++++ system-config-language-1.4.0-new/src/language_gui.py	2016-04-20 09:43:28.638000000 +0530
+@@ -284,21 +284,22 @@
+             if not is_RepoError:   
+                 if not install.is_group_installed(grpid, self.mainWindow):
+                     pass
+-            try:    
+-                install.selectGroup(grpid)
+-            except:
+-                #Do nothing from Fedora 18 group support for languages have been removed
+-                pass
+-            # do depsolve.  determine if we've added anything or not.
+-            install.checkDeps(self.mainWindow)
+-            install.depDetails(self.mainWindow)    
+-                
+-            dlpkgs = map(lambda x: x.po, filter(lambda txmbr:txmbr.ts_state in ("i", "u"),install.tsInfo.getMembers()))
+-    
+-            if len(dlpkgs)!=0:
+-                    	str = _(" language support is not installed, do you want to install it?")                
+-                    	str = grpid[:-8] + str
+-                    	str = str.capitalize()
++                else:
++		  try:    
++                        install.selectGroup(grpid)
++                  except:
++                        # Do nothing from Fedora 18 group support for languages have been removed
++                        pass
++                  # do depsolve.  determine if we've added anything or not.
++                  install.checkDeps(self.mainWindow)
++                  install.depDetails(self.mainWindow)
++
++                  dlpkgs = map(lambda x: x.po, filter(lambda txmbr:txmbr.ts_state in ("i", "u"), install.tsInfo.getMembers()))
++
++                  if len(dlpkgs) != 0:
++                        str = _(" language support is not installed, do you want to install it?")
++                        str = grpid[:-8] + str
++                        str = str.capitalize()
+             
+                     	d = gtk.MessageDialog(self.mainWindow, gtk.DIALOG_MODAL,
+                                       gtk.MESSAGE_QUESTION,
+@@ -312,8 +313,8 @@
+             
+                     	if rc == gtk.RESPONSE_OK:                               
+                         	install.install_language (self.mainWindow, grpid)                           
+-            else:
+-			     pass	
++        	  else:
++		     pass	
+ 
+         if self.installedLangs == None:
+             self.languageBackend.writeI18N(defaultLang, "", sysfont, sysfontacm)
