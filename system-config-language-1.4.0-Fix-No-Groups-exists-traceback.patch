@@ -1,0 +1,53 @@
+diff --git a/src/gui_install.py b/src/gui_install.py
+index 9400839..4d9ad61 100644
+--- a/src/gui_install.py
++++ b/src/gui_install.py
+@@ -88,39 +88,20 @@ class guiInstall(yum.YumBase):
+             groupexists = False
+ 
+         if groupexists == False:
+-            str = _("No Group named %s exists: Do you still want to install language without proper support?" %grpid)
+-            gd= gtk.MessageDialog(mainwin, gtk.DIALOG_MODAL,
+-                                      gtk.MESSAGE_QUESTION,
+-                                      message_format = str)
+-            b = gd.add_button(_("No"), gtk.RESPONSE_CANCEL)
+-            b = gd.add_button(_("Yes"), gtk.RESPONSE_OK)
+-            d.set_default_response(gtk.RESPONSE_OK)
+-            rc = gd.run()
+-            gd.destroy()
++            nostr = _("Due to comps cleanup %s group got removed and no longer exists. Therefore only setting the default system language" % grpid)
++            nogd= gtk.MessageDialog(mainwin, gtk.DIALOG_MODAL,
++                                      gtk.MESSAGE_INFO,
++                                      message_format = nostr)
++            b = nogd.add_button(_("Ok"), gtk.RESPONSE_OK)
++            rc = nogd.run()
++            nogd.destroy()
+             if rc == gtk.RESPONSE_OK:
+-                lb=language_backend.LanguageBackend()
+-                ld=lang_dict.languages_Dict
+-                for (key, val) in ld.iteritems():
+-                    if ld[key]==grpid:
+-                        lb.originalFile=None
+-                        lb.writeI18N(key, "", "latarcyrheb-sun16", "utf8")
+-                        # send message to login manager to re-read config / pick up lang change
+-                        if os.access("/var/gdm/.gdmfifo", os.F_OK):
+-                            try:
+-                                fd = os.open("/tmp/.gdm_socket", os.O_WRONLY | os.O_APPEND | os.O_NONBLOCK)
+-                                if fd >= 0:
+-                                    os.write(fd, "\nUPDATE_CONFIG\n")
+-                                    os.close(fd)
+-                            except:
+-                                pass
+-                return True
+-            else:
+-                       raise yum.Errors.GroupsError, "No Group named %s exists" % grpid
++                return False
+ 
+         if thisgroup.installed:
+             return True
+         else:
+-	        return False    
++	    return False    
+ 	    
+     def reset(self):
+         self.closeRpmDB()

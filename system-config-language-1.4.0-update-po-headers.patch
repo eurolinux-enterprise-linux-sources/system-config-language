@@ -1,0 +1,348 @@
+diff -urN system-config-language-1.4.0/po/as.po system-config-language-1.4.0.new/po/as.po
+--- system-config-language-1.4.0/po/as.po	2014-01-15 20:28:38.756403233 +0530
++++ system-config-language-1.4.0.new/po/as.po	2014-01-15 20:24:07.399104632 +0530
+@@ -9,7 +9,7 @@
+ # ngoswami <ngoswami@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/bn_IN.po system-config-language-1.4.0.new/po/bn_IN.po
+--- system-config-language-1.4.0/po/bn_IN.po	2014-01-15 20:28:38.757403230 +0530
++++ system-config-language-1.4.0.new/po/bn_IN.po	2014-01-15 20:24:07.408104609 +0530
+@@ -8,7 +8,7 @@
+ # sray <sray@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/de.po system-config-language-1.4.0.new/po/de.po
+--- system-config-language-1.4.0/po/de.po	2014-01-15 20:28:38.757403230 +0530
++++ system-config-language-1.4.0.new/po/de.po	2014-01-15 20:24:07.424104568 +0530
+@@ -10,7 +10,7 @@
+ # rgromans <rgromans@redhat.com>, 2014. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/es.po system-config-language-1.4.0.new/po/es.po
+--- system-config-language-1.4.0/po/es.po	2014-01-15 20:28:38.757403230 +0530
++++ system-config-language-1.4.0.new/po/es.po	2014-01-15 20:24:07.431104549 +0530
+@@ -6,7 +6,7 @@
+ # gguerrer <gguerrer@redhat.com>, 2014. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/fr.po system-config-language-1.4.0.new/po/fr.po
+--- system-config-language-1.4.0/po/fr.po	2014-01-15 20:28:38.758403228 +0530
++++ system-config-language-1.4.0.new/po/fr.po	2014-01-15 20:24:07.439104529 +0530
+@@ -9,7 +9,7 @@
+ # Sam Friedmann <sfriedma@redhat.com>, 2014. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/gu.po system-config-language-1.4.0.new/po/gu.po
+--- system-config-language-1.4.0/po/gu.po	2014-01-15 20:28:38.758403228 +0530
++++ system-config-language-1.4.0.new/po/gu.po	2014-01-15 20:24:07.442104521 +0530
+@@ -7,7 +7,7 @@
+ # Ankit Patel <ankit@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/hi.po system-config-language-1.4.0.new/po/hi.po
+--- system-config-language-1.4.0/po/hi.po	2014-01-15 20:28:38.759403225 +0530
++++ system-config-language-1.4.0.new/po/hi.po	2014-01-15 20:24:07.446104510 +0530
+@@ -8,7 +8,7 @@
+ # Rajesh Ranjan <rajeshkajha@yahoo.com>, 2012, 2014.
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/hy.po system-config-language-1.4.0.new/po/hy.po
+--- system-config-language-1.4.0/po/hy.po	2013-06-04 15:33:48.000000000 +0530
++++ system-config-language-1.4.0.new/po/hy.po	2014-01-15 20:26:54.598672310 +0530
+@@ -11,7 +11,7 @@
+ "PO-Revision-Date: 2003-11-11 13:37-0500\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+-"Language: \n"
++"Language: hy\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+diff -urN system-config-language-1.4.0/po/it.po system-config-language-1.4.0.new/po/it.po
+--- system-config-language-1.4.0/po/it.po	2014-01-15 20:28:38.759403225 +0530
++++ system-config-language-1.4.0.new/po/it.po	2014-01-15 20:24:07.460104474 +0530
+@@ -10,7 +10,7 @@
+ # fvalen <fvalen@redhat.com>, 2014. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/ja.po system-config-language-1.4.0.new/po/ja.po
+--- system-config-language-1.4.0/po/ja.po	2014-01-15 20:28:38.759403225 +0530
++++ system-config-language-1.4.0.new/po/ja.po	2014-01-15 20:24:07.462104469 +0530
+@@ -11,7 +11,7 @@
+ # noriko <noriko@redhat.com>, 2014. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/kn.po system-config-language-1.4.0.new/po/kn.po
+--- system-config-language-1.4.0/po/kn.po	2014-01-15 20:28:38.760403222 +0530
++++ system-config-language-1.4.0.new/po/kn.po	2014-01-15 20:24:07.465104461 +0530
+@@ -8,7 +8,7 @@
+ # Shankar <svenkate@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/ko.po system-config-language-1.4.0.new/po/ko.po
+--- system-config-language-1.4.0/po/ko.po	2014-01-15 20:28:38.760403222 +0530
++++ system-config-language-1.4.0.new/po/ko.po	2014-01-15 20:24:07.467104456 +0530
+@@ -9,7 +9,7 @@
+ # eukim <eukim@redhat.com>, 2014. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/ks@devanagari.po system-config-language-1.4.0.new/po/ks@devanagari.po
+--- system-config-language-1.4.0/po/ks@devanagari.po	2013-05-17 15:09:29.000000000 +0530
++++ system-config-language-1.4.0.new/po/ks@devanagari.po	2014-01-15 20:27:46.540538103 +0530
+@@ -12,7 +12,7 @@
+ "PO-Revision-Date: 2008-09-11 12:23 +5:30\n"
+ "Last-Translator: Rakesh Pandit <rakesh.pandit@gmail.com>\n"
+ "Language-Team: Kashmiri\n"
+-"Language: \n"
++"Language: ks@devanagari\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+diff -urN system-config-language-1.4.0/po/ku.po system-config-language-1.4.0.new/po/ku.po
+--- system-config-language-1.4.0/po/ku.po	2013-06-04 15:33:48.000000000 +0530
++++ system-config-language-1.4.0.new/po/ku.po	2014-01-15 20:27:46.539538105 +0530
+@@ -11,7 +11,7 @@
+ "PO-Revision-Date: 2003-11-11 13:37-0500\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+-"Language: \n"
++"Language: ku\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=ASCII\n"
+ "Content-Transfer-Encoding: 8bit\n"
+diff -urN system-config-language-1.4.0/po/lo.po system-config-language-1.4.0.new/po/lo.po
+--- system-config-language-1.4.0/po/lo.po	2013-06-04 15:33:48.000000000 +0530
++++ system-config-language-1.4.0.new/po/lo.po	2014-01-15 20:27:46.537538110 +0530
+@@ -11,7 +11,7 @@
+ "PO-Revision-Date: 2003-11-11 13:37-0500\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+-"Language: \n"
++"Language: lo\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+diff -urN system-config-language-1.4.0/po/ml.po system-config-language-1.4.0.new/po/ml.po
+--- system-config-language-1.4.0/po/ml.po	2014-01-15 20:28:38.761403220 +0530
++++ system-config-language-1.4.0.new/po/ml.po	2014-01-15 20:24:07.483104414 +0530
+@@ -8,7 +8,7 @@
+ # apeter <apeter@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/mr.po system-config-language-1.4.0.new/po/mr.po
+--- system-config-language-1.4.0/po/mr.po	2014-01-15 20:28:38.761403220 +0530
++++ system-config-language-1.4.0.new/po/mr.po	2014-01-15 20:24:07.487104404 +0530
+@@ -11,7 +11,7 @@
+ # sshedmak <sshedmak@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/my.po system-config-language-1.4.0.new/po/my.po
+--- system-config-language-1.4.0/po/my.po	2013-06-04 15:33:48.000000000 +0530
++++ system-config-language-1.4.0.new/po/my.po	2014-01-15 20:27:46.529538131 +0530
+@@ -11,7 +11,7 @@
+ "PO-Revision-Date: 2003-11-11 13:37-0500\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+-"Language: \n"
++"Language: my\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+diff -urN system-config-language-1.4.0/po/or.po system-config-language-1.4.0.new/po/or.po
+--- system-config-language-1.4.0/po/or.po	2014-01-15 20:28:38.761403220 +0530
++++ system-config-language-1.4.0.new/po/or.po	2014-01-15 20:24:07.497104378 +0530
+@@ -7,7 +7,7 @@
+ # mgiri <mgiri@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/pa.po system-config-language-1.4.0.new/po/pa.po
+--- system-config-language-1.4.0/po/pa.po	2014-01-15 20:28:38.762403217 +0530
++++ system-config-language-1.4.0.new/po/pa.po	2014-01-15 20:24:07.498104376 +0530
+@@ -9,7 +9,7 @@
+ # asaini <asaini@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/pt_BR.po system-config-language-1.4.0.new/po/pt_BR.po
+--- system-config-language-1.4.0/po/pt_BR.po	2014-01-15 20:28:38.762403217 +0530
++++ system-config-language-1.4.0.new/po/pt_BR.po	2014-01-15 20:24:07.501104368 +0530
+@@ -14,7 +14,7 @@
+ # gcintra <gcintra@redhat.com>, 2014. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/pt.po system-config-language-1.4.0.new/po/pt.po
+--- system-config-language-1.4.0/po/pt.po	2013-05-17 15:09:59.000000000 +0530
++++ system-config-language-1.4.0.new/po/pt.po	2014-01-15 20:27:46.541538100 +0530
+@@ -9,7 +9,7 @@
+ "PO-Revision-Date: 2009-09-24 10:55+0100\n"
+ "Last-Translator: Rui Gouveia <rui.gouveia@globaltek.pt>\n"
+ "Language-Team: pt <fedora-trans-pt@redhat.com>\n"
+-"Language: \n"
++"Language: pt\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+diff -urN system-config-language-1.4.0/po/ru.po system-config-language-1.4.0.new/po/ru.po
+--- system-config-language-1.4.0/po/ru.po	2014-01-15 20:28:38.762403217 +0530
++++ system-config-language-1.4.0.new/po/ru.po	2014-01-15 20:24:07.507104353 +0530
+@@ -9,7 +9,7 @@
+ # ypoyarko <ypoyarko@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/ta.po system-config-language-1.4.0.new/po/ta.po
+--- system-config-language-1.4.0/po/ta.po	2014-01-15 20:28:38.763403215 +0530
++++ system-config-language-1.4.0.new/po/ta.po	2014-01-15 20:24:07.522104314 +0530
+@@ -9,7 +9,7 @@
+ # shkumar <shkumar@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/te.po system-config-language-1.4.0.new/po/te.po
+--- system-config-language-1.4.0/po/te.po	2014-01-15 20:28:38.763403215 +0530
++++ system-config-language-1.4.0.new/po/te.po	2014-01-15 20:24:07.524104309 +0530
+@@ -9,7 +9,7 @@
+ # kkrothap <kkrothap@redhat.com>, 2013. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/tg.po system-config-language-1.4.0.new/po/tg.po
+--- system-config-language-1.4.0/po/tg.po	2013-05-17 15:10:19.000000000 +0530
++++ system-config-language-1.4.0.new/po/tg.po	2014-01-15 20:27:46.533538121 +0530
+@@ -6,7 +6,7 @@
+ "PO-Revision-Date: \n"
+ "Last-Translator: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+ "Language-Team: Victor Ibragimov <victor.ibragimov@gmail.com>\n"
+-"Language: \n"
++"Language: tg\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+diff -urN system-config-language-1.4.0/po/ur.po system-config-language-1.4.0.new/po/ur.po
+--- system-config-language-1.4.0/po/ur.po	2013-06-04 15:33:48.000000000 +0530
++++ system-config-language-1.4.0.new/po/ur.po	2014-01-15 20:27:46.535538116 +0530
+@@ -11,7 +11,7 @@
+ "PO-Revision-Date: 2003-11-11 13:37-0500\n"
+ "Last-Translator: Automatically generated\n"
+ "Language-Team: none\n"
+-"Language: \n"
++"Language: ur\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=ASCII\n"
+ "Content-Transfer-Encoding: 8bit\n"
+diff -urN system-config-language-1.4.0/po/zh_CN.po system-config-language-1.4.0.new/po/zh_CN.po
+--- system-config-language-1.4.0/po/zh_CN.po	2014-01-15 20:28:38.763403215 +0530
++++ system-config-language-1.4.0.new/po/zh_CN.po	2014-01-15 20:24:07.534104283 +0530
+@@ -9,7 +9,7 @@
+ # Leah Liu <lliu@redhat.com>, 2014. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"
+diff -urN system-config-language-1.4.0/po/zh_TW.po system-config-language-1.4.0.new/po/zh_TW.po
+--- system-config-language-1.4.0/po/zh_TW.po	2014-01-15 20:28:38.764403212 +0530
++++ system-config-language-1.4.0.new/po/zh_TW.po	2014-01-15 20:24:07.535104280 +0530
+@@ -9,7 +9,7 @@
+ # tchuang <tchuang@redhat.com>, 2014. #zanata
+ msgid ""
+ msgstr ""
+-"Project-Id-Version: PACKAGE VERSION\n"
++"Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+ "POT-Creation-Date: 2013-12-27 11:20+0530\n"
+ "MIME-Version: 1.0\n"

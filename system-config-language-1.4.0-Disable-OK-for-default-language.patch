@@ -1,0 +1,43 @@
+diff --git a/src/language_gui.py b/src/language_gui.py
+index 3b700a6..76c5896 100644
+--- a/src/language_gui.py
++++ b/src/language_gui.py
+@@ -92,6 +92,7 @@ class childWindow:
+ 
+         self.langChangedFlag = 0
+         self.setDefault(defaultLang)
++        self.langChangedtoDefault()
+ 
+         self.langView.get_selection().connect("changed", self.langChanged)
+ 
+@@ -131,6 +132,18 @@ class childWindow:
+                 break
+             iter = self.langStore.iter_next(iter)
+ 
++    def langChangedtoDefault(self):
++        rc = self.langView.get_selection().get_selected()
++        if rc:
++            model, iter = rc
++            try:
++                selectedLang =  langBase = self.languageBackend.removeEncoding(self.langStore.get_value(iter, 0))
++                if selectedLang == self.originalLang:
++                   return 1
++            except TypeError:
++                pass
++        return 0
++
+     def fillStore(self):
+         lines = self.languageBackend.readTable()
+ 
+@@ -173,7 +186,10 @@ class childWindow:
+    
+     def langChanged(self, *args):
+         self.langChangedFlag = 1
+-	self.okButton.set_sensitive(True)
++        if self.langChangedtoDefault():
++           self.okButton.set_sensitive(False)
++        else :
++           self.okButton.set_sensitive(True)
+ 
+     def okClicked(self, *args):
+         self.apply()

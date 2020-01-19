@@ -1,0 +1,27 @@
+diff --git a/src/locale-list b/src/locale-list
+index a0b44ad..aab01a2 100644
+--- a/src/locale-list
++++ b/src/locale-list
+@@ -98,7 +98,7 @@ ne_NP.UTF-8 utf8 latarcyrheb-sun16 Nepali (Nepal)
+ nb_NO.UTF-8 utf8 latarcyrheb-sun16 Norwegian  -  Norsk
+ nn_NO.UTF-8 utf8 latarcyrheb-sun16 Norwegian, Nynorsk (Norway)  -  Norsk
+ oc_FR 8859-15 lat0-sun16 Occitan (France)
+-or_IN.UTF-8 utf8 latarcyrheb-sun16 Oriya (India)
++or_IN.UTF-8 utf8 latarcyrheb-sun16 Odia (India)
+ fa_IR.UTF-8 utf8 latarcyrheb-sun16 Persian (Iran)
+ pl_PL.UTF-8 utf8 latarcyrheb-sun16 Polish
+ pt_BR.UTF-8 utf8 latarcyrheb-sun16 Portuguese (Brasil)
+diff --git a/src/lang_dict.py b/src/lang_dict.py
+index 2dc6315..a08b76d 100644
+--- a/src/lang_dict.py
++++ b/src/lang_dict.py
+@@ -111,7 +111,7 @@ languages_Dict = { "af_ZA":"afrikaans-support", \
+              "nb_NO.UTF-8":"norwegian-support", \
+              "nn_NO.UTF-8":"norwegian-support", \
+              "oc_FR":"none", \
+-             "or_IN.UTF-8":"oriya-support", \
++             "or_IN.UTF-8":"odia-support", \
+              "fa_IR.UTF-8":"persian-support", \
+              "pl_PL.UTF-8":"polish-support", \
+              "pt_BR.UTF-8":"portuguese-support", \
+

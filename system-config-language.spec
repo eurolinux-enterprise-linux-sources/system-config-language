@@ -1,9 +1,20 @@
 Summary:  A graphical interface for modifying the system language
 Name:     system-config-language
 Version:  1.4.0
-Release:  1%{?dist}
+Release:  6%{?dist}
 URL:      https://fedorahosted.org/system-config-language/
 Source0:  https://fedorahosted.org/releases/s/y/system-config-language/%{name}-%{version}.tar.bz2
+#https://bugzilla.redhat.com/show_bug.cgi?id=1040298
+Patch0:   %{name}-%{version}-Disable-OK-for-default-language.patch
+#https://bugzilla.redhat.com/show_bug.cgi?id=1040309
+Patch1:   %{name}-%{version}-Fix-No-Groups-exists-traceback.patch
+#https://bugzilla.redhat.com/show_bug.cgi?id=1045993
+Patch2:   %{name}-%{version}-Change-Oriya-to-Odia.patch
+#https://bugzilla.redhat.com/show_bug.cgi?id=1050967
+Patch3:   %{name}-%{version}-Fix-text-mode-crash-for-no-group-exists.patch
+#https://bugzilla.redhat.com/show_bug.cgi?id=1046846
+Patch4:   %{name}-%{version}-translation-updates.patch
+Patch5:   %{name}-%{version}-update-po-headers.patch
 License:  GPLv2+
 
 BuildArch: noarch
@@ -24,6 +35,12 @@ allows the user to change the default language of the system.
 
 %prep
 %setup -q
+%patch0 -p1
+%patch1 -p1
+%patch2 -p1
+%patch3 -p1
+%patch4 -p2
+%patch5 -p1
 
 %build
 %configure
@@ -67,6 +84,23 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %config(noreplace) %{_sysconfdir}/security/console.apps/system-config-language
 
 %changelog
+* Wed Jan 15 2014 Parag Nemade <pnemade AT redhat DOT com> - 1.4.0-6
+- Resolves:rh#1046846 - [system-config-language] Translations incomplete
+
+* Tue Jan 14 2014 Parag Nemade <pnemade AT redhat DOT com> - 1.4.0-5
+- Resolves:rh#1045993 - Change language name from Oriya to Odia.
+
+* Mon Jan 13 2014 Parag Nemade <pnemade AT redhat DOT com> - 1.4.0-4
+- Resolves:rh#1050967 - system-config-language traceback due to missing zulu-support package
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.4.0-3
+- Mass rebuild 2013-12-27
+
+* Mon Dec 23 2013 Parag Nemade <pnemade AT redhat DOT com> - 1.4.0-2
+- Resolves:rh#1040298 - OK button should be disabled always for the default selected language
+- Resolves:rh#1040309 - Fix 'No Group named...exists' dialog produced traceback & warning messages
+- Resolves:rh#1045993 - Change language name from Oriya to Odia.
+
 * Mon Jun 10 2013 Parag Nemade <pnemade AT redhat DOT com> - 1.4.0-1
 - Update to 1.4.0 release
 

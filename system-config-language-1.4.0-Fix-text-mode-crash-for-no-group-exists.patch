@@ -1,0 +1,60 @@
+From 2cc6ff41116546616c3015f433c6f62ae4c5655d Mon Sep 17 00:00:00 2001
+From: Parag Nemade <pnemade@redhat.com>
+Date: Mon, 13 Jan 2014 22:01:04 +0530
+Subject: [PATCH] rh#1052331:Fix text mode crash for no group exists
+
+---
+ src/language_tui.py | 17 +++++++++++++++++
+ src/tui_install.py  |  4 ++--
+ 2 files changed, 19 insertions(+), 2 deletions(-)
+
+diff --git a/src/language_tui.py b/src/language_tui.py
+index f70d47b..d58f234 100644
+--- a/src/language_tui.py
++++ b/src/language_tui.py
+@@ -103,6 +103,23 @@ class LanguageWindow:
+                     if button2 == "ok":     
+                         screen.finish()                                 
+                         install.install_language (grpid)
++                else:
++	            imsg = _(" language support is removed from 'comps' and it no longer exists, setting only the default system language.")
++                    imsg = grpid[:-8] + imsg
++                    imsg = imsg.capitalize()
++                    screen1 = SnackScreen()
++                    bb3 = ButtonBar(screen1, ["OK"])
++                    textBox3 = TextboxReflowed(40, imsg)
++                    g3 = GridFormHelp(screen1, _("No group exists"), "kbdtype", 1, 4)
++                    g3.add(textBox3, 0, 0)
++                    g3.add(bb3, 0, 3, growx = 1)
++
++                    rc3 = g3.runOnce()
++
++                    button3 = bb3.buttonPressed(rc3)
++
++                    if button3 == "ok":
++                        screen1.finish()
+ 
+         if self.installedLangs == None:
+             languageBackend.writeI18N(defaultLang, "", sysfont, sysfontacm)
+diff --git a/src/tui_install.py b/src/tui_install.py
+index 77842c5..e6f3f7c 100644
+--- a/src/tui_install.py
++++ b/src/tui_install.py
+@@ -392,12 +392,12 @@ Remove   %5.5s Package(s)
+     
+     def is_group_installed(self, grpid):
+         if not self.comps.has_group(grpid):
+-            raise Errors.GroupsError, "No Group named %s exists" % grpid
++            return True
+             
+         thisgroup = self.comps.return_group(grpid)
+ 
+         if not thisgroup:
+-            raise Errors.GroupsError, "No Group named %s exists" % grpid
++	    return True
+ 
+         if thisgroup.installed:
+             return True
+-- 
+1.8.4.2
+
