@@ -1,0 +1,2850 @@
+diff -urN system-config-language-1.4.0/po/de.po system-config-language-1.4.0-new/po/de.po
+--- system-config-language-1.4.0/po/de.po	2017-02-13 14:42:48.507000000 +0530
++++ system-config-language-1.4.0-new/po/de.po	2017-02-13 14:44:38.867000000 +0530
+@@ -7,22 +7,24 @@
+ # Timo Trinks <ttrinks@redhat.com>, 2006.
+ # Marcus Nitzschke <kenda@fedoraproject.org>, 2009.
+ # Jens Maucher <jensm@fedoraproject.org>, 2009, 2012.
+-# rgromans <rgromans@redhat.com>, 2014. #zanata
++# Hedda Peters <hpeters@redhat.com>, 2016. #zanata
++# Lisa Stemmler <lstemmle@redhat.com>, 2016. #zanata
++# Parag <pnemade@redhat.com>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2014-01-05 07:14-0500\n"
+-"Last-Translator: rgromans <rgromans@redhat.com>\n"
++"PO-Revision-Date: 2016-08-24 01:20-0400\n"
++"Last-Translator: Hedda Peters <hpeters@redhat.com>\n"
+ "Language-Team: American English <kde-i18n-doc@kde.org>\n"
+ "Language: de\n"
+-"Generated-By: pygettext.py 1.4\n"
+-"X-Generator: Zanata 3.2.1\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
++"Generated-By: pygettext.py 1.4\n"
++"X-Generator: Zanata 3.9.6\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -47,51 +49,52 @@
+ "Verbindung mit Yum-Datenbank wird hergestellt, bitte warten sie einen Moment "
+ "..."
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
+-msgstr ""
+-"Aufgrund einer Komponenten Bereinigung wurde die %s Gruppe entfernt und "
+-"existiert nicht mehr. Deshalb wird nur die Standardsystemsprache eingestellt"
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
++msgstr ""
++"Aufgrund einer comps-Bereinigung existiert die {0} Gruppe nicht mehr und "
++"deren Sprachpakete werden nicht installiert. Deshalb wird nur {1} als "
++"Standardsystemsprache eingestellt."
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "Ok"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "Abhängigkeiten für Updates werden empfangen"
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+ msgstr "Fehler beim Herunterladen der Paketinformationen"
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+ msgstr "Beim Herunterladen der Paketinformationen sind Fehler aufgetreten."
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+ msgstr "Fehler beim Auflösen der Abhängigkeiten"
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+ msgstr ""
+ "Die Abhängigkeiten einiger Pakete, die zur Installation ausgewählt wurden, "
+ "konnten nicht aufgelöst werden."
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "Fortfahren"
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+ msgstr "Abhängigkeiten hinzugefügt"
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+@@ -99,39 +102,39 @@
+ "Die Aktualisierung dieser Pakete erfordert zusätzliche Paketänderungen für "
+ "einen einwandfreien Betrieb."
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+ msgstr "Hinzufügen wegen Abhängigkeiten:\n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+ msgstr "Entferne wegen Abhängigkeiten:\n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+ msgstr "Aktualisiere wegen Abhängigkeiten:\n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+ msgstr "Fehler beim Herunterladen der Pakete"
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+ msgstr "Pakete herunterladen"
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "Es kann kein geeigneter Mirror gefunden werden."
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+ msgstr "Beim Herunterladen der Pakete sind Fehler aufgetreten."
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+ msgstr "Schlüssel importieren?"
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+@@ -140,24 +143,24 @@
+ "Das Paket %s ist mit einem Schlüssel %s (0x%s) von %s signiert. Möchten Sie "
+ "diesen Schlüssel importieren?"
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+ msgstr "Schlüssel _importieren?"
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+ msgstr "Pakete werden überprüft"
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+ msgstr "Kann %s nicht überprüfen"
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+ msgstr "S_chließen"
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+@@ -165,30 +168,30 @@
+ "Bösartige Software kann Ihren Computer beschädigen oder andere Schäden "
+ "verursachen. Sind Sie sicher, dass Sie dieses Paket installieren möchten?"
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+ msgstr "Abbre_chen"
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+ msgstr "Trotzdem _installieren"
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+ msgstr "Fehler bei Softwareaktualisierung"
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+ msgstr ""
+ "Beim Versuch der Aktualisierung der von Ihnen ausgewählten Software traten "
+ "Fehler auf"
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "Software wird aktualisiert"
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+@@ -196,18 +199,18 @@
+ "Fehler bei der Installation der ausgewählten Sprach-Pakete: Wollen Sie immer "
+ "noch die Sprache ohne geeignete Unterstützung installieren?"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "Nein"
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "Ja"
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "Auswahl der Sprache"
+ 
+@@ -244,16 +247,16 @@
+ "'Ja' wird die Sprache ändern, aber sie nicht installieren.\n"
+ "'Nein' beendet das Programm ohne die Sprache zu wechseln."
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+ msgstr ""
+ "Sprachunterstützung ist nicht installiert, möchten sie diese installieren?"
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+ msgstr "Die Änderungen werden nach dem nächsten Neustart wirksam."
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+ msgstr "System _Vorgabe"
+ 
+@@ -292,6 +295,18 @@
+ msgid "Installing Confirm"
+ msgstr "Installations-Bestätigung"
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr ""
++"Die Sprachunterstützung ist aus 'comps' entfernt und existiert nicht mehr, "
++"es wird nur die Standard-Systemsprache eingerichtet."
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "Keine Gruppen vorhanden"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "Keine Paketinformationen - huh?"
+diff -urN system-config-language-1.4.0/po/es.po system-config-language-1.4.0-new/po/es.po
+--- system-config-language-1.4.0/po/es.po	2017-02-13 14:42:48.508000000 +0530
++++ system-config-language-1.4.0-new/po/es.po	2017-02-13 14:44:36.966000000 +0530
+@@ -3,23 +3,25 @@
+ # 
+ # Luis Mayoral <mayoral@linuxadicto.org>, 2003.
+ # Gladys Guerero <gguerrer@redhat.com>, 2012.
+-# gguerrer <gguerrer@redhat.com>, 2014. #zanata
++# Gladys Guerrero Lozano <gguerrer@redhat.com>, 2016. #zanata
++# Máximo Castañeda Riloba <mcrcctm@gmail.com>, 2016. #zanata
++# Parag <pnemade@redhat.com>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2014-01-09 10:56-0500\n"
+-"Last-Translator: gguerrer <gguerrer@redhat.com>\n"
++"PO-Revision-Date: 2016-08-29 01:39-0400\n"
++"Last-Translator: Gladys Guerrero Lozano <gguerrer@redhat.com>\n"
+ "Language-Team: Spanish <kde-i18n-doc@kde.org>\n"
+ "Language: es\n"
++"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ "Generated-By: pygettext.py 1.4\n"
+-"X-Generator: Zanata 3.2.1\n"
++"X-Generator: Zanata 3.9.6\n"
+ "X-Poedit-Language: Spanish\n"
+-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -42,53 +44,54 @@
+ msgid "Connecting Yum database, please wait for a bit ..."
+ msgstr "Conectando con la base de datos Yum, por favor, espere un momento..."
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
+-msgstr ""
+-"Debido a limpieza Comps grupo %s fue retirado y ya no existe. Por lo tanto, "
+-"solo establezca el idioma predeterminado del sistema "
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
++msgstr ""
++"Debido a limpieza Comps el grupo  {0} ya no existe y sus paquetes de idiomas "
++"no serán instalados. Por lo tanto, solo establezca {1}  como el idioma "
++"predeterminado del sistema."
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "Aceptar"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "Resolviendo dependencias para actualizaciones"
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+ msgstr "Error al descargar los encabezamientos"
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+ msgstr ""
+ "Se encontraron errores mientras se descargaban las cabeceras de los paquetes."
+ ""
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+ msgstr "Error al resolver dependencias"
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+ msgstr ""
+ "No se pudieron resolver las dependencias de algunos paquetes seleccionados "
+ "para la instalación."
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "Continuar"
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+ msgstr "Dependencias añadidas"
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+@@ -96,39 +99,39 @@
+ "La actualización de estos paquetes requiere cambios de paquetes adicionales "
+ "para el correcto funcionamiento."
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+ msgstr "Agregando por dependencias:\n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+ msgstr "Eliminando por dependencias:\n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+ msgstr "Actualizando por dependencias:\n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+ msgstr "Error al descargar paquetes"
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+ msgstr "Descargando paquetes"
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "No es posible encontrar un espejo apropiado."
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+ msgstr "Se encontraron errores mientras se descargaban paquetes"
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+ msgstr "¿Importar clave?"
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+@@ -137,24 +140,24 @@
+ "El paquete %s se firmó con una clave %s (0x%s) desde %s.  ¿Desea importar "
+ "esta clave?"
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+ msgstr "_Importar clave"
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+ msgstr "Verificando paquetes"
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+ msgstr "No se pudo verificar %s"
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+ msgstr "_Cerrar"
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+@@ -162,28 +165,28 @@
+ "El software malicioso puede dañar su computadora o causarle otro daño. ¿Está "
+ "seguro de querer instalar este paquete?"
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+ msgstr "_Cancelar"
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+ msgstr "_Instalar de todos modos"
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+ msgstr "Error al actualizar el software"
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+ msgstr "Surgieron errores al intentar actualizar el software que seleccionó"
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "Actualizando el software"
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+@@ -191,18 +194,18 @@
+ "Error al instalar paquetes de idiomas seleccionados: ¿Aún desea instalar el "
+ "idioma sin el soporte adecuado?"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "No"
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "Sí"
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "Selección del idioma"
+ 
+@@ -239,15 +242,15 @@
+ "'Si', cambiará el idioma pero no lo instalará.\n"
+ "'No', saldrá sin cambiar el idioma."
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+ msgstr " el soporte de idioma no está instalado, ¿desea instalarlo?"
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+ msgstr "Los cambios sólo tendran efecto después del reinicio."
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+ msgstr "Predeterminados del Sistema"
+ 
+@@ -286,6 +289,18 @@
+ msgid "Installing Confirm"
+ msgstr "Confirmar Instalación"
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr ""
++": el soporte para el idioma se ha eliminado de 'comps' y ya no existe, sólo "
++"se establecerá el idioma predeterminado del sistema "
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "No existe ningún grupo"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "No hay encabezamiento - ¿eh?"
+diff -urN system-config-language-1.4.0/po/fr.po system-config-language-1.4.0-new/po/fr.po
+--- system-config-language-1.4.0/po/fr.po	2017-02-13 14:42:48.508000000 +0530
++++ system-config-language-1.4.0-new/po/fr.po	2017-02-13 14:44:36.464000000 +0530
+@@ -6,22 +6,24 @@
+ # Thomas Canniot <thomas.canniot@laposte.net>, 2006.
+ # Thomas Canniot <mrtom@fedoraproject.org>, 2009.
+ # Sam Friedmann <sam.friedmann@redhat.com>, 2012.
+-# Sam Friedmann <sfriedma@redhat.com>, 2014. #zanata
++# Parag <pnemade@redhat.com>, 2016. #zanata
++# Sam Friedmann <sfriedma@redhat.com>, 2016. #zanata
++# corina roe <croe@redhat.com>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2014-01-02 07:46-0500\n"
+-"Last-Translator: Sam Friedmann <sfriedma@redhat.com>\n"
++"PO-Revision-Date: 2016-08-21 09:45-0400\n"
++"Last-Translator: corina roe <croe@redhat.com>\n"
+ "Language-Team: American English <kde-i18n-doc@kde.org>\n"
+ "Language: fr\n"
+-"Generated-By: pygettext.py 1.4\n"
+-"X-Generator: Zanata 3.2.1\n"
+ "Plural-Forms: nplurals=2; plural=(n > 1);\n"
++"Generated-By: pygettext.py 1.4\n"
++"X-Generator: Zanata 3.9.6\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -44,53 +46,54 @@
+ msgid "Connecting Yum database, please wait for a bit ..."
+ msgstr "Se connecte à la base de données Yum, veuillez patientez ..."
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
+-msgstr ""
+-"À cause du nettoyage comps, le groupe %s a été supprimé et n'existe plus. "
+-"Ainsi, seule la langue du système sera définie"
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
++msgstr ""
++"À cause du nettoyage comps, le groupe {0} a été supprimé et ses paquets de "
++"langues ne seront plus installés, définissant {1} comme langue par défaut du "
++"système."
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "Ok"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "Résolution des dépendances pour les mises à jour"
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+ msgstr "Erreur lors du téléchargement des en-têtes"
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+ msgstr ""
+ "Des erreurs ont été rencontrées lors du téléchargement des en-têtes de "
+ "paquet."
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+ msgstr "Erreur lors de la résolution des dépendances"
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+ msgstr ""
+ "Impossible de résoudre les dépendances pour certains paquets sélectionnés "
+ "pour l'installation."
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "Poursuivre"
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+ msgstr "Dépendances ajoutées"
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+@@ -98,39 +101,39 @@
+ "La mise à jour de ces paquets nécessite l'installation de paquets "
+ "supplémentaires."
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+ msgstr "Ajoutés pour dépendances : \n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+ msgstr "Suppression pour dépendances : \n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+ msgstr "Mise à jour pour dépendances : \n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+ msgstr "Erreur lors du téléchargement de paquets"
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+ msgstr "Téléchargement des paquets"
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "Impossible de trouver un miroir adapté."
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+ msgstr "Des erreurs ont été rencontrées lors du téléchargement des paquets."
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+ msgstr "Importer la clé ?"
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+@@ -139,24 +142,24 @@
+ "Le paquet %s est signé avec une clé %s (0x%s) à partir de %s. Souhaitez-vous "
+ "importer cette clé ?"
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+ msgstr "_Importation de la clé"
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+ msgstr "Vérification des paquets"
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+ msgstr "Impossible de vérifier %s"
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+ msgstr "_Fermer"
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+@@ -164,30 +167,30 @@
+ "Des logiciels malveillants peuvent endommager votre ordinateur ou causer "
+ "d'autres dommages. Êtes-vous sûr de vouloir installer ce paquet ?"
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+ msgstr "_Annuler"
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+ msgstr "_Installer quand même"
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+ msgstr "Erreur lors de la mise à jour du logiciel"
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+ msgstr ""
+ "Des erreurs ont été rencontrées en essayant de mettre à jour les logiciels "
+ "sélectionnés"
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "Mise à jour du logiciel"
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+@@ -195,18 +198,18 @@
+ " Erreur lors de l'installation des paquets de langues sélectionnés : "
+ "souhaitez-vous quand même installer la langue sans le bon support ?"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "Non"
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "Oui"
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "Sélection de la langue"
+ 
+@@ -244,17 +247,17 @@
+ "« Oui » va changer la langue, mais pas l'installer.\n"
+ "« Non » vous fera quitter sans changer la langue."
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+ msgstr ""
+ "La prise en charge linguistique n'est pas installée, voulez-vous l'installer "
+ "?"
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+ msgstr "Les changements ne seront effectifs qu'après un redémarrage."
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+ msgstr "Configuration par _défaut du système"
+ 
+@@ -293,6 +296,18 @@
+ msgid "Installing Confirm"
+ msgstr "Installation confirmée"
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr ""
++"comme la prise en charge de la langue a été supprimée de « comps » et "
++"n'existe plus, seule la langue par défaut du système sera définie."
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "Aucun groupe n'existe"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "Pas d'en-tête - étrange, non ?"
+diff -urN system-config-language-1.4.0/po/it.po system-config-language-1.4.0-new/po/it.po
+--- system-config-language-1.4.0/po/it.po	2017-02-13 14:42:48.509000000 +0530
++++ system-config-language-1.4.0-new/po/it.po	2017-02-13 14:44:35.958000000 +0530
+@@ -7,21 +7,22 @@
+ # Francesco Tombolini <tombo@adamantio.net>, 2006.
+ # Silvio Pierro <perplesso82@gmail.com>, 2009.
+ # Francesco Tombolini <tombo@adamantio.net>, 2009, 2012.
+-# fvalen <fvalen@redhat.com>, 2014. #zanata
++# Parag <pnemade@redhat.com>, 2016. #zanata
++# Terry Chuang <tchuang@redhat.com>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2014-01-02 06:12-0500\n"
+-"Last-Translator: fvalen <fvalen@redhat.com>\n"
++"PO-Revision-Date: 2016-09-01 05:32-0400\n"
++"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: American English <kde-i18n-doc@kde.org>\n"
+ "Language: it\n"
+ "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+-"X-Generator: Zanata 3.2.1\n"
++"X-Generator: Zanata 3.9.6\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -44,53 +45,54 @@
+ msgid "Connecting Yum database, please wait for a bit ..."
+ msgstr "Connessione al database Yum in corso, attendere prego..."
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
+-msgstr ""
+-"A causa della pulizia di comps è stato rimosso %s gruppo. Per questo motivo "
+-"è possibile impostare solo la lingua predefinita del sistema"
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
++msgstr ""
++"A causa della pulizia dei componenti, il gruppo {0} non esiste più e i "
++"pacchetti lingue non saranno installati. \n"
++"{1} verrà impostato come lingua predefinita del sistema."
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "Ok"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "Risoluzione delle dipendenze per gli aggiornamenti"
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+ msgstr "Errore nel download delle intestazioni"
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+ msgstr ""
+ "Sono stati riscontrati errori durante il download delle intestazioni dei "
+ "pacchetti."
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+ msgstr "Errore nella risoluzione delle dipendenze"
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+ msgstr ""
+ "Impossibile risolvere le dipendenze per alcuni pacchetti selezionati per "
+ "l'installazione."
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "Continua"
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+ msgstr "Dipendenze aggiunte"
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+@@ -98,39 +100,39 @@
+ "L'aggiornamento di questi pacchetti richiede cambiamenti nei pacchetti "
+ "aggiuntivi per operare correttamente."
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+ msgstr "Aggiunti per dipendenze:\n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+ msgstr "Rimozione per dipendenze:\n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+ msgstr "Aggiornamento per dipendenze:\n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+ msgstr "Errore nel download dei pacchetti"
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+ msgstr "Download dei pacchetti"
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "Impossibile trovare un mirror adeguato."
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+ msgstr "Si sono verificati degli errori durante il download dei pacchetti."
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+ msgstr "Importare chiave?"
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+@@ -139,24 +141,24 @@
+ "Il pacchetto %s è marcato da una chiave %s (0x%s) da %s.  Si desidera "
+ "importare questa chiave?"
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+ msgstr "_Importa chiave"
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+ msgstr "Verifica dei pacchetti"
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+ msgstr "Impossibile verificare %s"
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+ msgstr "_Chiudi"
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+@@ -164,30 +166,30 @@
+ "I software maliziosi possono danneggiare il computer o causare problemi.  Si "
+ "è sicuri di voler installare questo pacchetto?"
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+ msgstr "_Annulla"
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+ msgstr "_Installa comunque"
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+ msgstr "Errore nell'aggiornamento del software"
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+ msgstr ""
+ "Si sono verificati errori nel tentativo di aggiornare il software "
+ "selezionato"
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "Aggiornamento software"
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+@@ -196,18 +198,18 @@
+ "Desideri ancora installare la lingua desiderata senza il supporto "
+ "appropriato?"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "No"
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "Si"
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "Selezione della lingua"
+ 
+@@ -245,15 +247,15 @@
+ "'Si' cambierà la lingua ma non verrà installata.\n"
+ "'No' chiudi senza cambiare la lingua."
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+ msgstr " il supporto di lingua non è installato, si desidera installarlo?"
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+ msgstr "Le modifiche verranno implementate dopo il riavvio."
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+ msgstr "Systema _Predefiniti"
+ 
+@@ -292,6 +294,18 @@
+ msgid "Installing Confirm"
+ msgstr "Installazione Confirm"
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr ""
++"supporto lingua rimosso da 'comps' e assente; impostazione solo della lingua "
++"di sistema predefinita."
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "Non esistono gruppi"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "Nessuna intestazione - eh?"
+diff -urN system-config-language-1.4.0/po/ja.po system-config-language-1.4.0-new/po/ja.po
+--- system-config-language-1.4.0/po/ja.po	2017-02-13 14:42:48.510000000 +0530
++++ system-config-language-1.4.0-new/po/ja.po	2017-02-13 14:44:35.453000000 +0530
+@@ -8,22 +8,24 @@
+ # Noriko Mizumoto <noriko@redhat.com>, 2006.
+ # Kiyoto Hashida <khashida@redhat.com>, 2009.
+ # Hyu_gabaru Ryu_ichi <hyu_gabaru@yahoo.co.jp>, 2009, 2012.
+-# noriko <noriko@redhat.com>, 2014. #zanata
++# Aiko Sasaki <asasaki@redhat.com>, 2016. #zanata
++# Kenzo Moriguchi <kmoriguc@redhat.com>, 2016. #zanata
++# Parag <pnemade@redhat.com>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2014-01-05 05:24-0500\n"
+-"Last-Translator: noriko <noriko@redhat.com>\n"
++"PO-Revision-Date: 2016-08-19 02:14-0400\n"
++"Last-Translator: Aiko Sasaki <asasaki@redhat.com>\n"
+ "Language-Team: American English <kde-i18n-doc@kde.org>\n"
+ "Language: ja\n"
+-"Generated-By: pygettext.py 1.4\n"
+-"X-Generator: Zanata 3.2.1\n"
+ "Plural-Forms: Plural-Forms: nplurals=1; plural=0;\n"
++"Generated-By: pygettext.py 1.4\n"
++"X-Generator: Zanata 3.9.6\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -46,153 +48,155 @@
+ msgid "Connecting Yum database, please wait for a bit ..."
+ msgstr "Yum データベースに接続しています、少しお待ち下さい..."
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
+-msgstr "comps のクリーンアップにより %s グループは削除され存在しなくなりました。このため、デフォルトのシステム言語のみを設定しています。"
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
++msgstr ""
++"comps のクリーンアップにより {0} グループは存在しなくなったため、その言語パッケージはインストールされません。\n"
++"このため、デフォルトのシステム言語として  {1} のみを設定しています。"
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "OK"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "更新の依存関係を解決しています"
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+ msgstr "ヘッダーのダウンロードでエラー"
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+ msgstr "パッケージヘッダーのダウンロード中にエラーに遭遇しました。"
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+ msgstr "依存関係の解決中にエラー"
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+ msgstr "インストール用に選択されたパッケージの一部で依存関係を解決できません。"
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "続ける"
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+ msgstr "依存関係を追加しました"
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+ msgstr "これらのパッケージを更新する場合、 正常な動作を確保するため追加でパッケージ変更を必要とします。"
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+ msgstr "依存関係解決のため追加:\n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+ msgstr "依存関係解決のため削除:\n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+ msgstr "依存関係解決のため更新:\n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+ msgstr "パッケージのダウンロードでエラー"
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+ msgstr "パッケージのダウンロード中"
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "適切なミラーサーバーが見つかりません。"
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+ msgstr "パッケージのダウンロード中にエラーが発生しました。"
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+ msgstr "キーをインポートしますか？"
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+ "import this key?"
+ msgstr "パッケージ %s はキー %s (0x%s) (%s からの) で署名されています。 このキーをインポートしますか？"
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+ msgstr "キーをインポート（_I）"
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+ msgstr "パッケージを検証中"
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+ msgstr "%s を検証できません"
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+ msgstr "閉じる（_C）"
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+ msgstr "悪意のあるソフトウェアはご使用のコンピューターを破損したり、さまざまな障害の原因になります。 本当にこのパッケージをインストールしますか？"
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+ msgstr "取り消し(_C)"
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+ msgstr "とにかくインストールする（_I）"
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+ msgstr "ソフトウェアの更新でエラー"
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+ msgstr "選択されたソフトウェアの更新を試行中にエラーが発生しました"
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "ソフトウェアを更新中"
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+ msgstr "選択された言語パッケージのインストール中にエラーが発生しました。適切なサポートが得られませんが言語のインストールを続行しますか?"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "いいえ"
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "はい"
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "言語の選択"
+ 
+@@ -227,15 +231,15 @@
+ "「Yes」を選択すると言語は変更されますが、インストールは行われません。\n"
+ "「No」を選択すると言語を変更せずに終了します。"
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+ msgstr "言語サポートがインストールされていません、 インストールしますか？"
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+ msgstr "変更は再起動後に反映されます。"
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+ msgstr "システムの初期値 (_D)"
+ 
+@@ -274,6 +278,16 @@
+ msgid "Installing Confirm"
+ msgstr "インストールの確認"
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr "'comps' から言語サポートは削除され、存在しなくなりました。このため、デフォルトのシステム言語のみを設定しています。"
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "グループが存在しません"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "ヘッダーがありません"
+diff -urN system-config-language-1.4.0/po/ko.po system-config-language-1.4.0-new/po/ko.po
+--- system-config-language-1.4.0/po/ko.po	2017-02-13 14:42:48.510000000 +0530
++++ system-config-language-1.4.0-new/po/ko.po	2017-02-13 14:44:40.494000000 +0530
+@@ -6,22 +6,23 @@
+ # Michelle J Kim <mkim@redhat.com>, 2003.
+ # Eunju Kim <eukim@redhat.com>, 2006, 2009.
+ # Hyunsok Oh <hoh@redhat.com>, 2010, 2012.
+-# eukim <eukim@redhat.com>, 2014. #zanata
++# Eun-Ju Kim <eukim@redhat.com>, 2016. #zanata
++# Parag <pnemade@redhat.com>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2014-01-02 08:50-0500\n"
+-"Last-Translator: eukim <eukim@redhat.com>\n"
++"PO-Revision-Date: 2016-08-22 02:45-0400\n"
++"Last-Translator: Eun-Ju Kim <eukim@redhat.com>\n"
+ "Language-Team: American English <kde-i18n-doc@kde.org>\n"
+ "Language: ko\n"
+-"Generated-By: pygettext.py 1.4\n"
+-"X-Generator: Zanata 3.2.1\n"
+ "Plural-Forms: nplurals=1; plural=0;\n"
++"Generated-By: pygettext.py 1.4\n"
++"X-Generator: Zanata 3.9.6\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -44,154 +45,156 @@
+ msgid "Connecting Yum database, please wait for a bit ..."
+ msgstr "Yum 데이터베이스에 연결하고 있습니다. 잠시만 기다려 주십시오 ...   "
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
+-msgstr "comps 삭제로 인해 %s 그룹이 제거되어 더이상 존재하지 않습니다. 따라서 기본 시스템 언어만을 설정합니다 "
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
++msgstr ""
++"comps 정리로 인해 {0} 그룹이 더이상 존재하지 않아 해당 언어 패키지가 설치되지 않습니다. \n"
++"따라서 기본 시스템 언어로 {1}만 설정합니다."
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "확인"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "업데이트의 의존성 문제를 해결하고 있습니다  "
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+ msgstr "헤더 다운로드 중 오류  "
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+ msgstr "패키지 헤더를 다운로드하는 중 오류가 발생했습니다.  "
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+ msgstr "의존성 문제를 해결하는 도중 오류  "
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+ msgstr "설치를 위해 선택한 일부 패키지의 의존성 문제를 해결할 수 없습니다.  "
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "계속  "
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+ msgstr "의존성을 추가했습니다  "
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+ msgstr "이 패키지의 업데이트에서는 정상적인 가동을 위해 추가 패키지 변경이 필요합니다. "
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+ msgstr "의존성 추가:\n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+ msgstr "의존성 제거:\n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+ msgstr "의존성 업데이트:\n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+ msgstr "패키지 다운로드 중 오류  "
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+ msgstr "패키지 다운로드 중  "
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "적합한 미러를 찾을 수 없습니다.  "
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+ msgstr "패키지를 다운로드하는 도중 오류가 발생하였습니다.  "
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+ msgstr "키를 가져오시겠습니까?  "
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+ "import this key?"
+ msgstr "%s 패키지는 키 %s (0x%s)로 %s에 서명되어 있습니다. 이 키를 가져오시겠습니까?  "
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+ msgstr "키 가져오기(_I)  "
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+ msgstr "패키지 확인 중  "
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+ msgstr "%s을(를) 확인할 수 없음  "
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+ msgstr "닫기(_C)  "
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+ msgstr ""
+ "악성 소프트웨어는 사용자의 컴퓨터를 손상시키거나 또는 다른 문제의 원인이 될 수 있습니다. 정말로 이 패키지를 설치하시겠습니까?  "
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+ msgstr "취소(_C)  "
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+ msgstr "어쨌든 설치(_I)  "
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+ msgstr "소프트웨어 업데이트 중 오류  "
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+ msgstr "선택하신 소프트웨어를 업데이트하려는 도중 오류가 발생하였습니다  "
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "소프트웨어 업데이트 중  "
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+ msgstr "선택한 언어 패키지를 설치하는 도중 오류가 발생했습니다: 적절한 지원없이 언어를 설치하시겠습니까?"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "아니오  "
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "예  "
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "언어 선택"
+ 
+@@ -225,15 +228,15 @@
+ "'Yes' 선택은 언어를 변경하지만 이를 설치하지 않습니다.\n"
+ "'No' 선택은 언어를 변경하지 않고 종료합니다. "
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+ msgstr "언어 지원이 설치되어 있지 않습니다. 설치하겠습니까?  "
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+ msgstr "변경 사항은 컴퓨터를 다시 시작한 다음에 적용됩니다."
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+ msgstr "시스템 기본값(_D)  "
+ 
+@@ -272,6 +275,16 @@
+ msgid "Installing Confirm"
+ msgstr "설치 확인  "
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr "언어 지원이 'comps'에서 삭제되어 더이상 존재하지 않습니다. 기본 시스템 언어만을 설정합니다 "
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "그룹이 존재하지 않습니다"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "헤더 없음"
+diff -urN system-config-language-1.4.0/po/pt_BR.po system-config-language-1.4.0-new/po/pt_BR.po
+--- system-config-language-1.4.0/po/pt_BR.po	2017-02-13 14:42:48.512000000 +0530
++++ system-config-language-1.4.0-new/po/pt_BR.po	2017-02-13 14:44:38.157000000 +0530
+@@ -11,23 +11,23 @@
+ # Valnir Ferreira Jr. <vferreir@redhat.com>, 2006.
+ # Igor Pires Soares <igor@projetofedora.org>, 2006,2009.
+ # Glaucia Cintra <gcintra@redhat.com>, 2012.
+-# gcintra <gcintra@redhat.com>, 2014. #zanata
++# Daniel Lara <danniel@fedoraproject.org>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2014-01-03 01:22-0500\n"
+-"Last-Translator: gcintra <gcintra@redhat.com>\n"
++"PO-Revision-Date: 2016-07-26 09:43-0400\n"
++"Last-Translator: Daniel Lara <danniel@fedoraproject.org>\n"
+ "Language-Team: American English <kde-i18n-doc@kde.org>\n"
+ "Language: pt-BR\n"
+ "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+-"X-Poedit-Language: Portuguese\n"
++"X-Generator: Zanata 3.9.6\n"
+ "X-Poedit-Country: BRAZIL\n"
+-"X-Generator: Zanata 3.2.1\n"
++"X-Poedit-Language: Portuguese\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -50,51 +50,52 @@
+ msgid "Connecting Yum database, please wait for a bit ..."
+ msgstr "Conectando ao banco de dados do Yum, por favor aguarde um momento..."
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
+-msgstr ""
+-"Devido à limpeza de comps %s grupo foi removido e não existe mais. Portanto, "
+-"somente configurar o idioma do sistema padrão"
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
++msgstr ""
++"Devido às composições de limpeza, {0} grupo já não existe e seus pacotes de "
++"idiomas e não será instalado.\n"
++"Portanto, somente a configuração {1} como o idioma padrão do sistema."
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "Ok"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "Resolvendo dependências para atualizações"
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+ msgstr "Erro ao baixar cabeçalhos"
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+ msgstr "Foram encontrados erros ao baixar os cabeçalhos dos pacotes"
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+ msgstr "Erro ao resolver dependências"
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+ msgstr ""
+ "Não foi possível resolver as dependências para alguns pacotes selecionados "
+ "para instalação."
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "Continuar"
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+ msgstr "Dependências adicionadas"
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+@@ -102,39 +103,39 @@
+ "A atualização destes pacotes requer alterações adicionais de pacotes para o "
+ "funcionamento apropriado."
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+ msgstr "Adicionando para as dependências:\n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+ msgstr "Removendo para as dependências:\n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+ msgstr "Atualizando para as dependências:\n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+ msgstr "Erro ao baixar pacotes"
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+ msgstr "Baixando pacotes"
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "Não foi possível localizar um espelho apropriado."
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+ msgstr "Erros foram encontrados ao baixar os pacotes."
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+ msgstr "Importar a chave?"
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+@@ -143,24 +144,24 @@
+ "O pacote %s está assinado com a chave %s (0x%s) a partir de %s. Você "
+ "gostaria de importar esta chave?"
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+ msgstr "_Importar chave"
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+ msgstr "Verificando pacotes"
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+ msgstr "Não foi possível verificar %s"
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+ msgstr "_Fechar"
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+@@ -168,29 +169,29 @@
+ "Programas maliciosos podem causar danos ao seu computador ou causar outros "
+ "prejuízos. Você tem certeza que deseja instalar este pacote?"
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+ msgstr "_Cancelar"
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+ msgstr "_Instalar mesmo assim"
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+ msgstr "Erro ao atualizar os programas"
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+ msgstr ""
+ "Erros foram encontrados ao tentar atualizar os programas que você selecionou"
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "Atualizando programas"
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+@@ -198,18 +199,18 @@
+ "Erro ao instalar pacotes de Idiomas Selecionados: Você ainda deseja instalar "
+ "o idioma sem suporte adequado?"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "Não"
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "Sim"
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "Seleção de Idioma"
+ 
+@@ -247,15 +248,15 @@
+ "\"Sim\" alterará o idioma mas não o instalará.\n"
+ "\"Não\" sairá sem alterar o idioma."
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+ msgstr " o suporte a idiomas não está instalado, você deseja instalá-lo?"
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+ msgstr "As mudanças serão efetuadas após a reinicialização."
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+ msgstr "Pa_drão do sistema"
+ 
+@@ -294,6 +295,18 @@
+ msgid "Installing Confirm"
+ msgstr "Confirmação da instalação"
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr ""
++"o suporte a idiomas foi removido do 'comps' e não existe mais, portanto "
++"definindo apenas o idioma padrão do sistema."
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "Não existe grupo algum"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "Sem cabeçalho - huh?"
+diff -urN system-config-language-1.4.0/po/ru.po system-config-language-1.4.0-new/po/ru.po
+--- system-config-language-1.4.0/po/ru.po	2017-02-13 14:42:48.512000000 +0530
++++ system-config-language-1.4.0-new/po/ru.po	2017-02-13 14:44:39.791000000 +0530
+@@ -6,23 +6,25 @@
+ # Leonid Kanter <leon@asplinux.ru>, 2004.
+ # Yulia Poyarkova <ypoyarko@redhat.com>, 2006, 2012.
+ # Yulia Poyarkova <yulia.poyarkova@redhat.com>, 2009.
+-# ypoyarko <ypoyarko@redhat.com>, 2013. #zanata
++# Parag <pnemade@redhat.com>, 2016. #zanata
++# Terry Chuang <tchuang@redhat.com>, 2016. #zanata
++# yuliya <ypoyarko@redhat.com>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2013-12-28 04:28-0500\n"
+-"Last-Translator: ypoyarko <ypoyarko@redhat.com>\n"
++"PO-Revision-Date: 2016-09-01 06:27-0400\n"
++"Last-Translator: Copied by Zanata <copied-by-zanata@zanata.org>\n"
+ "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+ "Language: ru\n"
+-"Generated-By: pygettext.py 1.4\n"
+-"X-Generator: Zanata 3.2.1\n"
+ "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+ "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
++"Generated-By: pygettext.py 1.4\n"
++"X-Generator: Zanata 3.9.6\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -45,49 +47,50 @@
+ msgid "Connecting Yum database, please wait for a bit ..."
+ msgstr "Выполняется подключение к базе данных YUM. Пожалуйста, подождите..."
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
+ msgstr ""
+-"Группа %s была удалена в процессе очистки comps, поэтому будет выбран "
+-"стандартный язык."
++"Из-за очистки comps группа {0} больше не существует и ее языковые пакеты не "
++"будут установлены. \n"
++"Только {1} будет установлен как язык системы по умолчанию."
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "OK"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "Разрешаются зависимости для обновлений"
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+ msgstr "Ошибка загрузки заголовков"
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+ msgstr "Произошли ошибки при загрузке заголовков пакетов."
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+ msgstr "Ошибка разрешения зависимостей"
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+ msgstr "Не удалось разрешить зависимости выбранных для установки пакетов."
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "Продолжить"
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+ msgstr "Добавлены зависимости"
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+@@ -95,63 +98,63 @@
+ "При обновлении этих пакетов потребуется дополнительно их изменить, чтобы "
+ "сохранить их функциональность."
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+ msgstr "Добавление зависимостей:\n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+ msgstr "Удаление зависимостей:\n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+ msgstr "Обновление зависимостей:\n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+ msgstr "Ошибка при загрузке пакетов"
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+ msgstr "Загружаются пакеты"
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "Не удалось найти подходящее зеркало."
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+ msgstr "Произошли ошибки в процессе загрузки пакетов."
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+ msgstr "Импортировать ключ?"
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+ "import this key?"
+ msgstr "Пакет %s подписан ключом %s (0x%s) из %s. Импортировать этот ключ?"
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+ msgstr "_Импорт ключа"
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+ msgstr "Проверка пакетов"
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+ msgstr "Не удалось проверить %s"
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+ msgstr "_Закрыть"
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+@@ -159,28 +162,28 @@
+ "Вредоносные программы могут повредить компьютер и нарушить его работу. Вы "
+ "действительно хотите установить этот пакет?"
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+ msgstr "_Отмена"
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+ msgstr "_Установить всё равно"
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+ msgstr "Ошибка обновления программы"
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+ msgstr "Произошли ошибки при обновлении выбранного ПО"
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "Обновление программ"
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+@@ -188,18 +191,18 @@
+ " Ошибка при установке пакетов для выбранного языка. Продолжить установку "
+ "языка без необходимой поддержки?"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "Нет"
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "Да"
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "Выбор языка"
+ 
+@@ -232,15 +235,15 @@
+ "Выберите «Да», чтобы изменить язык, но не устанавливать его.\n"
+ "Выберите «Нет», чтобы выйти без сохранения изменений."
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+ msgstr " язык не установлен. Установить?"
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+ msgstr "Изменения вступят в силу после перезагрузки."
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+ msgstr "По _умолчанию"
+ 
+@@ -279,6 +282,18 @@
+ msgid "Installing Confirm"
+ msgstr "Подтвердите установку"
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr ""
++"поддержка была удалена из comps, поэтому будет выбран язык системы по "
++"умолчанию."
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "Нет групп"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "Отсутствует заголовок!"
+diff -urN system-config-language-1.4.0/po/.zanata-cache/etag-cache.xml system-config-language-1.4.0-new/po/.zanata-cache/etag-cache.xml
+--- system-config-language-1.4.0/po/.zanata-cache/etag-cache.xml	1970-01-01 05:30:00.000000000 +0530
++++ system-config-language-1.4.0-new/po/.zanata-cache/etag-cache.xml	2017-02-13 14:44:40.510000000 +0530
+@@ -0,0 +1,13 @@
++<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
++<etag-cache>
++    <entry lang="zh-CN" localFileMD5="8be80c403398c63b52117d630b1cb4ad" localFileName="system-config-language" localFileTime="1486977274000" serverETag="&quot;2016-08-18 00:07:14.0&quot;"/>
++    <entry lang="ja" localFileMD5="4a9b6d96cfefdf95a3af0ed8152cbceb" localFileName="system-config-language" localFileTime="1486977275000" serverETag="&quot;2016-08-19 02:14:02.0&quot;"/>
++    <entry lang="it" localFileMD5="8511b42b2dd50f800a85480eb7884db6" localFileName="system-config-language" localFileTime="1486977275000" serverETag="&quot;2016-09-01 05:32:48.0&quot;"/>
++    <entry lang="fr" localFileMD5="ae41064dca8478bb4f6f41722137f438" localFileName="system-config-language" localFileTime="1486977276000" serverETag="&quot;2016-08-21 21:45:08.0&quot;"/>
++    <entry lang="es" localFileMD5="b7961c82c4718f63f065291997f355ce" localFileName="system-config-language" localFileTime="1486977276000" serverETag="&quot;2016-08-29 13:39:08.0&quot;"/>
++    <entry lang="zh-TW" localFileMD5="56563cf2dca48637baccc755e023969e" localFileName="system-config-language" localFileTime="1486977277000" serverETag="&quot;2016-08-25 22:39:38.0&quot;"/>
++    <entry lang="pt-BR" localFileMD5="f8c87f84155e8a241fa4dbd6561816b0" localFileName="system-config-language" localFileTime="1486977278000" serverETag="&quot;2016-07-26 09:43:59.0&quot;"/>
++    <entry lang="de" localFileMD5="c5931f4ec686d2a643d5d60aec32a702" localFileName="system-config-language" localFileTime="1486977278000" serverETag="&quot;2016-08-24 01:20:32.0&quot;"/>
++    <entry lang="ru" localFileMD5="30774a739c4efe9794ea72103ac8265c" localFileName="system-config-language" localFileTime="1486977279000" serverETag="&quot;2016-09-01 06:27:50.0&quot;"/>
++    <entry lang="ko" localFileMD5="9445d3f5c882bd207e806bbaed25f944" localFileName="system-config-language" localFileTime="1486977280000" serverETag="&quot;2016-08-22 02:45:23.0&quot;"/>
++</etag-cache>
+diff -urN system-config-language-1.4.0/po/zanata.xml system-config-language-1.4.0-new/po/zanata.xml
+--- system-config-language-1.4.0/po/zanata.xml	1970-01-01 05:30:00.000000000 +0530
++++ system-config-language-1.4.0-new/po/zanata.xml	2017-02-13 14:44:19.197000000 +0530
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
++<config xmlns="http://zanata.org/namespace/config/">
++  <url>https://fedora.zanata.org/</url>
++  <project>system-config-language</project>
++  <project-version>rhel-7.3.0</project-version>
++  <project-type>gettext</project-type>
++</config>
+diff -urN system-config-language-1.4.0/po/zh_CN.po system-config-language-1.4.0-new/po/zh_CN.po
+--- system-config-language-1.4.0/po/zh_CN.po	2017-02-13 14:42:48.513000000 +0530
++++ system-config-language-1.4.0-new/po/zh_CN.po	2017-02-13 14:44:34.920000000 +0530
+@@ -6,22 +6,24 @@
+ # Chester Cheng <ccheng@redhat.com>, 2006.
+ # Terry Chuang <tchuang@redhat.com>, 2009.
+ # Tom K. C. Chiu <tomchiukc@gmail.com>, 2009.
+-# Leah Liu <lliu@redhat.com>, 2014. #zanata
++# Leah Liu <lliu@redhat.com>, 2016. #zanata
++# Parag <pnemade@redhat.com>, 2016. #zanata
++# mosquito <sensor.wen@gmail.com>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2014-01-01 06:45-0500\n"
++"PO-Revision-Date: 2016-08-18 12:07-0400\n"
+ "Last-Translator: Leah Liu <lliu@redhat.com>\n"
+ "Language-Team: <zh@li.org>\n"
+ "Language: zh-CN\n"
+-"Generated-By: pygettext.py 1.4\n"
+-"X-Generator: Zanata 3.2.1\n"
+ "Plural-Forms: Plural-Forms: nplurals=1; plural=0;\n"
++"Generated-By: pygettext.py 1.4\n"
++"X-Generator: Zanata 3.9.6\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -42,155 +44,156 @@
+ 
+ #: ../src/gui_install.py:74
+ msgid "Connecting Yum database, please wait for a bit ..."
+-msgstr "正在与 Yum 数据库进行连接，请稍等..."
++msgstr "正在连接 Yum 数据库，请稍候..."
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
+-msgstr "由于已删除 comps cleanup %s 组，且该组已不存在，所以只能设置默认语言。"
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
++msgstr "由于已删除 comps 组，{0} 组已不存在，且不会安装器语言软件包。 \n"
++"因此只将 {1} 设定为默认系统语言。"
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "确认"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "正在解析更新的依赖性"
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+-msgstr "下载标头时发生错误"
++msgstr "下载标头时出错"
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+-msgstr "下载组件标头时发生了错误。"
++msgstr "下载软件包标头时出错。"
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+-msgstr "解析依赖性时发生了错误"
++msgstr "解析依赖性时出错"
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+-msgstr "不能解析某些欲装载组件的依赖性。"
++msgstr "无法为某些要安装的软件包解决相依性。"
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "继续"
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+-msgstr "新增了依赖性"
++msgstr "已添加的相依性"
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+-msgstr "若要更新这些组件，您需要额外的组件更改才可正常作业。"
++msgstr "更新这些软件包要求有额外的软件包更改以便正常工作。"
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+-msgstr "依赖性新增：\n"
++msgstr "正在添加相依性：\n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+-msgstr "依赖性删除：\n"
++msgstr "正在删除相依性：\n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+-msgstr "依赖性更新：\n"
++msgstr "正在更新相依性：\n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+-msgstr "下载组件时发生了错误"
++msgstr "下载软件包出错"
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+-msgstr "正在下载组件"
++msgstr "正在下载软件包"
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "找不到适合的镜像。"
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+-msgstr "下载组件时发生了错误。"
++msgstr "下载软件包时出错。"
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+-msgstr "是否要输入金钥？"
++msgstr "是否要导入密钥？"
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+ "import this key?"
+-msgstr "%s 组件已签署了来自於 %s 的 %s 金钥（0x%s）。您是否希望输入此金钥？"
++msgstr "已使用 %s 中的密钥 %s (0x%s) 签署该软件包。是否要导入这个密钥？"
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+-msgstr "导入密钥(_I)"
++msgstr "导入密钥（_I）"
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+-msgstr "验证组件"
++msgstr "验证软件包"
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+-msgstr "不能验证 %s"
++msgstr "无法验证 %s"
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+-msgstr "关闭(_C)"
++msgstr "关闭（_C）"
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+-msgstr "有害的软件可损坏您的计算机或造成其它伤害。您是否确定要装载此组件？"
++msgstr "恶意软件可损坏您的计算机或造成其他损失。您是否确定要安装这个软件包？"
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+-msgstr "取消(_C)"
++msgstr "取消（_C）"
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+-msgstr "无论如何都装载(_I)"
++msgstr "无论如何都装载（_I）"
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+-msgstr "更新软件时发生了错误"
++msgstr "更新软件时出错"
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+-msgstr "尝试更新您所选择的软件时发生了错误"
++msgstr "尝试更新您所选择的软件时出错"
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "正在更新软件"
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+-msgstr "安装所选语言软件包出错：您仍想要安装语言而不是寻求帮助吗？"
++msgstr "安装所选语言软件包出错：您仍想要安装没有可靠支持的语言？"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "否"
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "是"
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "语言选择"
+ 
+@@ -201,8 +204,8 @@
+ #: ../src/language_gui.py:210
+ msgid "Already system in default language,\n"
+ "Nothing to do."
+-msgstr "系统已使用默认的语言，\n"
+-"无须执行任何动作。"
++msgstr "系统已使用默认语言，\n"
++"无须进行任何操作。"
+ 
+ #: ../src/language_gui.py:216
+ msgid "Do you really want to change system language to default [en_US]?"
+@@ -212,28 +215,28 @@
+ msgid ""
+ "system-config-language is a graphical user interface that allows the user to "
+ "change the default language of the system."
+-msgstr "system-config-language 是个让用户能够更改系统缺省语言的图形化用户界面。"
++msgstr "system-config-language 是个让用户能够更改系统默认语言的图形化用户界面。"
+ 
+ #: ../src/language_gui.py:267 ../src/language_tui.py:69
+ msgid ""
+ "The Network or the Repos of Yum has some problems, do you want to continue?\n"
+ "'Yes' will change the language but not install it.\n"
+ "'No' will exit without changing the language."
+-msgstr "Yum 的网络或软件库发生了一些问题，您是否希望继续进行？\n"
+-"「是」将会更改语言，不过不会装载它。\n"
++msgstr "Yum 的网络或存储库发生了一些问题，您是否希望继续进行？\n"
++"「是」将会更改语言，不过不会安装它。\n"
+ "「否」将会在不更改语言的情况下退出。"
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+-msgstr " 尚未装载语言支持，您是否希望装载它？"
++msgstr " 尚未安装语言支持，您是否希望装载它？"
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+-msgstr "重启后更改会生效。"
++msgstr "所做修改会在重启后生效。"
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+-msgstr "系统缺省值(_D)"
++msgstr "系统默认值（_D）"
+ 
+ #: ../src/system-config-language.py:45
+ msgid "Usage: system-config-language [--text]\n"
+@@ -242,7 +245,7 @@
+ #. Gui can't be started for some reason, so use text mode
+ #: ../src/system-config-language.py:68
+ msgid "Starting graphical mode failed.  Starting text mode instead."
+-msgstr "启动图形模式失败。启动文档模式。"
++msgstr "启动图形模式失败，转为启动文本模式。"
+ 
+ #: ../src/gui_progress.py:60
+ msgid "Preparing transaction"
+@@ -256,11 +259,11 @@
+ #: ../src/gui_progress.py:108
+ #, python-format
+ msgid "Cleanup %s"
+-msgstr "正在清理 %s"
++msgstr "清理 %s"
+ 
+ #: ../src/language_backend.py:95
+ msgid "Cannot find locale-list"
+-msgstr "无法找到语区列表"
++msgstr "无法找到区域列表"
+ 
+ #: ../src/language_tui.py:44
+ msgid "Select the language for the system."
+@@ -270,6 +273,16 @@
+ msgid "Installing Confirm"
+ msgstr "安装确认"
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr "由于语言支持已从 'comps' 组删除，且该组已不存在，所以只能设置为系统默认语言。"
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "组不存在"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "没有标头"
+diff -urN system-config-language-1.4.0/po/zh_TW.po system-config-language-1.4.0-new/po/zh_TW.po
+--- system-config-language-1.4.0/po/zh_TW.po	2017-02-13 14:42:48.513000000 +0530
++++ system-config-language-1.4.0-new/po/zh_TW.po	2017-02-13 14:44:37.568000000 +0530
+@@ -5,23 +5,24 @@
+ # Ben Wu <hpwu@redhat.com>, 2002, 2003.
+ # Chester Cheng <ccheng@redhat.com>, 2006.
+ # Terry Chuang <tchuang@redhat.com>, 2009, 2012.
+-# ccheng <ccheng@redhat.com>, 2014. #zanata
+-# tchuang <tchuang@redhat.com>, 2014. #zanata
++# Chester Cheng <snowlet.cheng@gmail.com>, 2016. #zanata
++# Parag <pnemade@redhat.com>, 2016. #zanata
++# Terry Chuang <tchuang@redhat.com>, 2016. #zanata
+ msgid ""
+ msgstr ""
+ "Project-Id-Version: system-config-language\n"
+ "Report-Msgid-Bugs-To: \n"
+-"POT-Creation-Date: 2013-12-27 11:20+0530\n"
++"POT-Creation-Date: 2016-02-12 10:57+0530\n"
+ "MIME-Version: 1.0\n"
+ "Content-Type: text/plain; charset=UTF-8\n"
+ "Content-Transfer-Encoding: 8bit\n"
+-"PO-Revision-Date: 2014-01-06 05:40-0500\n"
+-"Last-Translator: tchuang <tchuang@redhat.com>\n"
++"PO-Revision-Date: 2016-08-25 10:39-0400\n"
++"Last-Translator: Terry Chuang <tchuang@redhat.com>\n"
+ "Language-Team: Chinese Traditional <kde-i18n-doc@kde.org>\n"
+ "Language: zh-TW\n"
+-"Generated-By: pygettext.py 1.4\n"
+-"X-Generator: Zanata 3.2.1\n"
+ "Plural-Forms: Plural-Forms: nplurals=1; plural=0;\n"
++"Generated-By: pygettext.py 1.4\n"
++"X-Generator: Zanata 3.9.6\n"
+ 
+ #: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+ msgid "Language"
+@@ -44,153 +45,154 @@
+ msgid "Connecting Yum database, please wait for a bit ..."
+ msgstr "正在與 Yum 資料庫進行連線，請稍等..."
+ 
+-#: ../src/gui_install.py:91
+-#, python-format
++#: ../src/gui_install.py:93
+ msgid ""
+-"Due to comps cleanup %s group got removed and no longer exists. Therefore "
+-"only setting the default system language"
+-msgstr "因為 comps 清理 %s 群組被移除，不復存在。因此只設定預設系統語言。"
++"Due to comps cleanup, {0} group no longer exists and its language packages "
++"will not be installed. \n"
++"Therefore only setting {1} as the default system language."
++msgstr "基於 comps 清理，{0} 群組已不復存在，並且其語言套件將不會被安裝。 \n"
++"因此僅會將 {1} 設為預設的系統語言。"
+ 
+-#: ../src/gui_install.py:95
++#: ../src/gui_install.py:97
+ msgid "Ok"
+ msgstr "確定"
+ 
+-#: ../src/gui_install.py:140
++#: ../src/gui_install.py:142
+ msgid "Resolving dependencies for updates"
+ msgstr "正在解析更新的相依性"
+ 
+-#: ../src/gui_install.py:156
++#: ../src/gui_install.py:158
+ msgid "Error downloading headers"
+ msgstr "下載標頭時發生錯誤"
+ 
+-#: ../src/gui_install.py:157
++#: ../src/gui_install.py:159
+ msgid "Errors were encountered while downloading package headers."
+ msgstr "下載套件標頭時發生了錯誤。"
+ 
+-#: ../src/gui_install.py:170
++#: ../src/gui_install.py:172
+ msgid "Error resolving dependencies"
+ msgstr "解析相依性時發生了錯誤"
+ 
+-#: ../src/gui_install.py:171
++#: ../src/gui_install.py:173
+ msgid ""
+ "Unable to resolve dependencies for some packages selected for installation."
+ msgstr "無法解析某些欲安裝套件的相依性。"
+ 
+-#: ../src/gui_install.py:185
++#: ../src/gui_install.py:187
+ msgid "Continue"
+ msgstr "繼續"
+ 
+-#: ../src/gui_install.py:186
++#: ../src/gui_install.py:188
+ msgid "Dependencies added"
+ msgstr "新增了相依性"
+ 
+-#: ../src/gui_install.py:187
++#: ../src/gui_install.py:189
+ msgid ""
+ "Updating these packages requires additional package changes for proper "
+ "operation."
+ msgstr "若要更新這些套件，您需要額外的套件變更才可正常作業。"
+ 
+-#: ../src/gui_install.py:196
++#: ../src/gui_install.py:198
+ msgid "Adding for dependencies:\n"
+ msgstr "相依性新增：\n"
+ 
+-#: ../src/gui_install.py:197
++#: ../src/gui_install.py:199
+ msgid "Removing for dependencies:\n"
+ msgstr "相依性移除：\n"
+ 
+-#: ../src/gui_install.py:198
++#: ../src/gui_install.py:200
+ msgid "Updating for dependencies:\n"
+ msgstr "相依性更新：\n"
+ 
+-#: ../src/gui_install.py:251
++#: ../src/gui_install.py:253
+ msgid "Error downloading packages"
+ msgstr "下載套件時發生了錯誤"
+ 
+-#: ../src/gui_install.py:264
++#: ../src/gui_install.py:266
+ msgid "Downloading packages"
+ msgstr "正在下載套件"
+ 
+-#: ../src/gui_install.py:274
++#: ../src/gui_install.py:276
+ msgid "Unable to find a suitable mirror."
+ msgstr "找不到適合的鏡像。"
+ 
+-#: ../src/gui_install.py:287
++#: ../src/gui_install.py:289
+ msgid "Errors were encountered while downloading packages."
+ msgstr "下載套件時發生了錯誤。"
+ 
+-#: ../src/gui_install.py:303
++#: ../src/gui_install.py:305
+ msgid "Import key?"
+ msgstr "是否要匯入金鑰？"
+ 
+-#: ../src/gui_install.py:304
++#: ../src/gui_install.py:306
+ #, python-format
+ msgid ""
+ "The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+ "import this key?"
+ msgstr "%s 套件已簽署了來自於 %s 的 %s 金鑰（0x%s）。您是否希望匯入此金鑰？"
+ 
+-#: ../src/gui_install.py:309
++#: ../src/gui_install.py:311
+ msgid "_Import key"
+ msgstr "匯入金鑰(_I)"
+ 
+-#: ../src/gui_install.py:320
++#: ../src/gui_install.py:322
+ msgid "Verifying packages"
+ msgstr "驗證套件"
+ 
+-#: ../src/gui_install.py:340
++#: ../src/gui_install.py:342
+ #, python-format
+ msgid "Unable to verify %s"
+ msgstr "無法驗證 %s"
+ 
+-#: ../src/gui_install.py:345
++#: ../src/gui_install.py:347
+ msgid "_Close"
+ msgstr "關閉(_C)"
+ 
+-#: ../src/gui_install.py:347
++#: ../src/gui_install.py:349
+ msgid ""
+ "Malicious software can damage your computer or cause other harm.  Are you "
+ "sure you wish to install this package?"
+ msgstr "有害的軟體可損壞您的電腦或造成其它傷害。您是否確定要安裝此套件？"
+ 
+-#: ../src/gui_install.py:351
++#: ../src/gui_install.py:353
+ msgid "_Cancel"
+ msgstr "取消(_C)"
+ 
+-#: ../src/gui_install.py:353
++#: ../src/gui_install.py:355
+ msgid "_Install anyway"
+ msgstr "照樣安裝(_I)"
+ 
+-#: ../src/gui_install.py:367
++#: ../src/gui_install.py:369
+ msgid "Error updating software"
+ msgstr "更新軟體時發生了錯誤"
+ 
+-#: ../src/gui_install.py:368
++#: ../src/gui_install.py:370
+ msgid ""
+ "There were errors encountered in trying to update the software you selected"
+ msgstr "嘗試更新您所選擇的軟體時發生了錯誤"
+ 
+-#: ../src/gui_install.py:375
++#: ../src/gui_install.py:377
+ msgid "Updating software"
+ msgstr "正在更新軟體"
+ 
+-#: ../src/gui_install.py:407
++#: ../src/gui_install.py:409
+ msgid ""
+ " Error installing Selected Language packages: Do you still want to install "
+ "language without proper support?"
+ msgstr "安裝選擇的語言套件時發生了錯誤：您是否希望在無正確支援的情況下，繼續安裝語言？"
+ 
+-#: ../src/gui_install.py:411 ../src/language_gui.py:221
+-#: ../src/language_gui.py:273 ../src/language_gui.py:307
++#: ../src/gui_install.py:413 ../src/language_gui.py:221
++#: ../src/language_gui.py:273 ../src/language_gui.py:308
+ msgid "No"
+ msgstr "否"
+ 
+-#: ../src/gui_install.py:412 ../src/language_gui.py:222
+-#: ../src/language_gui.py:274 ../src/language_gui.py:308
++#: ../src/gui_install.py:414 ../src/language_gui.py:222
++#: ../src/language_gui.py:274 ../src/language_gui.py:309
+ msgid "Yes"
+ msgstr "是"
+ 
+ #: ../src/language_gui.py:58 ../src/language_gui.py:72
+-#: ../src/language_gui.py:392 ../src/language_tui.py:47
++#: ../src/language_gui.py:393 ../src/language_tui.py:47
+ msgid "Language Selection"
+ msgstr "選擇語言"
+ 
+@@ -223,15 +225,15 @@
+ "「是」將會更改語言不過不會安裝它。\n"
+ "「否」將會在不更改語言的情況下退出。"
+ 
+-#: ../src/language_gui.py:299 ../src/language_tui.py:89
++#: ../src/language_gui.py:300 ../src/language_tui.py:89
+ msgid " language support is not installed, do you want to install it?"
+ msgstr " 尚未安裝語言支援，您是否希望安裝它？"
+ 
+-#: ../src/language_gui.py:335
++#: ../src/language_gui.py:336
+ msgid "The changes will take effect after reboot."
+ msgstr "變更將會在重新開機後生效。"
+ 
+-#: ../src/language_gui.py:407
++#: ../src/language_gui.py:408
+ msgid "System _Defaults"
+ msgstr "系統預設值(_D)"
+ 
+@@ -270,6 +272,16 @@
+ msgid "Installing Confirm"
+ msgstr "安裝確認"
+ 
++#: ../src/language_tui.py:107
++msgid ""
++" language support is removed from 'comps' and it no longer exists, setting "
++"only the default system language."
++msgstr "語言支援已經從「comps」移除，不復存在，僅設定預設的系統語言。"
++
++#: ../src/language_tui.py:113
++msgid "No group exists"
++msgstr "群組不存在"
++
+ #: ../src/tui_install.py:131
+ msgid "No header - huh?"
+ msgstr "沒有標頭"

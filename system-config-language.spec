@@ -1,7 +1,7 @@
 Summary:  A graphical interface for modifying the system language
 Name:     system-config-language
 Version:  1.4.0
-Release:  7%{?dist}
+Release:  9%{?dist}
 URL:      https://fedorahosted.org/system-config-language/
 Source0:  https://fedorahosted.org/releases/s/y/system-config-language/%{name}-%{version}.tar.bz2
 #https://bugzilla.redhat.com/show_bug.cgi?id=1040298
@@ -17,6 +17,9 @@ Patch4:   %{name}-%{version}-translation-updates.patch
 Patch5:   %{name}-%{version}-update-po-headers.patch
 #https://bugzilla.redhat.com/show_bug.cgi?id=1328068
 Patch6:   %{name}-%{version}-enhance-ui-messages.patch
+#https://bugzilla.redhat.com/show_bug.cgi?id=1304223
+Patch7:   %{name}-%{version}-translation-updates2.patch
+
 License:  GPLv2+
 
 BuildArch: noarch
@@ -44,6 +47,7 @@ allows the user to change the default language of the system.
 %patch4 -p2
 %patch5 -p1
 %patch6 -p1
+%patch7 -p1
 
 %build
 %configure
@@ -87,6 +91,13 @@ gtk-update-icon-cache %{_datadir}/icons/hicolor &>/dev/null || :
 %config(noreplace) %{_sysconfdir}/security/console.apps/system-config-language
 
 %changelog
+* Wed Mar 15 2017 Parag Nemade <pnemade AT redhat DOT com> - 1.4.0-9
+- Resolves:rh#1304223 - Update translations
+- Apply patch7
+
+* Mon Feb 13 2017 Parag Nemade <pnemade AT redhat DOT com> - 1.4.0-8
+- Resolves:rh#1304223 - Update translations
+
 * Wed Apr 20 2016 Parag Nemade <pnemade AT redhat DOT com> - 1.4.0-7
 - Resolves:rh#1328068 - enhance the UI messages when clicked on OK button
 
