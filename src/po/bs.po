@@ -1,0 +1,345 @@
+# Bosnian translations for system-config-language, modified from Serbian-latin
+# Copyright (C) 2010 Red Hat, Inc.
+# This file is distributed under the same license as the system-config-language package.
+# Filip Mali?evi? <filip@lakinetwork.com>, 2005.
+# Miloš Komar?evi? <kmilos@gmail.com>, 2005.
+# Igor Miletic (Igor Mileti?) <grejigl-gnomeprevod@yahoo.ca>, 2009.
+# Edmon Begoli <ebegoli@fedoraproject.org>, 2010
+# Filip Maličević <filip@lakinetwork.com>, 2005.
+# Miloš Komarčević <kmilos@gmail.com>, 2005.
+# Igor Miletic (Igor Miletić) <grejigl-gnomeprevod@yahoo.ca>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-17 15:09+0530\n"
+"PO-Revision-Date: 2010-04-16 11:53-0400\n"
+"Last-Translator: Edmon Begoli <ebegoli@fedoraproject.com>\n"
+"Language-Team: Bosnian <fedora-trans-bs@redhat.com>\n"
+"Language: bs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Zanata 1.7.3\n"
+
+#: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+#, fuzzy
+msgid "Language"
+msgstr "Jezik"
+
+#: ../system-config-language.desktop.in.h:2 ../src/language_gui.py:59
+#, fuzzy
+msgid "Change the default system language"
+msgstr "Mijenja podrazumijevani jezik sistema"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, fuzzy, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>Nastaviću za %d sekunde...</i>"
+
+#: ../src/gui_install.py:72
+#, fuzzy
+msgid "Note:"
+msgstr "Napomena:"
+
+#: ../src/gui_install.py:74
+#, fuzzy
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Povezivanje sa Yum bazom podataka, sačekajte malo..."
+
+#: ../src/gui_install.py:91
+#, python-format
+msgid ""
+"No Group named %s exists: Do you still want to install language without "
+"proper support?"
+msgstr ""
+
+#: ../src/gui_install.py:95 ../src/gui_install.py:430
+#: ../src/language_gui.py:205 ../src/language_gui.py:257
+#: ../src/language_gui.py:291
+#, fuzzy
+msgid "No"
+msgstr "Ne"
+
+#: ../src/gui_install.py:96 ../src/gui_install.py:431
+#: ../src/language_gui.py:206 ../src/language_gui.py:258
+#: ../src/language_gui.py:292
+#, fuzzy
+msgid "Yes"
+msgstr "Da"
+
+#: ../src/gui_install.py:159
+#, fuzzy
+msgid "Resolving dependencies for updates"
+msgstr "Razrješavanje zavisnosti za ažuriranja"
+
+#: ../src/gui_install.py:175
+#, fuzzy
+msgid "Error downloading headers"
+msgstr "Greška pri preuzimanju zaglavlja"
+
+#: ../src/gui_install.py:176
+#, fuzzy
+msgid "Errors were encountered while downloading package headers."
+msgstr "Došlo je do grešaka pri preuzimanju zaglavlja paketa."
+
+#: ../src/gui_install.py:189
+#, fuzzy
+msgid "Error resolving dependencies"
+msgstr "Greška pri razjrešavanju zavisnosti"
+
+#: ../src/gui_install.py:190
+#, fuzzy
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"Ne mogu da razrješim zavisnosti za neke pakete izabrane za instalaciju."
+
+#: ../src/gui_install.py:204
+#, fuzzy
+msgid "Continue"
+msgstr "Nastavi"
+
+#: ../src/gui_install.py:205
+#, fuzzy
+msgid "Dependencies added"
+msgstr "Zavisnosti su dodate"
+
+#: ../src/gui_install.py:206
+#, fuzzy
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"Ažuriranje ovih paketa zahtjeva dodatne izmjene paketa za ispravan rad."
+
+#: ../src/gui_install.py:215
+#, fuzzy
+msgid "Adding for dependencies:\n"
+msgstr "Dodavanje za zavisnosti:\n"
+
+#: ../src/gui_install.py:216
+#, fuzzy
+msgid "Removing for dependencies:\n"
+msgstr "Uklanjanje za zavisnosti:\n"
+
+#: ../src/gui_install.py:217
+#, fuzzy
+msgid "Updating for dependencies:\n"
+msgstr "Ažuriranje za zavisnosti:\n"
+
+#: ../src/gui_install.py:270
+#, fuzzy
+msgid "Error downloading packages"
+msgstr "Greška pri preuzimanju paketa"
+
+#: ../src/gui_install.py:283
+#, fuzzy
+msgid "Downloading packages"
+msgstr "Preuzimanje paketa"
+
+#: ../src/gui_install.py:293
+#, fuzzy
+msgid "Unable to find a suitable mirror."
+msgstr "Ne mogu da pronađem odgovarajući odraz."
+
+#: ../src/gui_install.py:306
+#, fuzzy
+msgid "Errors were encountered while downloading packages."
+msgstr "Došlo je do grešaka pri preuzimanju paketa."
+
+#: ../src/gui_install.py:322
+#, fuzzy
+msgid "Import key?"
+msgstr "Uvesti ključ?"
+
+#: ../src/gui_install.py:323
+#, fuzzy, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"Paket %s je potpisan ključem %s (0x%s) od %s.  Želite li da uvezete ovaj "
+"ključ?"
+
+#: ../src/gui_install.py:328
+#, fuzzy
+msgid "_Import key"
+msgstr "Uvez_i ključ"
+
+#: ../src/gui_install.py:339
+#, fuzzy
+msgid "Verifying packages"
+msgstr "Provjera paketa"
+
+#: ../src/gui_install.py:359
+#, fuzzy, python-format
+msgid "Unable to verify %s"
+msgstr "Ne mogu da provjerim %s"
+
+#: ../src/gui_install.py:364
+#, fuzzy
+msgid "_Close"
+msgstr "Za_tvori"
+
+#: ../src/gui_install.py:366
+#, fuzzy
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"Zlonamjerni softver može oštetiti računar ili izazvati neki drugi kvar.  "
+"Sigurno želite da instalirate ovaj paket?"
+
+#: ../src/gui_install.py:370
+#, fuzzy
+msgid "_Cancel"
+msgstr "Ot_kaži"
+
+#: ../src/gui_install.py:372
+#, fuzzy
+msgid "_Install anyway"
+msgstr "Svejedno _instaliraj"
+
+#: ../src/gui_install.py:386
+#, fuzzy
+msgid "Error updating software"
+msgstr "Greška pri ažuriranju software-a"
+
+#: ../src/gui_install.py:387
+#, fuzzy
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr "Došlo je do grešaka pri pokušaju ažuriranja izabranog softvera"
+
+#: ../src/gui_install.py:394
+#, fuzzy
+msgid "Updating software"
+msgstr "Ažuriranje software-a"
+
+#: ../src/gui_install.py:426
+msgid ""
+" Error installing Selected Language packages: Do you still want to install "
+"language without proper support?"
+msgstr ""
+
+#: ../src/language_gui.py:58 ../src/language_gui.py:72
+#: ../src/language_gui.py:376 ../src/language_tui.py:47
+#, fuzzy
+msgid "Language Selection"
+msgstr "Izbor jezika"
+
+#: ../src/language_gui.py:75
+#, fuzzy
+msgid "Please select the default language for the system."
+msgstr "Izaberite podrazumijevani jezik sistema."
+
+#: ../src/language_gui.py:194
+#, fuzzy
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"Sistem je već na podrazumijevanom jeziku.\n"
+"Nema šta da se radi."
+
+#: ../src/language_gui.py:200
+#, fuzzy
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr ""
+"Da li stvarno želite da promijenite jezik sistema na podrazumijevani [en_US]?"
+
+#: ../src/language_gui.py:221
+#, fuzzy
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language je grafičko korisničko sučelje koje dozvoljava "
+"korisniku da promeni podrazumijevani jezik sistema."
+
+#: ../src/language_gui.py:251 ../src/language_tui.py:69
+#, fuzzy
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"Postoje problemi sa mrežom ili Yum riznicom, želite li da nastavite?\n"
+"„Da“ će promeniti jezik ali ga neće instalirati.\n"
+"„Ne“ će izaći bez promene jezika."
+
+#: ../src/language_gui.py:283 ../src/language_tui.py:89
+#, fuzzy
+msgid " language support is not installed, do you want to install it?"
+msgstr " podrška nije instalirana, želite li da je instalirate?"
+
+#: ../src/language_gui.py:319
+#, fuzzy
+msgid "The changes will take effect after reboot."
+msgstr "Izmijene će preći u dejstvo kada se sljedeći put prijavite na sistem."
+
+#: ../src/language_gui.py:391
+#, fuzzy
+msgid "System _Defaults"
+msgstr "_Podrazumijevano sistemski"
+
+#: ../src/system-config-language.py:45
+#, fuzzy
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Upotreba: system-config-language [--text]\n"
+
+# Gui can't be started for some reason, so use text mode
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+#, fuzzy
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr ""
+"Pokretanje u grafičkom režimu nije uspjelo.  Pokrećem tekstualni režim "
+"umijesto."
+
+#: ../src/gui_progress.py:60
+#, fuzzy
+msgid "Preparing transaction"
+msgstr "Priprema transakcije"
+
+#: ../src/gui_progress.py:74
+#, fuzzy, python-format
+msgid "Updating %s"
+msgstr "Ažuriranje %s"
+
+#: ../src/gui_progress.py:108
+#, fuzzy, python-format
+msgid "Cleanup %s"
+msgstr "Čišćenje %s"
+
+#: ../src/language_backend.py:95
+#, fuzzy
+msgid "Cannot find locale-list"
+msgstr "Ne mogu da pronađem locale-list"
+
+#: ../src/language_tui.py:44
+#, fuzzy
+msgid "Select the language for the system."
+msgstr "Izaberite jezik sistema."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+#, fuzzy
+msgid "Installing Confirm"
+msgstr "Potvrda instalacije"
+
+#: ../src/tui_install.py:131
+#, fuzzy
+msgid "No header - huh?"
+msgstr "Nema zaglavlja - hm?"
+
+#: ../src/tui_install.py:213
+#, fuzzy, python-format
+msgid "Erased: %s"
+msgstr "Obrisan: %s"
+
+#~ msgctxt ""
+#~ msgid "Downloading %s"
+#~ msgstr "Preuzimanje %s"

@@ -1,0 +1,292 @@
+# translation of system-config-language to Interlingua
+# Nik Kalach <nikka@fedoraproject.org>, 2012.
+# nikka <nik.kalach@inbox.ru>, 2012. #zanata
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-17 15:09+0530\n"
+"PO-Revision-Date: 2012-11-20 02:17-0500\n"
+"Last-Translator: nikka <nik.kalach@inbox.ru>\n"
+"Language-Team: Interlingua (International Auxiliary Language Association) "
+"<trans-ia@lists.fedoraproject.org>\n"
+"Language: ia\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Zanata 2.2.2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+msgid "Language"
+msgstr "Lingua"
+
+#: ../system-config-language.desktop.in.h:2 ../src/language_gui.py:59
+msgid "Change the default system language"
+msgstr "Cambiar le lingua predefinite del systema"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>Continuara in %d secundas...</i>"
+
+#: ../src/gui_install.py:72
+msgid "Note:"
+msgstr "Nota:"
+
+#: ../src/gui_install.py:74
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Connexion al base de datos Yum es in curso, attende ..."
+
+#: ../src/gui_install.py:91
+#, python-format
+msgid ""
+"No Group named %s exists: Do you still want to install language without "
+"proper support?"
+msgstr ""
+"Nulle gruppo con nomine %s existe: vole tu totevia installar le lingua sin "
+"proprie supporto?"
+
+#: ../src/gui_install.py:95 ../src/gui_install.py:430
+#: ../src/language_gui.py:205 ../src/language_gui.py:257
+#: ../src/language_gui.py:291
+msgid "No"
+msgstr "No"
+
+#: ../src/gui_install.py:96 ../src/gui_install.py:431
+#: ../src/language_gui.py:206 ../src/language_gui.py:258
+#: ../src/language_gui.py:292
+msgid "Yes"
+msgstr "Si"
+
+#: ../src/gui_install.py:159
+msgid "Resolving dependencies for updates"
+msgstr "Resolution del dependentias pro actualisationes"
+
+#: ../src/gui_install.py:175
+msgid "Error downloading headers"
+msgstr "Error al discargamento de capites"
+
+#: ../src/gui_install.py:176
+msgid "Errors were encountered while downloading package headers."
+msgstr ""
+"Errores se incontrava durante le discargamento de capites de pacchettos."
+
+#: ../src/gui_install.py:189
+msgid "Error resolving dependencies"
+msgstr "Error al resolution de dependentias"
+
+#: ../src/gui_install.py:190
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"Impossibile de resolver dependentias pro certe pacchettos selectionate pro "
+"le installation."
+
+#: ../src/gui_install.py:204
+msgid "Continue"
+msgstr "Continuar"
+
+#: ../src/gui_install.py:205
+msgid "Dependencies added"
+msgstr "Dependentias addite"
+
+#: ../src/gui_install.py:206
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"Actualisation de iste pacchettos necessita le installation de pacchettos "
+"supplementari."
+
+#: ../src/gui_install.py:215
+msgid "Adding for dependencies:\n"
+msgstr "Additiones pro dependentias:\n"
+
+#: ../src/gui_install.py:216
+msgid "Removing for dependencies:\n"
+msgstr "Eliminationes pro dependentias:\n"
+
+#: ../src/gui_install.py:217
+msgid "Updating for dependencies:\n"
+msgstr "Actualisationes pro dependentias:\n"
+
+#: ../src/gui_install.py:270
+msgid "Error downloading packages"
+msgstr "Error al discargamento de pacchettos"
+
+#: ../src/gui_install.py:283
+msgid "Downloading packages"
+msgstr "Discargamento de pacchettos"
+
+#: ../src/gui_install.py:293
+msgid "Unable to find a suitable mirror."
+msgstr "Impossibile de trovar un apte speculo."
+
+#: ../src/gui_install.py:306
+msgid "Errors were encountered while downloading packages."
+msgstr "Errores se incontrava durante le discargamento de pacchettos."
+
+#: ../src/gui_install.py:322
+msgid "Import key?"
+msgstr "Importar le clave?"
+
+#: ../src/gui_install.py:323
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"Le pacchetto %s es signate con un clave %s (0x%s) desde %s. Velle tu "
+"importar iste clave?"
+
+#: ../src/gui_install.py:328
+msgid "_Import key"
+msgstr "_Importar clave"
+
+#: ../src/gui_install.py:339
+msgid "Verifying packages"
+msgstr "Verification de pacchettos"
+
+#: ../src/gui_install.py:359
+#, python-format
+msgid "Unable to verify %s"
+msgstr "Impossibile de verificar %s"
+
+#: ../src/gui_install.py:364
+msgid "_Close"
+msgstr "_Clauder"
+
+#: ../src/gui_install.py:366
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"Software malitiose pote damnificar le computator o causar altere tortos. "
+"Esque tu es secur que vole installar iste pacchetto?"
+
+#: ../src/gui_install.py:370
+msgid "_Cancel"
+msgstr "_Annullar"
+
+#: ../src/gui_install.py:372
+msgid "_Install anyway"
+msgstr "_Installar nonobstante"
+
+#: ../src/gui_install.py:386
+msgid "Error updating software"
+msgstr "Error al actualisation de software"
+
+#: ../src/gui_install.py:387
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr ""
+"Errores se incontrava in essayage de actualisar le software selectionate"
+
+#: ../src/gui_install.py:394
+msgid "Updating software"
+msgstr "Actualisation de software"
+
+#: ../src/gui_install.py:426
+msgid ""
+" Error installing Selected Language packages: Do you still want to install "
+"language without proper support?"
+msgstr ""
+" Error al installation del pacchettos de lingua seligite: vole tu totevia "
+"installar le lingua sin proprie supporto?"
+
+#: ../src/language_gui.py:58 ../src/language_gui.py:72
+#: ../src/language_gui.py:376 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "Selection de lingua"
+
+#: ../src/language_gui.py:75
+msgid "Please select the default language for the system."
+msgstr "Selige un lingua predefinite pro le systema."
+
+#: ../src/language_gui.py:194
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"Le systema es jam in le lingua predefinite.\n"
+"Nihil de facer."
+
+#: ../src/language_gui.py:200
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr ""
+"Vole tu realmente cambiar le lingua de systema al lingua predefinite [en_US]?"
+
+#: ../src/language_gui.py:221
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language es un interfacie de usator graphic que permitte al "
+"usator de cambiar le lingua predefinite del systema."
+
+#: ../src/language_gui.py:251 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"Le rete o le repositorios de Yum ha alicun problemas, vole tu continuar?\n"
+"'Si' cambiara le lingua, ma non va installar lo.\n"
+"'No' facera quitar sin cambiamento del lingua."
+
+#: ../src/language_gui.py:283 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr " le supporto de lingua non es installate, vole tu installar lo?"
+
+#: ../src/language_gui.py:319
+msgid "The changes will take effect after reboot."
+msgstr "Le modificationes prendera effecto al proxime connexion."
+
+#: ../src/language_gui.py:391
+msgid "System _Defaults"
+msgstr "_Predefinitiones del systema"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Usage: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "Initio del modo graphic ha fallite. Initio in modo textual."
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "Preparation del transaction"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "Actualisation de %s"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "Nettamento de %s"
+
+#: ../src/language_backend.py:95
+msgid "Cannot find locale-list"
+msgstr "Impossibile de trovar locale-list"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "Seliger le lingua del systema."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "Confirmar le installation"
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "Nulle capite - eh?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "Eliminate: %s"

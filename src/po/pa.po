@@ -1,0 +1,340 @@
+# translation of system-config-language.trunk.pa.po to Punjabi
+# KBST Punjab <kbstpunjab@netscape.net>
+# Amanpreet Singh Alam <aalam@redhat.com>, 2004.
+# A S Alam <apbrar@gmail.com>, 2006.
+# Jaswinder Singh <jsingh@redhat.com>, 2009.
+# Jaswinder Singh <j.phulewala@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language.trunk.pa\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-17 15:09+0530\n"
+"PO-Revision-Date: 2011-01-10 06:29-0500\n"
+"Last-Translator: Jaswinder Singh <j.phulewala@gmail.com>\n"
+"Language-Team: PLTG\n"
+"Language: pa\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 1.7.3\n"
+
+#: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+#, fuzzy
+msgid "Language"
+msgstr "ਭਾਸ਼ਾ"
+
+#: ../system-config-language.desktop.in.h:2 ../src/language_gui.py:59
+#, fuzzy
+msgid "Change the default system language"
+msgstr "ਮਸ਼ੀਨ ਦੀ ਮੂਲ ਭਾਸ਼ਾ ਤਬਦੀਲ ਕਰੋ"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, fuzzy, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>%d ਸਕਿੰਟਾਂ ਵਿੱਚ ਜਾਰੀ ਹੋਵੇਗਾ...</i>"
+
+#: ../src/gui_install.py:72
+#, fuzzy
+msgid "Note:"
+msgstr "ਸੂਚਨਾ:"
+
+#: ../src/gui_install.py:74
+#, fuzzy
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "ਯੱਮ ਡਾਟਾਬੇਸ ਨਾਲ ਜੁੜ ਰਿਹਾ ਹੈ, ਥੋੜੀ ਉਡੀਕ ਕਰੋ ਜੀ ..."
+
+#: ../src/gui_install.py:91
+#, fuzzy, python-format
+msgid ""
+"No Group named %s exists: Do you still want to install language without "
+"proper support?"
+msgstr ""
+"%s ਨਾਂ ਵਾਲਾ ਕੋਈ ਗਰੁੱਪ ਮੌਜੂਦ ਨਹੀਂ ਹੈ: ਕੀ ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਬਿਨਾਂ ਸਹਿਯੋਗ ਦੇ ਭਾਸ਼ਾ ਇੰਸਟਾਲ ਕਰਨਾ ਚਾਹੁੰਦੇ "
+"ਹੋ?"
+
+#: ../src/gui_install.py:95 ../src/gui_install.py:430
+#: ../src/language_gui.py:205 ../src/language_gui.py:257
+#: ../src/language_gui.py:291
+#, fuzzy
+msgid "No"
+msgstr "ਨਹੀਂ"
+
+#: ../src/gui_install.py:96 ../src/gui_install.py:431
+#: ../src/language_gui.py:206 ../src/language_gui.py:258
+#: ../src/language_gui.py:292
+#, fuzzy
+msgid "Yes"
+msgstr "ਹਾਂ"
+
+#: ../src/gui_install.py:159
+#, fuzzy
+msgid "Resolving dependencies for updates"
+msgstr "ਅੱਪਡੇਟਾਂ ਲਈ ਨਿਰਭਰਤਾ ਹੱਲ ਕਰ ਰਿਹਾ ਹੈ"
+
+#: ../src/gui_install.py:175
+#, fuzzy
+msgid "Error downloading headers"
+msgstr "ਹੈਡਰ ਡਾਊਨਲੋਡ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ ਆਈ ਹੈ"
+
+#: ../src/gui_install.py:176
+#, fuzzy
+msgid "Errors were encountered while downloading package headers."
+msgstr "ਪੈਕੇਜ ਹੈਡਰ ਡਾਊਨਲੋਡ ਕਰਨ ਵੇਲੇ ਗਲਤੀ ਆਈ ਹੈ।"
+
+#: ../src/gui_install.py:189
+#, fuzzy
+msgid "Error resolving dependencies"
+msgstr "ਨਿਰਭਰਤਾ ਹੱਲ ਕਰਨ ਦੌਰਾਨ ਗਲਤੀ"
+
+#: ../src/gui_install.py:190
+#, fuzzy
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr "ਇੰਸਟਾਲੇਸ਼ਨ ਲਈ ਚੁਣੇ ਕੁਝ ਪੈਕੇਜਾਂ ਲਈ ਨਿਰਭਰਤਾ ਹੱਲ ਕਰਨ ਵਿੱਚ ਅਸਫਲ।"
+
+#: ../src/gui_install.py:204
+#, fuzzy
+msgid "Continue"
+msgstr "ਜਾਰੀ"
+
+#: ../src/gui_install.py:205
+#, fuzzy
+msgid "Dependencies added"
+msgstr "ਨਿਰਭਰਤਾ ਸ਼ਾਮਿਲ ਕੀਤੀ ਗਈ"
+
+#: ../src/gui_install.py:206
+#, fuzzy
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr "ਇਹਨਾਂ ਪੈਕੇਜਾਂ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਲਈ ਹੋਰ ਪੈਕੇਜਾਂ ਦੀ ਲੋੜ ਹੈ।"
+
+#: ../src/gui_install.py:215
+#, fuzzy
+msgid "Adding for dependencies:\n"
+msgstr "ਨਿਰਭਰਤਾ ਲਈ ਸ਼ਾਮਿਲ ਕਰ ਰਿਹਾ ਹੈ:\n"
+
+#: ../src/gui_install.py:216
+#, fuzzy
+msgid "Removing for dependencies:\n"
+msgstr "ਨਿਰਭਰਤਾ ਲਈ ਹਟਾ ਰਿਹਾ ਹੈ:\n"
+
+#: ../src/gui_install.py:217
+#, fuzzy
+msgid "Updating for dependencies:\n"
+msgstr "ਨਿਰਭਰਤਾ ਲਈ ਅੱਪਡੇਟ ਕਰ ਰਿਹਾ ਹੈ:\n"
+
+#: ../src/gui_install.py:270
+#, fuzzy
+msgid "Error downloading packages"
+msgstr "ਪੈਕੇਜ ਡਾਊਨਲੋਡ ਕਰਨ ਵੇਲੇ ਗਲਤੀ"
+
+#: ../src/gui_install.py:283
+#, fuzzy
+msgid "Downloading packages"
+msgstr "ਪੈਕੇਜ ਡਾਊਨਲੋਡ ਕਰ ਰਿਹਾ ਹੈ"
+
+#: ../src/gui_install.py:293
+#, fuzzy
+msgid "Unable to find a suitable mirror."
+msgstr "ਸਹੀ ਮਿਰਰ ਲੱਭਣ ਵਿੱਚ ਅਸਫਲ।"
+
+#: ../src/gui_install.py:306
+#, fuzzy
+msgid "Errors were encountered while downloading packages."
+msgstr "ਪੈਕੇਜ ਡਾਊਨਲੋਡ ਕਰਨ ਵੇਲੇ ਗਲਤੀ ਮਿਲੀ ਹੈ।"
+
+#: ../src/gui_install.py:322
+#, fuzzy
+msgid "Import key?"
+msgstr "ਕੁੰਜੀ ਅਯਾਤ?"
+
+#: ../src/gui_install.py:323
+#, fuzzy, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"ਪੈਕੇਜ %s ਨੂੰ ਇੱਕ ਕੁੰਜੀ %s (0x%s) ਨਾਲ %s ਤੋਂ ਸਾਈਨ ਕੀਤਾ ਗਿਆ ਹੈ।  ਕੀ ਤੁਸੀਂ ਇਸ ਕੁੰਜੀ ਨੂੰ ਅਯਾਤ "
+"ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../src/gui_install.py:328
+#, fuzzy
+msgid "_Import key"
+msgstr "ਕੁੰਜੀ ਅਯਾਤ(_I)"
+
+#: ../src/gui_install.py:339
+#, fuzzy
+msgid "Verifying packages"
+msgstr "ਪੈਕੇਜ ਜਾਂਚ ਹੋ ਰਹੀ ਹੈ"
+
+#: ../src/gui_install.py:359
+#, fuzzy, python-format
+msgid "Unable to verify %s"
+msgstr "%s ਦੀ ਜਾਂਚ ਕਰਨ ਵਿੱਚ ਅਸਫਲ"
+
+#: ../src/gui_install.py:364
+#, fuzzy
+msgid "_Close"
+msgstr "ਬੰਦ(_C)"
+
+#: ../src/gui_install.py:366
+#, fuzzy
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"ਫੁਟਕਲ ਸਾਫਟਵੇਅਰ ਤੁਹਾਡੇ ਕੰਪਿਊਟਰ ਨੂੰ ਖਰਾਬ ਕਰ ਸਕਦੇ ਹਨ ਜਾਂ ਹੋਰ ਨੁਕਸਾਨ ਕਰ ਸਕਦੇ ਹਨ।  ਕੀ ਤੁਸੀਂ "
+"ਯਕੀਨਨ ਇਹ ਪੈਕੇਜ ਇੰਸਟਾਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../src/gui_install.py:370
+#, fuzzy
+msgid "_Cancel"
+msgstr "ਰੱਦ ਕਰੋ(_C)"
+
+#: ../src/gui_install.py:372
+#, fuzzy
+msgid "_Install anyway"
+msgstr "ਕਿਸੇ ਵੀ ਤਰਾਂ ਇੰਸਟਾਲ ਕਰੋ(_I)"
+
+#: ../src/gui_install.py:386
+#, fuzzy
+msgid "Error updating software"
+msgstr "ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ ਕਰਨ ਵੇਲੇ ਗਲਤੀ"
+
+#: ../src/gui_install.py:387
+#, fuzzy
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr "ਸਾਫਟਵੇਅਰ ਜੋ ਤੁਸੀਂ ਚੁਣਿਆ ਹੈ ਨੂੰ ਅੱਪਡੇਟ ਕਰਨ ਵੇਲੇ ਗਲਤੀਆਂ ਆਈਆਂ ਹਨ"
+
+#: ../src/gui_install.py:394
+#, fuzzy
+msgid "Updating software"
+msgstr "ਸਾਫਟਵੇਅਰ ਅੱਪਡੇਟ ਹੋ ਰਹੇ ਹਨ"
+
+#: ../src/gui_install.py:426
+#, fuzzy
+msgid ""
+" Error installing Selected Language packages: Do you still want to install "
+"language without proper support?"
+msgstr ""
+" ਚੁਣੀ ਭਾਸ਼ਾ ਪੈਕੇਜ ਇੰਸਟਾਲ ਕਰਨ ਵੇਲ ਗਲਤੀ ਆਈ ਹੈ: ਕੀ ਤੁਸੀਂ ਹਾਲੇ ਵੀ ਬਿਨਾਂ ਸਹਿਯੋਗ ਦੇ ਭਾਸ਼ਾ ਇੰਸਟਾਲ "
+"ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../src/language_gui.py:58 ../src/language_gui.py:72
+#: ../src/language_gui.py:376 ../src/language_tui.py:47
+#, fuzzy
+msgid "Language Selection"
+msgstr "ਭਾਸ਼ਾ ਚੋਣ"
+
+#: ../src/language_gui.py:75
+#, fuzzy
+msgid "Please select the default language for the system."
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਮਸ਼ੀਨ ਦੀ ਮੂਲ ਭਾਸ਼ਾ ਚੁਣੋ।"
+
+#: ../src/language_gui.py:194
+#, fuzzy
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"ਮਸ਼ੀਨ ਪਹਿਲਾਂ ਹੀ ਮੂਲ ਭਾਸ਼ਾ ਵਿੱਚ ਹੈ,\n"
+"ਕੁਝ ਨਹੀਂ ਕਰਨਾ।"
+
+#: ../src/language_gui.py:200
+#, fuzzy
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਸਿਸਟਮ ਦੀ ਮੂਲ ਭਾਸ਼ਾ [en_US] ਵਿੱਚ ਤਬਦੀਲ ਕਰਨੀ ਹੈ?"
+
+#: ../src/language_gui.py:221
+#, fuzzy
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language ਇੱਕ ਗਰਾਫੀਕਲ ਯੂਜ਼ਰ ਇੰਟਰਫੇਸ ਹੈ ਜਿਸ ਨਾਲ ਯੂਜ਼ਰ ਸਿਸਟਮ ਦੀ ਮੂਲ ਭਾਸ਼ਾ "
+"ਤਬਦੀਲ ਕਰ ਸਕਦੇ ਹਨ।"
+
+#: ../src/language_gui.py:251 ../src/language_tui.py:69
+#, fuzzy
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"ਨੈੱਟਵਰਕ ਜਾਂ ਯੱਮ ਦੀਆਂ ਰਿਪੋ ਵਿੱਚ ਕੋਈ ਸਮੱਸਿਆ ਹੈ, ਕੀ ਤੁਸੀਂ ਯਕੀਨਨ ਜਾਰੀ ਰਹਿਣਾ ਹੈ?\n"
+"'ਹਾਂ' ਨਾਲ ਭਾਸ਼ਾ ਤਬਦੀਲ ਹੋਵੇਗੀ ਪਰ ਇੰਸਟਾਲ ਨਹੀਂ ਹੋਵੇਗੀ।\n"
+"'ਨਹੀਂ' ਨਾਲ ਬਿਨਾਂ ਭਾਸ਼ਾ ਤਬਦੀਲ ਕੀਤੇ ਬੰਦ ਹੋ ਜਾਵੇਗਾ।"
+
+#: ../src/language_gui.py:283 ../src/language_tui.py:89
+#, fuzzy
+msgid " language support is not installed, do you want to install it?"
+msgstr " ਭਾਸ਼ਾ ਸਹਿਯੋਗ ਇੰਸਟਾਲ ਨਹੀਂ ਹੈ, ਕੀ ਤੁਸੀਂ ਇਸਨੂੰ ਇੰਸਟਾਲ ਕਰਨਾ ਚਾਹੁੰਦੇ ਹੋ?"
+
+#: ../src/language_gui.py:319
+#, fuzzy
+msgid "The changes will take effect after reboot."
+msgstr "ਭਾਸ਼ਾ ਤਬਦੀਲੀ ਅਗਲੀ ਵਾਰ ਦਾਖਲੇ ਮਗਰੋਂ ਹੀ ਲਾਗੂ ਹੋ ਸਕੇਗੀ।"
+
+#: ../src/language_gui.py:391
+#, fuzzy
+msgid "System _Defaults"
+msgstr "ਸਿਸਟਮ ਡਿਫਾਲਟ(_D)"
+
+#: ../src/system-config-language.py:45
+#, fuzzy
+msgid "Usage: system-config-language [--text]\n"
+msgstr "ਵਰਤੋਂ: system-config-language [--text]\n"
+
+# Gui can't be started for some reason, so use text mode
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+#, fuzzy
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "ਗਰਾਫਿਕਲ ਢੰਗ ਅਸਫ਼ਲ ਰਿਹਾ ਹੈ।  ਪਾਠ ਢੰਗ ਚਾਲੂ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ।"
+
+#: ../src/gui_progress.py:60
+#, fuzzy
+msgid "Preparing transaction"
+msgstr "ਸੰਚਾਰ ਦੀ ਤਿਆਰੀ ਹੋ ਰਹੀ ਹੈ"
+
+#: ../src/gui_progress.py:74
+#, fuzzy, python-format
+msgid "Updating %s"
+msgstr "%s ਅੱਪਡੇਟ ਹੋ ਰਿਹਾ ਹੈ"
+
+#: ../src/gui_progress.py:108
+#, fuzzy, python-format
+msgid "Cleanup %s"
+msgstr "%s ਨੂੰ ਸਾਫ ਕਰੋ"
+
+#: ../src/language_backend.py:95
+#, fuzzy
+msgid "Cannot find locale-list"
+msgstr "ਲੋਕੇਲ ਸੂਚੀ ਨਹੀਂ ਲੱਭੀ ਹੈ"
+
+#: ../src/language_tui.py:44
+#, fuzzy
+msgid "Select the language for the system."
+msgstr "ਕਿਰਪਾ ਕਰਕੇ ਮਸ਼ੀਨ ਦੀ ਭਾਸ਼ਾ ਚੁਣੋ।"
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+#, fuzzy
+msgid "Installing Confirm"
+msgstr "ਪੁਸ਼ਟੀ ਇੰਸਟਾਲ ਕਰ ਰਿਹਾ ਹੈ"
+
+#: ../src/tui_install.py:131
+#, fuzzy
+msgid "No header - huh?"
+msgstr "ਕੋਈ ਹੈਡਰ ਨਹੀਂ - ਚੱਕਲੋ?"
+
+#: ../src/tui_install.py:213
+#, fuzzy, python-format
+msgid "Erased: %s"
+msgstr "ਹਟਾਇਆ ਗਿਆ: %s"
+
+#~ msgctxt ""
+#~ msgid "Downloading %s"
+#~ msgstr "%s ਨੂੰ ਡਾਊਨਲੋਡ ਕਰ ਰਿਹਾ ਹੈ"

@@ -1,0 +1,303 @@
+# Portuguese localization of Red Hat Linux
+# Pedro Morais <morais@kde.org>
+# José Nuno Pires <jncp@netcabo.pt>
+msgid ""
+msgstr ""
+"Project-Id-Version: system-config-language\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-17 15:09+0530\n"
+"PO-Revision-Date: 2009-09-24 10:55+0100\n"
+"Last-Translator: Rui Gouveia <rui.gouveia@globaltek.pt>\n"
+"Language-Team: pt <fedora-trans-pt@redhat.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-POFile-SpellExtra: locale config list system language\n"
+"X-Poedit-Language: Portuguese\n"
+"X-Poedit-Country: PORTUGAL\n"
+
+#: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+msgid "Language"
+msgstr "Língua"
+
+#: ../system-config-language.desktop.in.h:2 ../src/language_gui.py:59
+msgid "Change the default system language"
+msgstr "Mudar a língua por omissão do sistema"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>A continuar em %d segundos...</i>"
+
+#: ../src/gui_install.py:72
+msgid "Note:"
+msgstr "Nota:"
+
+#: ../src/gui_install.py:74
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "A ligar à base de dados do Yum. Por favor, aguarde um pouco..."
+
+#: ../src/gui_install.py:91
+#, python-format
+msgid ""
+"No Group named %s exists: Do you still want to install language without "
+"proper support?"
+msgstr ""
+"Não existe o grupo de nome %s: Deseja mesmo assim instalar o idioma sem o "
+"suporte adequado?"
+
+#: ../src/gui_install.py:95 ../src/gui_install.py:430
+#: ../src/language_gui.py:205 ../src/language_gui.py:257
+#: ../src/language_gui.py:291
+msgid "No"
+msgstr "Não"
+
+#: ../src/gui_install.py:96 ../src/gui_install.py:431
+#: ../src/language_gui.py:206 ../src/language_gui.py:258
+#: ../src/language_gui.py:292
+msgid "Yes"
+msgstr "Sim"
+
+#: ../src/gui_install.py:159
+msgid "Resolving dependencies for updates"
+msgstr "A resolver dependências das actualizações"
+
+#: ../src/gui_install.py:175
+msgid "Error downloading headers"
+msgstr "Erro ao transferir cabeçalhos"
+
+#: ../src/gui_install.py:176
+msgid "Errors were encountered while downloading package headers."
+msgstr "Foram encontrados erros ao transferir os cabeçalhos dos pacotes."
+
+#: ../src/gui_install.py:189
+msgid "Error resolving dependencies"
+msgstr "Erro ao resolver dependências"
+
+#: ../src/gui_install.py:190
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"Não foi possível resolver dependências para alguns dos pacotes seleccionados "
+"para instalação."
+
+#: ../src/gui_install.py:204
+msgid "Continue"
+msgstr "Continuar"
+
+#: ../src/gui_install.py:205
+msgid "Dependencies added"
+msgstr "Dependências adicionadas"
+
+#: ../src/gui_install.py:206
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"Actualizar estes pacotes requer alterações de pacotes adicionais para um "
+"adequado funcionamento."
+
+#: ../src/gui_install.py:215
+msgid "Adding for dependencies:\n"
+msgstr "A adicionar para dependências:\n"
+
+#: ../src/gui_install.py:216
+msgid "Removing for dependencies:\n"
+msgstr "A remover por dependências:\n"
+
+#: ../src/gui_install.py:217
+msgid "Updating for dependencies:\n"
+msgstr "A actualizar por dependências:\n"
+
+#: ../src/gui_install.py:270
+msgid "Error downloading packages"
+msgstr "Erro ao transferir pacotes"
+
+#: ../src/gui_install.py:283
+msgid "Downloading packages"
+msgstr "A transferir pacotes"
+
+#: ../src/gui_install.py:293
+msgid "Unable to find a suitable mirror."
+msgstr "Incapaz de encontrar um mirror adequado."
+
+#: ../src/gui_install.py:306
+msgid "Errors were encountered while downloading packages."
+msgstr "Foram encontrados erros ao transferir pacotes."
+
+#: ../src/gui_install.py:322
+msgid "Import key?"
+msgstr "Importar chave?"
+
+#: ../src/gui_install.py:323
+#, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"O pacote %s está assinado com a chave %s (0x%s) de %s.  Deseja importar esta "
+"chave?"
+
+#: ../src/gui_install.py:328
+msgid "_Import key"
+msgstr "_Importar chave"
+
+#: ../src/gui_install.py:339
+msgid "Verifying packages"
+msgstr "A verificar pacotes"
+
+#: ../src/gui_install.py:359
+#, python-format
+msgid "Unable to verify %s"
+msgstr "Incapaz de verificar %s"
+
+#: ../src/gui_install.py:364
+msgid "_Close"
+msgstr "Fe_char"
+
+#: ../src/gui_install.py:366
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"Software Malicioso pode danificar o seu computador ou causar outros males.  "
+"Tem a certeza que deseja instalar este pacote?"
+
+#: ../src/gui_install.py:370
+msgid "_Cancel"
+msgstr "_Cancelar"
+
+#: ../src/gui_install.py:372
+msgid "_Install anyway"
+msgstr "_Instalar mesmo assim"
+
+#: ../src/gui_install.py:386
+msgid "Error updating software"
+msgstr "Erro ao actualizar software"
+
+#: ../src/gui_install.py:387
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr ""
+"Foram encontrados erros ao tentar actualizar o software que você seleccionou"
+
+#: ../src/gui_install.py:394
+msgid "Updating software"
+msgstr "A actualizar software"
+
+#: ../src/gui_install.py:426
+msgid ""
+" Error installing Selected Language packages: Do you still want to install "
+"language without proper support?"
+msgstr ""
+"Erro ao instalar os pacotes dos idiomas seleccionados: Deseja mesmo assim "
+"instalar o idioma sem o suporte adequado?"
+
+#: ../src/language_gui.py:58 ../src/language_gui.py:72
+#: ../src/language_gui.py:376 ../src/language_tui.py:47
+msgid "Language Selection"
+msgstr "Escolha de Língua"
+
+#: ../src/language_gui.py:75
+msgid "Please select the default language for the system."
+msgstr "Por favor escolha a língua por omissão do computador."
+
+#: ../src/language_gui.py:194
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"Sistema já se encontra na língua por omissão,\n"
+"Nada para fazer."
+
+#: ../src/language_gui.py:200
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr ""
+"De certeza que deseja alterar a língua do sistema para o valor pré-definido "
+"[en_US]?"
+
+#: ../src/language_gui.py:221
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"O system-config-language é uma interface gráfica para o utilizador que "
+"permite alterar a língua do sistema por omissão."
+
+#: ../src/language_gui.py:251 ../src/language_tui.py:69
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"A rede ou os repositórios do Yum têm algum problema. Deseja continuar?\n"
+"'Sim' irá alterar a língua sem a instalar.\n"
+"'Não' terminará sem alterar a língua."
+
+#: ../src/language_gui.py:283 ../src/language_tui.py:89
+msgid " language support is not installed, do you want to install it?"
+msgstr ""
+"Suporte a línguas não está instalado. Deseja instalar esta funcionalidade?"
+
+#: ../src/language_gui.py:319
+#, fuzzy
+msgid "The changes will take effect after reboot."
+msgstr "As alterações tomam efeito da próxima vez que se ligar."
+
+#: ../src/language_gui.py:391
+msgid "System _Defaults"
+msgstr "Pré-definições do Sistema"
+
+#: ../src/system-config-language.py:45
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Utilização: system-config-language [--text]\n"
+
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "Falha ao inicializar o modo gráfico. Iniciando em modo texto."
+
+#: ../src/gui_progress.py:60
+msgid "Preparing transaction"
+msgstr "A preparar transacção"
+
+#: ../src/gui_progress.py:74
+#, python-format
+msgid "Updating %s"
+msgstr "A actualizar %s"
+
+#: ../src/gui_progress.py:108
+#, python-format
+msgid "Cleanup %s"
+msgstr "A limpar %s"
+
+#: ../src/language_backend.py:95
+msgid "Cannot find locale-list"
+msgstr "Não foi possível encontrar o locale-list"
+
+#: ../src/language_tui.py:44
+msgid "Select the language for the system."
+msgstr "Escolha a língua para este computador."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+msgid "Installing Confirm"
+msgstr "Confirmar Instalação"
+
+#: ../src/tui_install.py:131
+msgid "No header - huh?"
+msgstr "Sem cabeçalho - hã?"
+
+#: ../src/tui_install.py:213
+#, python-format
+msgid "Erased: %s"
+msgstr "Removido: %s"
+
+#~ msgid "Downloading %s"
+#~ msgstr "A transferir %s"
+
+#~ msgid "OK"
+#~ msgstr "OK"
+
+#~ msgid "system-config-language requires a currently running X server."
+#~ msgstr "O system-config-language precisa de um servidor X a correr."

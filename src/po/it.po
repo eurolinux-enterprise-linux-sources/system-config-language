@@ -1,0 +1,352 @@
+# translation of it.po to Italiano
+# Federico Bernardi <fbernardi@bbros.it>, 2004.
+# Francesco Tombolini <tombo@adamantio.net>, 2006.
+# Silvio Pierro <perplesso82@gmail.com>, 2009.
+# Francesco Tombolini <tombo@adamantio.net>, 2009.
+# Italian translation of system-config-language.
+# Copyright (C) 2004 Red Hat, Inc.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: it\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-17 15:09+0530\n"
+"PO-Revision-Date: 2009-11-07 09:48-0500\n"
+"Last-Translator: Pierro Silvio <perplesso82@gmail.com>\n"
+"Language-Team: Italian\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Zanata 1.7.3\n"
+
+#: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+#, fuzzy
+msgid "Language"
+msgstr "Lingua"
+
+#: ../system-config-language.desktop.in.h:2 ../src/language_gui.py:59
+#, fuzzy
+msgid "Change the default system language"
+msgstr "Modificare la lingua predefinita del sistema"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, fuzzy, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>Continuerà in %d secondi...</i>"
+
+#: ../src/gui_install.py:72
+#, fuzzy
+msgid "Note:"
+msgstr "Nota:"
+
+#: ../src/gui_install.py:74
+#, fuzzy
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Connessione al database Yum in corso, attendere prego..."
+
+#: ../src/gui_install.py:91
+#, fuzzy, python-format
+msgid ""
+"No Group named %s exists: Do you still want to install language without "
+"proper support?"
+msgstr ""
+"Nessun gruppo con nome %s esiste: Si vuole installare il linguaggio senza "
+"adeguato supporto?"
+
+#: ../src/gui_install.py:95 ../src/gui_install.py:430
+#: ../src/language_gui.py:205 ../src/language_gui.py:257
+#: ../src/language_gui.py:291
+#, fuzzy
+msgid "No"
+msgstr "No"
+
+#: ../src/gui_install.py:96 ../src/gui_install.py:431
+#: ../src/language_gui.py:206 ../src/language_gui.py:258
+#: ../src/language_gui.py:292
+#, fuzzy
+msgid "Yes"
+msgstr "Si"
+
+#: ../src/gui_install.py:159
+#, fuzzy
+msgid "Resolving dependencies for updates"
+msgstr "Risoluzione delle dipendenze per gli aggiornamenti"
+
+#: ../src/gui_install.py:175
+#, fuzzy
+msgid "Error downloading headers"
+msgstr "Errore nel download delle intestazioni"
+
+#: ../src/gui_install.py:176
+#, fuzzy
+msgid "Errors were encountered while downloading package headers."
+msgstr ""
+"Sono stati riscontrati errori durante il download delle intestazioni dei "
+"pacchetti."
+
+#: ../src/gui_install.py:189
+#, fuzzy
+msgid "Error resolving dependencies"
+msgstr "Errore nella risoluzione delle dipendenze"
+
+#: ../src/gui_install.py:190
+#, fuzzy
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"Impossibile risolvere le dipendenze per alcuni pacchetti selezionati per "
+"l'installazione."
+
+#: ../src/gui_install.py:204
+#, fuzzy
+msgid "Continue"
+msgstr "Continua"
+
+#: ../src/gui_install.py:205
+#, fuzzy
+msgid "Dependencies added"
+msgstr "Dipendenze aggiunte"
+
+#: ../src/gui_install.py:206
+#, fuzzy
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"L'aggiornamento di questi pacchetti richiede cambiamenti nei pacchetti "
+"aggiuntivi per operare correttamente."
+
+#: ../src/gui_install.py:215
+#, fuzzy
+msgid "Adding for dependencies:\n"
+msgstr "Aggiunti per dipendenze:\n"
+
+#: ../src/gui_install.py:216
+#, fuzzy
+msgid "Removing for dependencies:\n"
+msgstr "Rimozione per dipendenze:\n"
+
+#: ../src/gui_install.py:217
+#, fuzzy
+msgid "Updating for dependencies:\n"
+msgstr "Aggiornamento per dipendenze:\n"
+
+#: ../src/gui_install.py:270
+#, fuzzy
+msgid "Error downloading packages"
+msgstr "Errore nel download dei pacchetti"
+
+#: ../src/gui_install.py:283
+#, fuzzy
+msgid "Downloading packages"
+msgstr "Download dei pacchetti"
+
+#: ../src/gui_install.py:293
+#, fuzzy
+msgid "Unable to find a suitable mirror."
+msgstr "Impossibile trovare un mirror adeguato."
+
+#: ../src/gui_install.py:306
+#, fuzzy
+msgid "Errors were encountered while downloading packages."
+msgstr "Si sono verificati degli errori durante il download dei pacchetti."
+
+#: ../src/gui_install.py:322
+#, fuzzy
+msgid "Import key?"
+msgstr "Importare chiave?"
+
+#: ../src/gui_install.py:323
+#, fuzzy, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"Il pacchetto %s è marcato da una chiave %s (0x%s) da %s.  Si desidera "
+"importare questa chiave?"
+
+#: ../src/gui_install.py:328
+#, fuzzy
+msgid "_Import key"
+msgstr "_Importa chiave"
+
+#: ../src/gui_install.py:339
+#, fuzzy
+msgid "Verifying packages"
+msgstr "Verifica dei pacchetti"
+
+#: ../src/gui_install.py:359
+#, fuzzy, python-format
+msgid "Unable to verify %s"
+msgstr "Impossibile verificare %s"
+
+#: ../src/gui_install.py:364
+#, fuzzy
+msgid "_Close"
+msgstr "_Chiudi"
+
+#: ../src/gui_install.py:366
+#, fuzzy
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"I software maliziosi possono danneggiare il computer o causare problemi.  Si "
+"è sicuri di voler installare questo pacchetto?"
+
+#: ../src/gui_install.py:370
+#, fuzzy
+msgid "_Cancel"
+msgstr "_Annulla"
+
+#: ../src/gui_install.py:372
+#, fuzzy
+msgid "_Install anyway"
+msgstr "_Installa comunque"
+
+#: ../src/gui_install.py:386
+#, fuzzy
+msgid "Error updating software"
+msgstr "Errore nell'aggiornamento del software"
+
+#: ../src/gui_install.py:387
+#, fuzzy
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr ""
+"Si sono verificati errori nel tentativo di aggiornare il software selezionato"
+
+#: ../src/gui_install.py:394
+#, fuzzy
+msgid "Updating software"
+msgstr "Aggiornamento software"
+
+#: ../src/gui_install.py:426
+#, fuzzy
+msgid ""
+" Error installing Selected Language packages: Do you still want to install "
+"language without proper support?"
+msgstr ""
+"Errore nella installazione del pacchetto di linguaggio selezionato: Si vuole "
+"installare il linguaggio senza adeguato supporto"
+
+#: ../src/language_gui.py:58 ../src/language_gui.py:72
+#: ../src/language_gui.py:376 ../src/language_tui.py:47
+#, fuzzy
+msgid "Language Selection"
+msgstr "Selezione della lingua"
+
+#: ../src/language_gui.py:75
+#, fuzzy
+msgid "Please select the default language for the system."
+msgstr "Selezionare la lingua predefinita per il sistema."
+
+#: ../src/language_gui.py:194
+#, fuzzy
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"Il sistema è già nella lingua predefinita,\n"
+"Niente da fare."
+
+#: ../src/language_gui.py:200
+#, fuzzy
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr ""
+"Si desidera davvero cambiare la lingua di sistema in quella predefinita "
+"[en_US]?"
+
+#: ../src/language_gui.py:221
+#, fuzzy
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language è una interfaccia grafica utente che consente agli "
+"utenti di cambiare la lingua predefinita del sistema."
+
+#: ../src/language_gui.py:251 ../src/language_tui.py:69
+#, fuzzy
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"La rete o i repositori di Yum hanno alcuni problemi, si desidera "
+"continuare?\n"
+"'Si' cambierà la lingua ma non verrà installata.\n"
+"'No' chiudi senza cambiare la lingua."
+
+#: ../src/language_gui.py:283 ../src/language_tui.py:89
+#, fuzzy
+msgid " language support is not installed, do you want to install it?"
+msgstr " il supporto di lingua non è installato, si desidera installarlo?"
+
+#: ../src/language_gui.py:319
+#, fuzzy
+msgid "The changes will take effect after reboot."
+msgstr "Le modifiche diverranno effettive al login successivo."
+
+#: ../src/language_gui.py:391
+#, fuzzy
+msgid "System _Defaults"
+msgstr "Systema _Predefiniti"
+
+#: ../src/system-config-language.py:45
+#, fuzzy
+msgid "Usage: system-config-language [--text]\n"
+msgstr "Uso: system-config-language [--text]\n"
+
+# Gui can't be started for some reason, so use text mode
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+#, fuzzy
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "Avvio della modalità grafica fallito.  Avvio in modalità testo."
+
+#: ../src/gui_progress.py:60
+#, fuzzy
+msgid "Preparing transaction"
+msgstr "Preparazione transizione"
+
+#: ../src/gui_progress.py:74
+#, fuzzy, python-format
+msgid "Updating %s"
+msgstr "Aggiornamento di %s"
+
+#: ../src/gui_progress.py:108
+#, fuzzy, python-format
+msgid "Cleanup %s"
+msgstr "Pulizia %s"
+
+#: ../src/language_backend.py:95
+#, fuzzy
+msgid "Cannot find locale-list"
+msgstr "Impossibile trovare l'elenco dei linguaggi"
+
+#: ../src/language_tui.py:44
+#, fuzzy
+msgid "Select the language for the system."
+msgstr "Selezionare la lingua per il sistema."
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+#, fuzzy
+msgid "Installing Confirm"
+msgstr "Installazione Confirm"
+
+#: ../src/tui_install.py:131
+#, fuzzy
+msgid "No header - huh?"
+msgstr "Nessuna intestazione - eh?"
+
+#: ../src/tui_install.py:213
+#, fuzzy, python-format
+msgid "Erased: %s"
+msgstr "Eliminato: %s"
+
+#~ msgctxt ""
+#~ msgid "Downloading %s"
+#~ msgstr "Download di %s"

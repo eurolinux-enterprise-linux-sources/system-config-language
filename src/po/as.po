@@ -1,0 +1,343 @@
+# translation of as.po to Assamese
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Amitakhya Phukan <amitakhya.phukan@gmail.com>, 2006.
+# Amitakhya Phukan <aphukan@redhat.com>, 2006, 2009.
+# Amitakhya Phukan <aphukan@fedoraproject.org>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: as\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-17 15:09+0530\n"
+"PO-Revision-Date: 2009-12-08 03:48-0500\n"
+"Last-Translator: Amitakhya Phukan <aphukan@fedoraproject.org>\n"
+"Language-Team: Assamese <>\n"
+"Language: as\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Zanata 1.7.3\n"
+
+#: ../system-config-language.desktop.in.h:1 ../src/language_gui.py:56
+#, fuzzy
+msgid "Language"
+msgstr "ভাষা"
+
+#: ../system-config-language.desktop.in.h:2 ../src/language_gui.py:59
+#, fuzzy
+msgid "Change the default system language"
+msgstr "অবিকল্পিত চিস্টেম ভাষা পৰিৱৰ্তন কৰক"
+
+#: ../src/gui_detailsDialog.py:138 ../src/gui_detailsDialog.py:148
+#, fuzzy, python-format
+msgid "<i>Will continue in %d seconds...</i>"
+msgstr "<i>%d ছেকেণ্ডসমূহত আকৌ চলিব...</i>"
+
+#: ../src/gui_install.py:72
+#, fuzzy
+msgid "Note:"
+msgstr "টোকা:"
+
+#: ../src/gui_install.py:74
+#, fuzzy
+msgid "Connecting Yum database, please wait for a bit ..."
+msgstr "Yum ডাটাবেইচৰ সৈতে সংযোগ কৰা হৈছে, অনুগ্ৰহ কৰি ক্ষন্তেক অপেক্ষা কৰক ..."
+
+#: ../src/gui_install.py:91
+#, fuzzy, python-format
+msgid ""
+"No Group named %s exists: Do you still want to install language without "
+"proper support?"
+msgstr ""
+"%s নামৰ কোনো দল অস্তিত্ববান নহয়: আপুনি তথাপিও সঠিক সমৰ্থন নথকাকে ভাষা ইনস্টল কৰিব "
+"বিচাৰে নে?"
+
+#: ../src/gui_install.py:95 ../src/gui_install.py:430
+#: ../src/language_gui.py:205 ../src/language_gui.py:257
+#: ../src/language_gui.py:291
+#, fuzzy
+msgid "No"
+msgstr "নহয়"
+
+#: ../src/gui_install.py:96 ../src/gui_install.py:431
+#: ../src/language_gui.py:206 ../src/language_gui.py:258
+#: ../src/language_gui.py:292
+#, fuzzy
+msgid "Yes"
+msgstr "হয়"
+
+#: ../src/gui_install.py:159
+#, fuzzy
+msgid "Resolving dependencies for updates"
+msgstr "আপডেইটসমূহৰ বাবে নিৰ্ভৰতাসমূহ সমাধান কৰা হৈ আছে"
+
+#: ../src/gui_install.py:175
+#, fuzzy
+msgid "Error downloading headers"
+msgstr "হেডাৰসমূহ ডাউনল'ড কৰোতে ত্ৰুটি"
+
+#: ../src/gui_install.py:176
+#, fuzzy
+msgid "Errors were encountered while downloading package headers."
+msgstr "পেকেইজ হেডাৰসমূহ ডাউনল'ড কৰোতে ত্ৰুটিসমূহ দেখা দিছিল।"
+
+#: ../src/gui_install.py:189
+#, fuzzy
+msgid "Error resolving dependencies"
+msgstr "নিৰ্ভৰতাসমূহ সমাধান কৰোতে ত্ৰুটি"
+
+#: ../src/gui_install.py:190
+#, fuzzy
+msgid ""
+"Unable to resolve dependencies for some packages selected for installation."
+msgstr ""
+"ইনস্টলৰ বাবে নিৰ্বাচন কৰা কিছুমান পেকেইজৰ বাবে নিৰ্ভৰতাসমূহ সমাধান কৰিবলে অক্ষম।"
+
+#: ../src/gui_install.py:204
+#, fuzzy
+msgid "Continue"
+msgstr "চলাই নিয়ক"
+
+#: ../src/gui_install.py:205
+#, fuzzy
+msgid "Dependencies added"
+msgstr "নিৰ্ভৰতা যোগ কৰা হল"
+
+#: ../src/gui_install.py:206
+#, fuzzy
+msgid ""
+"Updating these packages requires additional package changes for proper "
+"operation."
+msgstr ""
+"এই পেকেইজসমূহৰ আপডেইট কৰিলে সঠিক কাৰ্য্যৰ বাবে অতিৰিক্ত পেকেইজসমূহৰ প্ৰয়োজন হব।"
+
+#: ../src/gui_install.py:215
+#, fuzzy
+msgid "Adding for dependencies:\n"
+msgstr "নিৰ্ভৰতাসমূহৰ বাবে যোগ কৰা হৈছে:\n"
+
+#: ../src/gui_install.py:216
+#, fuzzy
+msgid "Removing for dependencies:\n"
+msgstr "নিৰ্ভৰতাসমূহৰ বাবে আতৰোৱা হৈছে:\n"
+
+#: ../src/gui_install.py:217
+#, fuzzy
+msgid "Updating for dependencies:\n"
+msgstr "নিৰ্ভৰতাসমূহৰ বাবে আপডেইট কৰা হৈছে:\n"
+
+#: ../src/gui_install.py:270
+#, fuzzy
+msgid "Error downloading packages"
+msgstr "পেকেইজসমূহ ডাউনল'ড কৰোতে ত্ৰুটি"
+
+#: ../src/gui_install.py:283
+#, fuzzy
+msgid "Downloading packages"
+msgstr "পেকেইজসমূহ ডাউনল'ড কৰা হৈ আছে"
+
+#: ../src/gui_install.py:293
+#, fuzzy
+msgid "Unable to find a suitable mirror."
+msgstr "এটা উপযুক্ত মিৰৰ সন্ধান কৰিবলে অক্ষম।"
+
+#: ../src/gui_install.py:306
+#, fuzzy
+msgid "Errors were encountered while downloading packages."
+msgstr "পেকেইজসমূহ ডাউনল'ড কৰোতে ত্ৰুটি পোৱা গৈছিল।"
+
+#: ../src/gui_install.py:322
+#, fuzzy
+msgid "Import key?"
+msgstr "কি' ইমপোৰ্ট কৰিব নে?"
+
+#: ../src/gui_install.py:323
+#, fuzzy, python-format
+msgid ""
+"The package %s is signed with a key %s (0x%s) from %s.  Would you like to "
+"import this key?"
+msgstr ""
+"পেকেইজ %s, %s ৰ পৰা এটা কি' %s (0x%s) ৰ সৈতে স্বাক্ষৰিত। আপুনি এই কি' ইমপোৰ্ট "
+"কৰিব বিচাৰে নে?"
+
+#: ../src/gui_install.py:328
+#, fuzzy
+msgid "_Import key"
+msgstr "কি' ইমপোৰ্ট কৰক (_I)"
+
+#: ../src/gui_install.py:339
+#, fuzzy
+msgid "Verifying packages"
+msgstr "পেকেইজসমূহ সতা সত্য নিৰূপণ কৰা"
+
+#: ../src/gui_install.py:359
+#, fuzzy, python-format
+msgid "Unable to verify %s"
+msgstr "%s সতা সত্য নিৰূপণ কৰিবলে অক্ষম"
+
+#: ../src/gui_install.py:364
+#, fuzzy
+msgid "_Close"
+msgstr "বন্ধ কৰক (_C)"
+
+#: ../src/gui_install.py:366
+#, fuzzy
+msgid ""
+"Malicious software can damage your computer or cause other harm.  Are you "
+"sure you wish to install this package?"
+msgstr ""
+"দ্বেষপূৰ্ণ চফ্টৱেৰে আপোনাৰ কমপিউটাৰ নষ্ট কৰিব পাৰে অথবা অন্য ক্ষতি কৰিব পাৰে। আপুনি "
+"এই পেকেইজ ইনস্টল কৰিবলে নিশ্চিত নে?"
+
+#: ../src/gui_install.py:370
+#, fuzzy
+msgid "_Cancel"
+msgstr "বাতিল কৰক (_C)"
+
+#: ../src/gui_install.py:372
+#, fuzzy
+msgid "_Install anyway"
+msgstr "তথাপিও ইনস্টল কৰক (_I)"
+
+#: ../src/gui_install.py:386
+#, fuzzy
+msgid "Error updating software"
+msgstr "চফ্টৱেৰ আপডেইট কৰোতে ত্ৰুটি"
+
+#: ../src/gui_install.py:387
+#, fuzzy
+msgid ""
+"There were errors encountered in trying to update the software you selected"
+msgstr "আপুনি নিৰ্বাচন কৰা চফ্টৱেৰ আপডেইট কৰোতে ত্ৰুটি পোৱা গৈছিল"
+
+#: ../src/gui_install.py:394
+#, fuzzy
+msgid "Updating software"
+msgstr "চফ্টৱেৰ আপডেইট কৰা"
+
+#: ../src/gui_install.py:426
+#, fuzzy
+msgid ""
+" Error installing Selected Language packages: Do you still want to install "
+"language without proper support?"
+msgstr ""
+"নিৰ্বাচিত ভাষা পেকেইজসমূহ ইনস্টল কৰোতে ত্ৰুটি: আপুনি তথাপিও সঠিক সমৰ্থন নহোৱাকৈ "
+"ভাষা ইনস্টল কৰিব বিচাৰে নে?"
+
+#: ../src/language_gui.py:58 ../src/language_gui.py:72
+#: ../src/language_gui.py:376 ../src/language_tui.py:47
+#, fuzzy
+msgid "Language Selection"
+msgstr "ভাষা নিৰ্বাচন"
+
+#: ../src/language_gui.py:75
+#, fuzzy
+msgid "Please select the default language for the system."
+msgstr "অনুগ্ৰহ কৰি চিস্টেমৰ বাবে অবিকল্পিত ভাষা নিৰ্বাচন কৰক।"
+
+#: ../src/language_gui.py:194
+#, fuzzy
+msgid ""
+"Already system in default language,\n"
+"Nothing to do."
+msgstr ""
+"চিস্টেম ইতিমধ্যে অবিকল্পিত ভাষাত আছে,\n"
+"একো কৰিব লগিয়া নাই।"
+
+#: ../src/language_gui.py:200
+#, fuzzy
+msgid "Do you really want to change system language to default [en_US]?"
+msgstr "আপুনি সঁচাকৈ চিস্টেম ভাষাক অবিকল্পিত [en_US] লে সলনি কৰিব বিচাৰে নে?"
+
+#: ../src/language_gui.py:221
+#, fuzzy
+msgid ""
+"system-config-language is a graphical user interface that allows the user to "
+"change the default language of the system."
+msgstr ""
+"system-config-language এটা গ্ৰাফীয় ব্যৱহাৰকাৰী আন্তঃপৃষ্ঠ যি ব্যৱহাৰকাৰীক চিস্টেমৰ "
+"অবিকল্পিত ভাষা পৰিৱৰ্তন কৰাৰ অনুমতি দিয়ে।"
+
+#: ../src/language_gui.py:251 ../src/language_tui.py:69
+#, fuzzy
+msgid ""
+"The Network or the Repos of Yum has some problems, do you want to continue?\n"
+"'Yes' will change the language but not install it.\n"
+"'No' will exit without changing the language."
+msgstr ""
+"নেটৱাৰ্ক অথবা Yum ৰ ভঁৰালসমূহৰ কিছুমান সমস্যা আছে, আপুনি আগবাঢ়িব বিচাৰে নে?\n"
+"'হয়' এ ভাষা পৰিৱৰ্তন কৰিব কিন্ত ইনস্টল নকৰে।\n"
+"'নহয়' এ ভাষা পৰিৱৰ্তন নকৰাকৈ প্ৰস্থান কৰিব।"
+
+#: ../src/language_gui.py:283 ../src/language_tui.py:89
+#, fuzzy
+msgid " language support is not installed, do you want to install it?"
+msgstr "ভাষা সমৰ্থন ইনস্টল নাই, আপুনি ইয়াক ইনস্টল কৰিব বিচাৰে নে?"
+
+#: ../src/language_gui.py:319
+#, fuzzy
+msgid "The changes will take effect after reboot."
+msgstr "পৰিৱৰ্তনসমূহ আপুনি পৰৱৰ্তীবাৰ লগিন কৰাৰ সময়ত প্ৰভাৱশালী হব।"
+
+#: ../src/language_gui.py:391
+#, fuzzy
+msgid "System _Defaults"
+msgstr "চিস্টেম অবিকল্পিতসমূহ (_D)"
+
+#: ../src/system-config-language.py:45
+#, fuzzy
+msgid "Usage: system-config-language [--text]\n"
+msgstr "ব্যৱহাৰ: system-config-language [--text]\n"
+
+# Gui can't be started for some reason, so use text mode
+#. Gui can't be started for some reason, so use text mode
+#: ../src/system-config-language.py:68
+#, fuzzy
+msgid "Starting graphical mode failed.  Starting text mode instead."
+msgstr "গ্ৰাফীয় অৱস্থা আৰম্ভ কৰা ব্যৰ্থ হল। ইয়াৰ পৰিৱৰ্তে লিখনী অৱস্থা আৰম্ভ কৰা হৈছে।"
+
+#: ../src/gui_progress.py:60
+#, fuzzy
+msgid "Preparing transaction"
+msgstr "লেন দেন প্ৰস্তুত কৰা হৈ আছে"
+
+#: ../src/gui_progress.py:74
+#, fuzzy, python-format
+msgid "Updating %s"
+msgstr "%s আপডেইট কৰা হৈ আছে"
+
+#: ../src/gui_progress.py:108
+#, fuzzy, python-format
+msgid "Cleanup %s"
+msgstr "%s সফা কৰা"
+
+#: ../src/language_backend.py:95
+#, fuzzy
+msgid "Cannot find locale-list"
+msgstr "স্থানীয়-তালিকা বিচাৰি পোৱা নাযায়"
+
+#: ../src/language_tui.py:44
+#, fuzzy
+msgid "Select the language for the system."
+msgstr "চিস্টেমৰ বাবে ভাষা নিৰ্বাচন কৰক।"
+
+#: ../src/language_tui.py:74 ../src/language_tui.py:95
+#, fuzzy
+msgid "Installing Confirm"
+msgstr "ইনস্টল সুনিশ্চিতকৰণ"
+
+#: ../src/tui_install.py:131
+#, fuzzy
+msgid "No header - huh?"
+msgstr "কোনো হেডাৰ নাই - আচৰিত?"
+
+#: ../src/tui_install.py:213
+#, fuzzy, python-format
+msgid "Erased: %s"
+msgstr "মচি পেলোৱা হল: %s"
+
+#~ msgctxt ""
+#~ msgid "Downloading %s"
+#~ msgstr "%s ডাউনল'ড কৰা হৈ আছে"

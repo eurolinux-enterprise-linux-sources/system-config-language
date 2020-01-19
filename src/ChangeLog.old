@@ -1,0 +1,55 @@
+2013-04-08 Pravin Satpute <psatpute@redhat.com>
+	* updated patch for bug 638650
+	* Applied patch bug-889956-add-kashmiri-india-language.patch
+	* Applied s-c-l-1.3.5-add-Kyrgyz-language.patch
+	* Applied s-c-l-1.3.5-add-Interlingua-language.patch
+	* Applied bug-879472.patch
+	* Applied bug-892560-fix-path-to-get-default-lang.patch
+
+2012-11-08 Pravin Satpute <psatpute@redhat.com>
+	* Applied patches from Fedora master branch
+	* Patch0: s-c-l-624008.patch
+	* Patch1: s-c-l-638650.patch
+	* Patch2: s-c-l-634556.patch
+	* Patch3: s-c-l-681802_681805.patch
+	* Patch4: s-c-l-700967.patch
+	* Patch6: s-c-l-817083.patch
+	* Patch7: bug-858168-858059.patch
+	* Patch8: bug-871119.patch
+
+2010-08-26 Pravin Satpute <psatpute@redhat.com>
+	* now s-c-l will not backstrace even if language group not present in yum group list 
+	* gui enhancements for lower resolution
+	* locale name corrections, added new locales support in s-c-l
+	* fixed RH bugzilla 545499, 607927, 445796, 545499, 598423, 622412, 619267
+	* added support for dracut, i.e if user changes system locale it will get updated in grub.conf as well
+	* recieved patches from Naveen Kumar <nkumar@redhat.com>
+
+2010-03-09 Pravin Satpute <psatpute@redhat.com>
+	* updates on translation
+	* remove firstboot support, bug 530698
+	* fixed rh bugzilla 525040, 568285, 568653 
+
+2009-09-16 Pravin Satpute <psatpute@redhat.com>
+	* updated .pot files
+
+2009-09-11 Pravin Satpute <psatpute@redhat.com>
+	* fixes for rh bugzill bugs 493858, 507796 and 493888
+
+2008-09-22 Pravin Satpute <psatpute@redhat.com>
+	* po/ca.po: Updated by Xavier Conde <xavi.conde@gmail.com>
+
+2008-09-16 Pravin Satpute <psatpute@redhat.com>
+	[BZ #444568]
+	* src/gui_install.py: Add import string
+
+	[BZ #462439]
+	* src/lang_dict: Add maithili, Sindhi and Kashmiri language
+
+	* src/locale-list: Add maithili language in s-c-l menu list
+
+	* po/mai: Adds Maithili translation in s-c-l.
+		file by Rajesh Ranjan <rranjan@redhat.com>
+
+	* po/ks@devanagari: Adds Kashmiri translation in s-c-l
+		file by Rakesh Pandit <rakesh.pandit@gmail.com>

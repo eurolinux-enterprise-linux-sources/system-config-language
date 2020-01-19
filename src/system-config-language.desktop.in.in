@@ -1,0 +1,8 @@
+[Desktop Entry]
+_Name=Language
+_Comment=Change the default system language
+Icon=preferences-desktop-locale
+Exec=/usr/bin/system-config-language
+Type=Application
+StartupNotify=true
+Terminal=false

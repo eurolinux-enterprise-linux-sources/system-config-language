@@ -1,0 +1,6 @@
+		system-config-language
+
+This tool will allow user to add language support. When used to add support for 
+any language, this tool will use yum and install the required packages to use
+desktop in your preferred language. This will also change the locale of the 
+root user only.

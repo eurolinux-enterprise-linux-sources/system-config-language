@@ -1,0 +1,14 @@
+# List of source files containing translatable strings.
+
+system-config-language.desktop.in
+src/gui_detailsDialog.py
+src/gui_install.py
+src/lang_dict.py
+src/language_gui.py
+src/system-config-language.py
+src/gui_errors.py
+src/gui_progress.py
+src/language_backend.py
+src/language_tui.py
+src/tui_install.py
+

@@ -1,0 +1,5 @@
+Overview of changes leading to 1.4.0
+Monday, Jun 10, 2013
+=====================================
+- Use autotools as a build system
+- Re-organised source files
